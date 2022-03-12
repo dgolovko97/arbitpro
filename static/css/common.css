@@ -1,0 +1,4 @@
+#arbitpro_wrapper .show.menu-dropdown > .menu-sub-dropdown, .menu-sub-dropdown.menu.show, .menu-sub-dropdown.show[data-popper-placement] {
+    display: flex;
+    animation: none;
+}

@@ -36,6 +36,8 @@ License: For each use you must have a valid license purchased only from above li
 		<!--begin::Global Stylesheets Bundle(used by all pages)-->
 		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="css/common.css" rel="stylesheet" type="text/css" />
+
 		<!--end::Global Stylesheets Bundle-->
 	</head>
 	<!--end::Head-->
@@ -182,7 +184,7 @@ License: For each use you must have a valid license purchased only from above li
 				</div>
 				<!--end::Aside-->
 				<!--begin::Wrapper-->
-				<div class="wrapper d-flex flex-column flex-row-fluid" id="kt_wrapper">
+				<div class="wrapper d-flex flex-column flex-row-fluid" id="arbitpro_wrapper">
 					<!--begin::Header-->
 					<div id="kt_header" style="" class="header align-items-stretch">
 						<!--begin::Container-->
@@ -201,14 +203,7 @@ License: For each use you must have a valid license purchased only from above li
 								</div>
 							</div>
 							<!--end::Aside mobile toggle-->
-							<!--begin::Mobile logo-->
-							<div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
-								<a href="../../demo6/dist/index.html" class="d-lg-none">
-									<img alt="Logo" src="assets/media/logos/logo-demo6.svg" class="h-30px" />
-								</a>
-							</div>
-							<!--end::Mobile logo-->
-							<div class="aside-user d-flex align-items-sm-center justify-content-center py-5">
+							<div class=" d-flex align-items-center justify-content-center flex-grow-1">
 								<!--begin::Symbol-->
 								<div class="symbol symbol-50px">
 									<img src="assets/media/avatars/300-1.jpg" alt="">
@@ -224,7 +219,7 @@ License: For each use you must have a valid license purchased only from above li
 											<a href="#" class="fs-6 fw-bold">@maestro_arb</a>
 											<!--end::Username-->
 											<!--begin::Description-->
-											<span class="text-gray-600 fw-bold d-block fs-8 mb-1">Ваш менеджер</span>
+											<span class="text-gray-600 fw-bold d-block fs-8 ">Ваш менеджер</span>
 											<!--end::Description-->
 											<!--begin::Label-->
 											<div class="d-flex align-items-center text-success fs-9">
@@ -238,15 +233,15 @@ License: For each use you must have a valid license purchased only from above li
 								<!--end::Wrapper-->
 							</div>
 							<!--begin::Wrapper-->
-							<div class="d-flex align-items-stretch justify-content-end flex-lg-grow-1">
+							<div class="d-flex justify-content-end flex-lg-grow-1">
 								<!--begin::Toolbar wrapper-->
-								<div class="d-flex align-items-stretch flex-shrink-0">
+								<div class="d-flex align-items-stretch flex-shrink-0 justify-content-between">
 									<div class="d-flex align-items-center ms-lg-3">
 										<!--begin::Col-->
-										<div class="">
-											<div class="d-flex align-items-center me-10">
+										<div class="cursor-pointer">
+											<div class="d-flex align-items-center me-2 me-md-10">
 												<!--begin::Symbol-->
-												<div class="symbol symbol-50px me-3">
+												<div class="symbol symbol-50px me-3 d-none d-md-flex">
 													<div class="symbol-label bg-light-success">
 														<span class="svg-icon svg-icon-1 svg-icon-success">
 															<!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Shopping/Dollar.svg-->
@@ -272,10 +267,10 @@ License: For each use you must have a valid license purchased only from above li
 										</div>
 										<!--end::Col-->
 										<!--begin::Col-->
-										<div class="">
-											<div class="d-flex align-items-center me-10">
+										<div class="cursor-pointer">
+											<div class="d-flex align-items-center me-2 me-md-10">
 												<!--begin::Symbol-->
-												<div class="symbol symbol-50px me-3">
+												<div class="symbol symbol-50px me-3 d-none d-md-flex">
 													<div class="symbol-label bg-light-info">
 														<span class="svg-icon svg-icon-info svg-icon-1">
 															<!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/General/Lock.svg-->
@@ -303,35 +298,74 @@ License: For each use you must have a valid license purchased only from above li
 										<!--end::Col-->
 									</div>
 									<!--begin::User menu-->
-									<div class="d-flex align-items-center ms-1 ms-lg-3" id="kt_header_user_menu_toggle">
+									<div class="d-flex align-items-center cursor-pointer ms-auto" id="kt_header_user_menu_toggle" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
 										<!--begin::Avatar-->
-										<div class="symbol symbol-50px me-5">
+										<div class="symbol symbol-50px me-5 d-md-flex d-none">
 											<img alt="Logo" src="assets/media/avatars/blank.png" />
 										</div>
 										<!--end::Avatar-->
 										<!--begin::Username-->
 										<div class="d-flex flex-column">
 											<div class="fw-bolder d-flex align-items-center fs-5">Max Smith</div>
-											<a href="#" class="fw-bold text-muted text-hover-primary fs-7">max@kt.com</a>
+											<a href="#" class="fw-bold text-muted fs-7">max@kt.com</a>
 										</div>
 										<!--end::Username-->
-
+										<!--begin::User account menu-->
+										<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-primary fw-bold py-4 fs-6 w-275px" data-kt-menu="true">
+											<!--begin::Menu item-->
+											<div class="menu-item px-5">
+												<a href="##" class="menu-link px-5">
+													<span class="menu-icon">
+														<span class="svg-icon">
+															<span class="svg-icon svg-icon-info">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+																	<path d="M11 2.375L2 9.575V20.575C2 21.175 2.4 21.575 3 21.575H9C9.6 21.575 10 21.175 10 20.575V14.575C10 13.975 10.4 13.575 11 13.575H13C13.6 13.575 14 13.975 14 14.575V20.575C14 21.175 14.4 21.575 15 21.575H21C21.6 21.575 22 21.175 22 20.575V9.575L13 2.375C12.4 1.875 11.6 1.875 11 2.375Z" fill="black"/>
+																</svg>
+															</span>
+														</span>
+													</span>
+													<span class="menu-title">Личный кабинет</span>
+												</a>
+											</div>
+											<!--end::Menu item-->
+											<!--begin::Menu item-->
+											<div class="menu-item px-5">
+												<a href="##" class="menu-link px-5">
+													<span class="menu-icon">
+														<span class="svg-icon">
+															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+																<path d="M20 19.725V18.725C20 18.125 19.6 17.725 19 17.725H5C4.4 17.725 4 18.125 4 18.725V19.725H3C2.4 19.725 2 20.125 2 20.725V21.725H22V20.725C22 20.125 21.6 19.725 21 19.725H20Z" fill="black"/>
+																<path opacity="0.3" d="M22 6.725V7.725C22 8.325 21.6 8.725 21 8.725H18C18.6 8.725 19 9.125 19 9.725C19 10.325 18.6 10.725 18 10.725V15.725C18.6 15.725 19 16.125 19 16.725V17.725H15V16.725C15 16.125 15.4 15.725 16 15.725V10.725C15.4 10.725 15 10.325 15 9.725C15 9.125 15.4 8.725 16 8.725H13C13.6 8.725 14 9.125 14 9.725C14 10.325 13.6 10.725 13 10.725V15.725C13.6 15.725 14 16.125 14 16.725V17.725H10V16.725C10 16.125 10.4 15.725 11 15.725V10.725C10.4 10.725 10 10.325 10 9.725C10 9.125 10.4 8.725 11 8.725H8C8.6 8.725 9 9.125 9 9.725C9 10.325 8.6 10.725 8 10.725V15.725C8.6 15.725 9 16.125 9 16.725V17.725H5V16.725C5 16.125 5.4 15.725 6 15.725V10.725C5.4 10.725 5 10.325 5 9.725C5 9.125 5.4 8.725 6 8.725H3C2.4 8.725 2 8.325 2 7.725V6.725L11 2.225C11.6 1.925 12.4 1.925 13.1 2.225L22 6.725ZM12 3.725C11.2 3.725 10.5 4.425 10.5 5.225C10.5 6.025 11.2 6.725 12 6.725C12.8 6.725 13.5 6.025 13.5 5.225C13.5 4.425 12.8 3.725 12 3.725Z" fill="black"/>
+															</svg>
+														</span>
+													</span>
+													<span class="menu-title">Техническая поддержка</span>
+												</a>
+											</div>
+											<!--end::Menu item-->
+											<!--begin::Menu separator-->
+											<div class="separator my-2"></div>
+											<!--end::Menu separator-->
+											<!--begin::Menu item-->
+											<div class="menu-item px-5">
+												<a href="##" class="menu-link px-5">
+													<span class="menu-icon">
+														<span class="svg-icon icon-size-2">
+															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+																<rect opacity="0.3" width="12" height="2" rx="1" transform="matrix(-1 0 0 1 15.5 11)" fill="black"/>
+																<path d="M13.6313 11.6927L11.8756 10.2297C11.4054 9.83785 11.3732 9.12683 11.806 8.69401C12.1957 8.3043 12.8216 8.28591 13.2336 8.65206L16.1592 11.2526C16.6067 11.6504 16.6067 12.3496 16.1592 12.7474L13.2336 15.3479C12.8216 15.7141 12.1957 15.6957 11.806 15.306C11.3732 14.8732 11.4054 14.1621 11.8756 13.7703L13.6313 12.3073C13.8232 12.1474 13.8232 11.8526 13.6313 11.6927Z" fill="black"/>
+																<path d="M8 5V6C8 6.55228 8.44772 7 9 7C9.55228 7 10 6.55228 10 6C10 5.44772 10.4477 5 11 5H18C18.5523 5 19 5.44772 19 6V18C19 18.5523 18.5523 19 18 19H11C10.4477 19 10 18.5523 10 18C10 17.4477 9.55228 17 9 17C8.44772 17 8 17.4477 8 18V19C8 20.1046 8.89543 21 10 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H10C8.89543 3 8 3.89543 8 5Z" fill="#C4C4C4"/>
+															</svg>
+														</span>
+													</span>
+													<span class="menu-title">Выход</span>
+												</a>
+											</div>
+											<!--end::Menu item-->
+										</div>
+										<!--end::User account menu-->
 									</div>
 									<!--end::User menu-->
-									<!--begin::Heaeder menu toggle-->
-									<div class="d-flex align-items-center d-lg-none ms-2" title="Show header menu">
-										<div class="btn btn-icon btn-active-color-primary w-30px h-30px w-md-40px h-md-40px" id="kt_header_menu_mobile_toggle">
-											<!--begin::Svg Icon | path: icons/duotune/text/txt001.svg-->
-											<span class="svg-icon svg-icon-1">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<path d="M13 11H3C2.4 11 2 10.6 2 10V9C2 8.4 2.4 8 3 8H13C13.6 8 14 8.4 14 9V10C14 10.6 13.6 11 13 11ZM22 5V4C22 3.4 21.6 3 21 3H3C2.4 3 2 3.4 2 4V5C2 5.6 2.4 6 3 6H21C21.6 6 22 5.6 22 5Z" fill="black" />
-													<path opacity="0.3" d="M21 16H3C2.4 16 2 15.6 2 15V14C2 13.4 2.4 13 3 13H21C21.6 13 22 13.4 22 14V15C22 15.6 21.6 16 21 16ZM14 20V19C14 18.4 13.6 18 13 18H3C2.4 18 2 18.4 2 19V20C2 20.6 2.4 21 3 21H13C13.6 21 14 20.6 14 20Z" fill="black" />
-												</svg>
-											</span>
-											<!--end::Svg Icon-->
-										</div>
-									</div>
-									<!--end::Heaeder menu toggle-->
 								</div>
 								<!--end::Toolbar wrapper-->
 							</div>
@@ -345,135 +379,46 @@ License: For each use you must have a valid license purchased only from above li
 						<!--begin::Container-->
 						<div  class="docs-content d-flex flex-column flex-column-fluid" id="kt_content_container">
 							<div class="container-fluid">
-								<!--begin::Navbar-->
-								<div class="card mb-5 mb-xxl-8">
-									<div class="card-body pt-9 pb-0">
-										<!--begin::Details-->
-										<div class="d-flex flex-wrap flex-sm-nowrap mb-6">
-											<!--begin::Image-->
-											<div class="d-flex flex-center flex-shrink-0 bg-light rounded w-100px h-100px w-lg-150px h-lg-150px me-7 mb-4">
-												<img class="mw-50px mw-lg-75px" src="assets/media/svg/brand-logos/volicity-9.svg" alt="image" />
-											</div>
-											<!--end::Image-->
-											<!--begin::Wrapper-->
-											<div class="">
-												<!--begin::Head-->
-												<div class="d-flex justify-content-between align-items-start flex-wrap mb-2">
-													<!--begin::Details-->
-													<div class="d-flex flex-column">
-														<!--begin::Status-->
-														<div class="d-flex align-items-center">
-															<a href="#" class="text-gray-800 text-hover-primary fs-2 fw-bolder me-3">Заголовок</a>
-														</div>
-														<!--end::Status-->
-														<!--begin::Description-->
-														<div class="d-flex flex-wrap fw-bold mb-4 fs-5 text-gray-400">Текст</div>
-														<!--end::Description-->
-													</div>
-													<!--end::Details-->
-												</div>
-												<!--end::Head-->
-												<!--begin::Info-->
-												<div class="d-flex flex-wrap justify-content-start">
-													<!--begin::Stats-->
-													<div class="d-flex flex-wrap">
-														<!--begin::Stat-->
-														<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-6 mb-3">
-															<!--begin::Number-->
-															<div class="d-flex align-items-center">
-																<div class="fs-4 fw-bolder">29 Jan, 2022</div>
-															</div>
-															<!--end::Number-->
-															<!--begin::Label-->
-															<div class="fw-bold fs-6 text-gray-400">Due Date</div>
-															<!--end::Label-->
-														</div>
-														<!--end::Stat-->
-														<!--begin::Stat-->
-														<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-6 mb-3">
-															<!--begin::Number-->
-															<div class="d-flex align-items-center">
-																<!--begin::Svg Icon | path: icons/duotune/arrows/arr065.svg-->
-																<span class="svg-icon svg-icon-3 svg-icon-danger me-2">
-																<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																	<rect opacity="0.5" x="11" y="18" width="13" height="2" rx="1" transform="rotate(-90 11 18)" fill="black" />
-																	<path d="M11.4343 15.4343L7.25 11.25C6.83579 10.8358 6.16421 10.8358 5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75L11.2929 18.2929C11.6834 18.6834 12.3166 18.6834 12.7071 18.2929L18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25C17.8358 10.8358 17.1642 10.8358 16.75 11.25L12.5657 15.4343C12.2533 15.7467 11.7467 15.7467 11.4343 15.4343Z" fill="black" />
-																</svg>
-															</span>
+								<div class="row g-5 g-xl-8">
+									<div class="col-xl-3 col-md-6">
+										<!--begin::Statistics Widget 4-->
+										<div class="card card-xl-stretch mb-xl-8 ml-auto">
+											<!--begin::Body-->
+											<div class="card-body p-0">
+												<div class="d-flex flex-stack card-p flex-grow-1">
+														<span class="symbol symbol-50px me-2">
+															<span class="symbol-label bg-light-success">
+																<!--begin::Svg Icon | path: icons/duotune/finance/fin001.svg-->
+																<span class="svg-icon svg-icon-2x svg-icon-success">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+																		<path d="M20 19.725V18.725C20 18.125 19.6 17.725 19 17.725H5C4.4 17.725 4 18.125 4 18.725V19.725H3C2.4 19.725 2 20.125 2 20.725V21.725H22V20.725C22 20.125 21.6 19.725 21 19.725H20Z" fill="black" />
+																		<path opacity="0.3" d="M22 6.725V7.725C22 8.325 21.6 8.725 21 8.725H18C18.6 8.725 19 9.125 19 9.725C19 10.325 18.6 10.725 18 10.725V15.725C18.6 15.725 19 16.125 19 16.725V17.725H15V16.725C15 16.125 15.4 15.725 16 15.725V10.725C15.4 10.725 15 10.325 15 9.725C15 9.125 15.4 8.725 16 8.725H13C13.6 8.725 14 9.125 14 9.725C14 10.325 13.6 10.725 13 10.725V15.725C13.6 15.725 14 16.125 14 16.725V17.725H10V16.725C10 16.125 10.4 15.725 11 15.725V10.725C10.4 10.725 10 10.325 10 9.725C10 9.125 10.4 8.725 11 8.725H8C8.6 8.725 9 9.125 9 9.725C9 10.325 8.6 10.725 8 10.725V15.725C8.6 15.725 9 16.125 9 16.725V17.725H5V16.725C5 16.125 5.4 15.725 6 15.725V10.725C5.4 10.725 5 10.325 5 9.725C5 9.125 5.4 8.725 6 8.725H3C2.4 8.725 2 8.325 2 7.725V6.725L11 2.225C11.6 1.925 12.4 1.925 13.1 2.225L22 6.725ZM12 3.725C11.2 3.725 10.5 4.425 10.5 5.225C10.5 6.025 11.2 6.725 12 6.725C12.8 6.725 13.5 6.025 13.5 5.225C13.5 4.425 12.8 3.725 12 3.725Z" fill="black" />
+																	</svg>
+																</span>
 																<!--end::Svg Icon-->
-																<div class="fs-4 fw-bolder" data-kt-countup="true" data-kt-countup-value="75">0</div>
-															</div>
-															<!--end::Number-->
-															<!--begin::Label-->
-															<div class="fw-bold fs-6 text-gray-400">Open Tasks</div>
-															<!--end::Label-->
-														</div>
-														<!--end::Stat-->
-														<!--begin::Stat-->
-														<div class="border border-gray-300 border-dashed rounded min-w-125px py-3 px-4 me-6 mb-3">
-															<!--begin::Number-->
-															<div class="d-flex align-items-center">
-																<!--begin::Svg Icon | path: icons/duotune/arrows/arr066.svg-->
-																<span class="svg-icon svg-icon-3 svg-icon-success me-2">
-																<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																	<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="black" />
-																	<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="black" />
-																</svg>
 															</span>
-																<!--end::Svg Icon-->
-																<div class="fs-4 fw-bolder" data-kt-countup="true" data-kt-countup-value="15000" data-kt-countup-prefix="$">0</div>
-															</div>
-															<!--end::Number-->
-															<!--begin::Label-->
-															<div class="fw-bold fs-6 text-gray-400">Budget Spent</div>
-															<!--end::Label-->
-														</div>
-														<!--end::Stat-->
+														</span>
+													<div class="d-flex flex-column text-end">
+														<span class="text-dark fw-bolder fs-2">750$</span>
+														<span class="text-muted fw-bold mt-1 text-nowrap">Weekly Income</span>
 													</div>
-													<!--end::Stats-->
 												</div>
-												<!--end::Info-->
-
+												<div class="statistics-widget-4-chart card-rounded-bottom" data-kt-chart-color="success" style="height: 150px"></div>
 											</div>
-											<div class="d-flex ms-auto">
-												<!--begin::Row-->
-												<!--begin::Statistics Widget 4-->
-												<div class="card card-xl-stretch mb-xl-8 me-10">
-													<!--begin::Body-->
-													<div class="card-body p-0">
-														<div class="d-flex flex-stack card-p flex-grow-1">
+											<!--end::Body-->
+										</div>
+										<!--end::Statistics Widget 4-->
+									</div>
+									<div class="col-xl-3 col-md-6">
+										<!--begin::Statistics Widget 4-->
+										<div class="card card-xl-stretch mb-xl-8 ml-auto">
+											<!--begin::Body-->
+											<div class="card-body p-0">
+												<div class="d-flex flex-stack card-p flex-grow-1">
 																	<span class="symbol symbol-50px me-2">
 																		<span class="symbol-label bg-light-info">
-																			<!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm002.svg-->
-																			<span class="svg-icon svg-icon-2x svg-icon-info">
-																				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-																					<path d="M21 10H13V11C13 11.6 12.6 12 12 12C11.4 12 11 11.6 11 11V10H3C2.4 10 2 10.4 2 11V13H22V11C22 10.4 21.6 10 21 10Z" fill="black" />
-																					<path opacity="0.3" d="M12 12C11.4 12 11 11.6 11 11V3C11 2.4 11.4 2 12 2C12.6 2 13 2.4 13 3V11C13 11.6 12.6 12 12 12Z" fill="black" />
-																					<path opacity="0.3" d="M18.1 21H5.9C5.4 21 4.9 20.6 4.8 20.1L3 13H21L19.2 20.1C19.1 20.6 18.6 21 18.1 21ZM13 18V15C13 14.4 12.6 14 12 14C11.4 14 11 14.4 11 15V18C11 18.6 11.4 19 12 19C12.6 19 13 18.6 13 18ZM17 18V15C17 14.4 16.6 14 16 14C15.4 14 15 14.4 15 15V18C15 18.6 15.4 19 16 19C16.6 19 17 18.6 17 18ZM9 18V15C9 14.4 8.6 14 8 14C7.4 14 7 14.4 7 15V18C7 18.6 7.4 19 8 19C8.6 19 9 18.6 9 18Z" fill="black" />
-																				</svg>
-																			</span>
-																			<!--end::Svg Icon-->
-																		</span>
-																	</span>
-															<div class="d-flex flex-column text-end">
-																<span class="text-dark fw-bolder fs-2">+256</span>
-																<span class="text-muted fw-bold mt-1">Sales Change</span>
-															</div>
-														</div>
-														<div class="statistics-widget-4-chart card-rounded-bottom" data-kt-chart-color="info" style="height: 150px"></div>
-													</div>
-													<!--end::Body-->
-												</div>
-												<!--end::Statistics Widget 4-->
-												<!--begin::Statistics Widget 4-->
-												<div class="card card-xl-stretch mb-xl-8 ml-auto">
-													<!--begin::Body-->
-													<div class="card-body p-0">
-														<div class="d-flex flex-stack card-p flex-grow-1">
-																	<span class="symbol symbol-50px me-2">
-																		<span class="symbol-label bg-light-success">
 																			<!--begin::Svg Icon | path: icons/duotune/finance/fin001.svg-->
-																			<span class="svg-icon svg-icon-2x svg-icon-success">
+																			<span class="svg-icon svg-icon-2x svg-icon-info">
 																				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 																					<path d="M20 19.725V18.725C20 18.125 19.6 17.725 19 17.725H5C4.4 17.725 4 18.125 4 18.725V19.725H3C2.4 19.725 2 20.125 2 20.725V21.725H22V20.725C22 20.125 21.6 19.725 21 19.725H20Z" fill="black" />
 																					<path opacity="0.3" d="M22 6.725V7.725C22 8.325 21.6 8.725 21 8.725H18C18.6 8.725 19 9.125 19 9.725C19 10.325 18.6 10.725 18 10.725V15.725C18.6 15.725 19 16.125 19 16.725V17.725H15V16.725C15 16.125 15.4 15.725 16 15.725V10.725C15.4 10.725 15 10.325 15 9.725C15 9.125 15.4 8.725 16 8.725H13C13.6 8.725 14 9.125 14 9.725C14 10.325 13.6 10.725 13 10.725V15.725C13.6 15.725 14 16.125 14 16.725V17.725H10V16.725C10 16.125 10.4 15.725 11 15.725V10.725C10.4 10.725 10 10.325 10 9.725C10 9.125 10.4 8.725 11 8.725H8C8.6 8.725 9 9.125 9 9.725C9 10.325 8.6 10.725 8 10.725V15.725C8.6 15.725 9 16.125 9 16.725V17.725H5V16.725C5 16.125 5.4 15.725 6 15.725V10.725C5.4 10.725 5 10.325 5 9.725C5 9.125 5.4 8.725 6 8.725H3C2.4 8.725 2 8.325 2 7.725V6.725L11 2.225C11.6 1.925 12.4 1.925 13.1 2.225L22 6.725ZM12 3.725C11.2 3.725 10.5 4.425 10.5 5.225C10.5 6.025 11.2 6.725 12 6.725C12.8 6.725 13.5 6.025 13.5 5.225C13.5 4.425 12.8 3.725 12 3.725Z" fill="black" />
@@ -482,24 +427,76 @@ License: For each use you must have a valid license purchased only from above li
 																			<!--end::Svg Icon-->
 																		</span>
 																	</span>
-															<div class="d-flex flex-column text-end">
-																<span class="text-dark fw-bolder fs-2">750$</span>
-																<span class="text-muted fw-bold mt-1">Weekly Income</span>
-															</div>
-														</div>
-														<div class="statistics-widget-4-chart card-rounded-bottom" data-kt-chart-color="success" style="height: 150px"></div>
+													<div class="d-flex flex-column text-end">
+														<span class="text-dark fw-bolder fs-2">750$</span>
+														<span class="text-muted fw-bold mt-1 text-nowrap">Weekly Income</span>
 													</div>
-													<!--end::Body-->
 												</div>
-												<!--end::Statistics Widget 4-->
-												<!--end::Row-->
+												<div class="statistics-widget-4-chart card-rounded-bottom" data-kt-chart-color="info" style="height: 150px"></div>
 											</div>
-
-											<!--end::Wrapper-->
+											<!--end::Body-->
 										</div>
+										<!--end::Statistics Widget 4-->
+									</div>
+									<div class="col-xl-3 col-md-6">
+										<!--begin::Statistics Widget 4-->
+										<div class="card card-xl-stretch mb-xl-8 ml-auto">
+											<!--begin::Body-->
+											<div class="card-body p-0">
+												<div class="d-flex flex-stack card-p flex-grow-1">
+																	<span class="symbol symbol-50px me-2">
+																		<span class="symbol-label bg-light-warning">
+																			<!--begin::Svg Icon | path: icons/duotune/finance/fin001.svg-->
+																			<span class="svg-icon svg-icon-2x svg-icon-warning">
+																				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+																					<path d="M20 19.725V18.725C20 18.125 19.6 17.725 19 17.725H5C4.4 17.725 4 18.125 4 18.725V19.725H3C2.4 19.725 2 20.125 2 20.725V21.725H22V20.725C22 20.125 21.6 19.725 21 19.725H20Z" fill="black" />
+																					<path opacity="0.3" d="M22 6.725V7.725C22 8.325 21.6 8.725 21 8.725H18C18.6 8.725 19 9.125 19 9.725C19 10.325 18.6 10.725 18 10.725V15.725C18.6 15.725 19 16.125 19 16.725V17.725H15V16.725C15 16.125 15.4 15.725 16 15.725V10.725C15.4 10.725 15 10.325 15 9.725C15 9.125 15.4 8.725 16 8.725H13C13.6 8.725 14 9.125 14 9.725C14 10.325 13.6 10.725 13 10.725V15.725C13.6 15.725 14 16.125 14 16.725V17.725H10V16.725C10 16.125 10.4 15.725 11 15.725V10.725C10.4 10.725 10 10.325 10 9.725C10 9.125 10.4 8.725 11 8.725H8C8.6 8.725 9 9.125 9 9.725C9 10.325 8.6 10.725 8 10.725V15.725C8.6 15.725 9 16.125 9 16.725V17.725H5V16.725C5 16.125 5.4 15.725 6 15.725V10.725C5.4 10.725 5 10.325 5 9.725C5 9.125 5.4 8.725 6 8.725H3C2.4 8.725 2 8.325 2 7.725V6.725L11 2.225C11.6 1.925 12.4 1.925 13.1 2.225L22 6.725ZM12 3.725C11.2 3.725 10.5 4.425 10.5 5.225C10.5 6.025 11.2 6.725 12 6.725C12.8 6.725 13.5 6.025 13.5 5.225C13.5 4.425 12.8 3.725 12 3.725Z" fill="black" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->
+																		</span>
+																	</span>
+													<div class="d-flex flex-column text-end">
+														<span class="text-dark fw-bolder fs-2">750$</span>
+														<span class="text-muted fw-bold mt-1 text-nowrap">Weekly Income</span>
+													</div>
+												</div>
+												<div class="statistics-widget-4-chart card-rounded-bottom" data-kt-chart-color="warning" style="height: 150px"></div>
+											</div>
+											<!--end::Body-->
+										</div>
+										<!--end::Statistics Widget 4-->
+									</div>
+									<div class="col-xl-3 col-md-6">
+										<!--begin::Statistics Widget 4-->
+										<div class="card card-xl-stretch mb-xl-8 ml-auto">
+											<!--begin::Body-->
+											<div class="card-body p-0">
+												<div class="d-flex flex-stack card-p flex-grow-1">
+																	<span class="symbol symbol-50px me-2">
+																		<span class="symbol-label bg-light-primary">
+																			<!--begin::Svg Icon | path: icons/duotune/finance/fin001.svg-->
+																			<span class="svg-icon svg-icon-2x svg-icon-primary">
+																				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+																					<path d="M20 19.725V18.725C20 18.125 19.6 17.725 19 17.725H5C4.4 17.725 4 18.125 4 18.725V19.725H3C2.4 19.725 2 20.125 2 20.725V21.725H22V20.725C22 20.125 21.6 19.725 21 19.725H20Z" fill="black" />
+																					<path opacity="0.3" d="M22 6.725V7.725C22 8.325 21.6 8.725 21 8.725H18C18.6 8.725 19 9.125 19 9.725C19 10.325 18.6 10.725 18 10.725V15.725C18.6 15.725 19 16.125 19 16.725V17.725H15V16.725C15 16.125 15.4 15.725 16 15.725V10.725C15.4 10.725 15 10.325 15 9.725C15 9.125 15.4 8.725 16 8.725H13C13.6 8.725 14 9.125 14 9.725C14 10.325 13.6 10.725 13 10.725V15.725C13.6 15.725 14 16.125 14 16.725V17.725H10V16.725C10 16.125 10.4 15.725 11 15.725V10.725C10.4 10.725 10 10.325 10 9.725C10 9.125 10.4 8.725 11 8.725H8C8.6 8.725 9 9.125 9 9.725C9 10.325 8.6 10.725 8 10.725V15.725C8.6 15.725 9 16.125 9 16.725V17.725H5V16.725C5 16.125 5.4 15.725 6 15.725V10.725C5.4 10.725 5 10.325 5 9.725C5 9.125 5.4 8.725 6 8.725H3C2.4 8.725 2 8.325 2 7.725V6.725L11 2.225C11.6 1.925 12.4 1.925 13.1 2.225L22 6.725ZM12 3.725C11.2 3.725 10.5 4.425 10.5 5.225C10.5 6.025 11.2 6.725 12 6.725C12.8 6.725 13.5 6.025 13.5 5.225C13.5 4.425 12.8 3.725 12 3.725Z" fill="black" />
+																				</svg>
+																			</span>
+																			<!--end::Svg Icon-->
+																		</span>
+																	</span>
+													<div class="d-flex flex-column text-end">
+														<span class="text-dark fw-bolder fs-2">750$</span>
+														<span class="text-muted fw-bold mt-1 text-nowrap">Weekly Income</span>
+													</div>
+												</div>
+												<div class="statistics-widget-4-chart card-rounded-bottom" data-kt-chart-color="primary" style="height: 150px"></div>
+											</div>
+											<!--end::Body-->
+										</div>
+										<!--end::Statistics Widget 4-->
 									</div>
 								</div>
-								<!--end::Navbar-->
 								<!--begin::Card-->
 								<div class="card mb-2">
 									<div class="card-header border-0 pt-5">
