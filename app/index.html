@@ -49,7 +49,7 @@ License: For each use you must have a valid license purchased only from above li
 			<!--begin::Page-->
 			<div class="page d-flex flex-row flex-column-fluid">
 				<!--begin::Aside-->
-				<div id="kt_aside" class="aside pb-5 pt-5 pt-lg-0" data-kt-drawer="true" data-kt-drawer-name="aside" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'80px', '300px': '100px'}" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_aside_mobile_toggle">
+				<div id="kt_aside" class="aside pb-5 pt-5 pt-lg-0" data-kt-drawer="true" data-kt-drawer-name="aside" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'80px', '300px': '150px'}" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_aside_mobile_toggle">
 					<!--begin::Brand-->
 					<div class="aside-logo py-8" id="kt_aside_logo">
 						<!--begin::Logo-->
@@ -63,6 +63,46 @@ License: For each use you must have a valid license purchased only from above li
 					<div class="aside-menu flex-column-fluid" id="kt_aside_menu">
 						<!--begin::Aside Menu-->
 						<div class="hover-scroll-overlay-y my-2 my-lg-5 pe-lg-n1" id="kt_aside_menu_wrapper" data-kt-scroll="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_aside_logo, #kt_aside_footer" data-kt-scroll-wrappers="#kt_aside, #kt_aside_menu" data-kt-scroll-offset="5px">
+							<!--begin::Account data in mobile-->
+							<div class="aside-user d-flex d-sm-none flex-column align-items-center justify-content-center pb-5">
+								<!--begin::Symbol-->
+								<div class="symbol symbol-50px symbol-circle">
+									<img src="assets/media/avatars/blank.png" alt="">
+								</div>
+								<!--end::Symbol-->
+								<!--begin::Wrapper-->
+								<div class="aside-user-info flex-row-fluid flex-wrap mt-2">
+									<!--begin::Section-->
+									<div class="d-flex">
+										<!--begin::Info-->
+										<div class="d-flex flex-column justify-content-center align-items-center">
+											<!--begin::Description-->
+											<span class="text-white fs-6 fw-bold w-50 text-truncate text-center">dmitrigolovko13@gmail.com</span>
+											<span class="text-white fs-6 fw-bold w-50 text-truncate text-center">Баланс:</span>
+											<span class="text-white fs-6 fw-bold w-50 text-truncate text-center text-success">3200$</span>
+											<span class="text-white fs-6 fw-bold w-50 text-truncate text-center ">В обработке:</span>
+											<span class="text-white fs-6 fw-bold w-50 text-truncate text-center text-success">450$</span>
+											<span class="text-white fs-6 fw-bold w-50 text-truncate text-center">Менеджер:</span>
+											<a href="#" class="fs-6 fw-bold w-50 text-truncate text-center">@maestro_arb</a>
+											<!--end::Description-->
+										</div>
+										<!--end::Info-->
+									</div>
+									<!--end::Section-->
+								</div>
+								<a class="mt-3" href="/">
+										<span class="svg-icon svg-icon-2hx svg-icon-muted">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+											<rect opacity="0.3" width="12" height="2" rx="1" transform="matrix(-1 0 0 1 15.5 11)" fill="black"></rect>
+											<path d="M13.6313 11.6927L11.8756 10.2297C11.4054 9.83785 11.3732 9.12683 11.806 8.69401C12.1957 8.3043 12.8216 8.28591 13.2336 8.65206L16.1592 11.2526C16.6067 11.6504 16.6067 12.3496 16.1592 12.7474L13.2336 15.3479C12.8216 15.7141 12.1957 15.6957 11.806 15.306C11.3732 14.8732 11.4054 14.1621 11.8756 13.7703L13.6313 12.3073C13.8232 12.1474 13.8232 11.8526 13.6313 11.6927Z" fill="black"></path>
+											<path d="M8 5V6C8 6.55228 8.44772 7 9 7C9.55228 7 10 6.55228 10 6C10 5.44772 10.4477 5 11 5H18C18.5523 5 19 5.44772 19 6V18C19 18.5523 18.5523 19 18 19H11C10.4477 19 10 18.5523 10 18C10 17.4477 9.55228 17 9 17C8.44772 17 8 17.4477 8 18V19C8 20.1046 8.89543 21 10 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H10C8.89543 3 8 3.89543 8 5Z" fill="#C4C4C4"></path>
+										</svg>
+									</span>
+								</a>
+								<!--end::Wrapper-->
+							</div>
+							<div class="separator opacity-15 d-block d-sm-none"></div>
+							<!--end::Account data in mobile-->
 							<!--begin::Menu-->
 							<div class="menu menu-column menu-title-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-bolder" id="#kt_aside_menu" data-kt-menu="true">
 								<div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item here show py-2">
@@ -188,22 +228,13 @@ License: For each use you must have a valid license purchased only from above li
 					<!--begin::Header-->
 					<div id="kt_header" style="" class="header align-items-stretch">
 						<!--begin::Container-->
-						<div class="container-fluid d-flex align-items-stretch justify-content-between">
-							<!--begin::Aside mobile toggle-->
-							<div class="d-flex align-items-center d-lg-none ms-n1 me-2" title="Show aside menu">
-								<div class="btn btn-icon btn-active-color-primary w-30px h-30px w-md-40px h-md-40px" id="kt_aside_mobile_toggle">
-									<!--begin::Svg Icon | path: icons/duotune/abstract/abs015.svg-->
-									<span class="svg-icon svg-icon-1">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-											<path d="M21 7H3C2.4 7 2 6.6 2 6V4C2 3.4 2.4 3 3 3H21C21.6 3 22 3.4 22 4V6C22 6.6 21.6 7 21 7Z" fill="black" />
-											<path opacity="0.3" d="M21 14H3C2.4 14 2 13.6 2 13V11C2 10.4 2.4 10 3 10H21C21.6 10 22 10.4 22 11V13C22 13.6 21.6 14 21 14ZM22 20V18C22 17.4 21.6 17 21 17H3C2.4 17 2 17.4 2 18V20C2 20.6 2.4 21 3 21H21C21.6 21 22 20.6 22 20Z" fill="black" />
-										</svg>
-									</span>
-									<!--end::Svg Icon-->
-								</div>
+						<div class="container-fluid d-flex align-items-stretch justify-content-between px-2">
+							<div class="d-flex d-sm-none align-items-center">
+								<a href="/">
+									<img alt="Logo" src="img/logo-full.png" class="h-25px h-lg-25px">
+								</a>
 							</div>
-							<!--end::Aside mobile toggle-->
-							<div class=" d-flex align-items-center justify-content-center flex-grow-1">
+							<div class="d-none d-sm-flex align-items-center justify-content-center flex-grow-1">
 								<!--begin::Symbol-->
 								<div class="symbol symbol-50px">
 									<img src="assets/media/avatars/300-1.jpg" alt="">
@@ -233,7 +264,7 @@ License: For each use you must have a valid license purchased only from above li
 								<!--end::Wrapper-->
 							</div>
 							<!--begin::Wrapper-->
-							<div class="d-flex justify-content-end flex-lg-grow-1">
+							<div class="d-none d-sm-flex justify-content-end flex-lg-grow-1 me-2">
 								<!--begin::Toolbar wrapper-->
 								<div class="d-flex align-items-stretch flex-shrink-0 justify-content-between">
 									<div class="d-flex align-items-center ms-lg-3">
@@ -369,6 +400,20 @@ License: For each use you must have a valid license purchased only from above li
 								</div>
 								<!--end::Toolbar wrapper-->
 							</div>
+							<!--begin::Aside mobile toggle-->
+							<div class="d-flex align-items-center d-lg-none me-2 ms-auto" title="Show aside menu">
+								<div class="btn btn-icon btn-active-color-primary w-30px h-30px w-md-40px h-md-40px ms-5" id="kt_aside_mobile_toggle">
+									<!--begin::Svg Icon | path: icons/duotune/abstract/abs015.svg-->
+									<span class="svg-icon svg-icon-2x">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+											<path d="M21 7H3C2.4 7 2 6.6 2 6V4C2 3.4 2.4 3 3 3H21C21.6 3 22 3.4 22 4V6C22 6.6 21.6 7 21 7Z" fill="black" />
+											<path opacity="0.3" d="M21 14H3C2.4 14 2 13.6 2 13V11C2 10.4 2.4 10 3 10H21C21.6 10 22 10.4 22 11V13C22 13.6 21.6 14 21 14ZM22 20V18C22 17.4 21.6 17 21 17H3C2.4 17 2 17.4 2 18V20C2 20.6 2.4 21 3 21H21C21.6 21 22 20.6 22 20Z" fill="black" />
+										</svg>
+									</span>
+									<!--end::Svg Icon-->
+								</div>
+							</div>
+							<!--end::Aside mobile toggle-->
 							<!--end::Wrapper-->
 						</div>
 						<!--end::Container-->
@@ -503,18 +548,41 @@ License: For each use you must have a valid license purchased only from above li
 										<h3 class="card-title align-items-start fw-bolder text-uppercase">
 											<span class="card-label fw-bolder fs-3 mb-1">Статистика</span>
 										</h3>
-										<div class="card-toolbar">
-											<button href="#" class="btn btn-sm btn-light btn-active-info" data-kt-drawer-show="true" data-kt-drawer-target="#kt_engage_demos">
-												<!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-												<span class="svg-icon svg-icon-info svg-icon-3"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Text/Filter.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+										<div class="d-flex ms-auto">
+											<div class="card-toolbar">
+												<button href="#" class="btn btn-sm btn-light btn-active-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-start" data-kt-menu-overflow="true">
+													<span class="svg-icon svg-icon-primary svg-icon-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+															<path opacity="0.3" d="M10 4H21C21.6 4 22 4.4 22 5V7H10V4Z" fill="black"/>
+															<path opacity="0.3" d="M13 14.4V9C13 8.4 12.6 8 12 8C11.4 8 11 8.4 11 9V14.4H13Z" fill="black"/>
+															<path d="M10.4 3.60001L12 6H21C21.6 6 22 6.4 22 7V19C22 19.6 21.6 20 21 20H3C2.4 20 2 19.6 2 19V4C2 3.4 2.4 3 3 3H9.20001C9.70001 3 10.2 3.20001 10.4 3.60001ZM13 14.4V9C13 8.4 12.6 8 12 8C11.4 8 11 8.4 11 9V14.4H8L11.3 17.7C11.7 18.1 12.3 18.1 12.7 17.7L16 14.4H13Z" fill="black"/>
+														</svg></span>
+													<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-bold w-200px py-3" data-kt-menu="true">
+														<div class="menu-item px-3">
+															<a href="#" class="menu-link px-3">CSV</a>
+														</div>
+														<div class="menu-item px-3">
+															<a href="#" class="menu-link px-3">
+																<span class="menu-icon"><i class="fas fa-file-cs"></i></span>
+																<span class="menu-title">Excel 2007+</span>
+															</a>
+														</div>
+													</div>
+													Экспорт
+												</button>
+											</div>
+											<div class="card-toolbar ms-3">
+												<button href="#" class="btn btn-sm btn-light btn-active-info" data-kt-drawer-show="true" data-kt-drawer-target="#kt_engage_demos">
+													<!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+													<span class="svg-icon svg-icon-info svg-icon-3"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Text/Filter.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
 													<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 														<rect x="0" y="0" width="24" height="24"/>
 														<path d="M5,4 L19,4 C19.2761424,4 19.5,4.22385763 19.5,4.5 C19.5,4.60818511 19.4649111,4.71345191 19.4,4.8 L14,12 L14,20.190983 C14,20.4671254 13.7761424,20.690983 13.5,20.690983 C13.4223775,20.690983 13.3458209,20.6729105 13.2763932,20.6381966 L10,19 L10,12 L4.6,4.8 C4.43431458,4.5790861 4.4790861,4.26568542 4.7,4.1 C4.78654809,4.03508894 4.89181489,4 5,4 Z" fill="#000000"/>
 													</g>
 												</svg><!--end::Svg Icon--></span>
-												<!--end::Svg Icon-->
-												Фильтры
-											</button>
+													<!--end::Svg Icon-->
+													Фильтры
+												</button>
+											</div>
 										</div>
 									</div>
 									<!--begin::Card Body-->
@@ -775,7 +843,7 @@ License: For each use you must have a valid license purchased only from above li
 							<div class="form">
 								<!--begin::Flatpickr-->
 								<div class="input-group mb-5">
-									<input class="form-control form-control-solid rounded rounded-end-0" placeholder="Выберете диапозон" id="kt_ecommerce_sales_flatpickr" />
+									<input class="form-control form-control-solid rounded rounded-end-0" placeholder="Выберете диапазон" id="kt_ecommerce_sales_flatpickr" />
 									<button class="btn btn-icon btn-light" id="kt_ecommerce_sales_flatpickr_clear">
 										<!--begin::Svg Icon | path: icons/duotune/arrows/arr088.svg-->
 										<span class="svg-icon svg-icon-2">
