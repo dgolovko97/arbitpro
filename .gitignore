@@ -1,2 +1,3 @@
 /src/metronic/tools/node_modules/
 /.idea
+/static/assets/*
