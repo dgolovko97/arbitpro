@@ -1,29 +1,10 @@
 <!DOCTYPE html>
-<!--
-Author: Keenthemes
-Product Name: Metronic - Bootstrap 5 HTML, VueJS, React, Angular & Laravel Admin Dashboard Theme
-Purchase: https://1.envato.market/EA4JP
-Website: http://www.keenthemes.com
-Contact: support@keenthemes.com
-Follow: www.twitter.com/keenthemes
-Dribbble: www.dribbble.com/keenthemes
-Like: www.facebook.com/keenthemes
-License: For each use you must have a valid license purchased only from above link in order to legally use the theme for your project.
--->
 <html lang="en">
 <!--begin::Head-->
 <head><base href="../static/">
-    <title>Metronic - the world's #1 selling Bootstrap Admin Theme Ecosystem for HTML, Vue, React, Angular &amp; Laravel by Keenthemes</title>
+    <title></title>
     <meta charset="utf-8" />
-    <meta name="description" content="The most advanced Bootstrap Admin Theme on Themeforest trusted by 94,000 beginners and professionals. Multi-demo, Dark Mode, RTL support and complete React, Angular, Vue &amp; Laravel versions. Grab your copy now and get life-time updates for free." />
-    <meta name="keywords" content="Metronic, bootstrap, bootstrap 5, Angular, VueJs, React, Laravel, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Metronic - Bootstrap 5 HTML, VueJS, React, Angular &amp; Laravel Admin Dashboard Theme" />
-    <meta property="og:url" content="https://keenthemes.com/metronic" />
-    <meta property="og:site_name" content="Keenthemes | Metronic" />
-    <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
@@ -37,10 +18,10 @@ License: For each use you must have a valid license purchased only from above li
     <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
     <link href="css/common.css" rel="stylesheet" type="text/css" />
-
     <!--end::Global Stylesheets Bundle-->
 </head>
 <!--end::Head-->
+
 <!--begin::Body-->
 <body id="kt_body" class="header-fixed header-tablet-and-mobile-fixed aside-enabled aside-fixed font-size-lg">
 <!--begin::Main-->
@@ -53,7 +34,7 @@ License: For each use you must have a valid license purchased only from above li
             <!--begin::Brand-->
             <div class="aside-logo py-8" id="kt_aside_logo">
                 <!--begin::Logo-->
-                <a href="../../demo6/dist/index.html" class="d-flex align-items-center">
+                <a href="../../demo6/dist/index.php" class="d-flex align-items-center">
                     <img alt="Logo" src="img/logo.png" class="h-45px logo" />
                 </a>
                 <!--end::Logo-->
@@ -66,7 +47,7 @@ License: For each use you must have a valid license purchased only from above li
                     <!--begin::Account data in mobile-->
                     <div class="aside-user d-flex d-sm-none flex-column align-items-center justify-content-center pb-5">
                         <!--begin::Symbol-->
-                        <div class="symbol symbol-50px symbol-circle">
+                        <div class="symbol symbol-45px symbol-lg-50px symbol-circle">
                             <img src="assets/media/avatars/blank.png" alt="">
                         </div>
                         <!--end::Symbol-->
@@ -83,7 +64,7 @@ License: For each use you must have a valid license purchased only from above li
                                     <span class="text-white fs-6 fw-bold w-50 text-truncate text-center ">В обработке:</span>
                                     <span class="text-white fs-6 fw-bold w-50 text-truncate text-center text-success">450$</span>
                                     <span class="text-white fs-6 fw-bold w-50 text-truncate text-center">Менеджер:</span>
-                                    <a href="#" class="fs-6 fw-bold w-50 text-truncate text-center">@maestro_arb</a>
+                                    <a class="fs-6 fw-bold w-50 text-truncate text-center" href="tg://resolve?domain=maestro_arb">@maestro_arb</a>
                                     <!--end::Description-->
                                 </div>
                                 <!--end::Info-->
@@ -105,7 +86,7 @@ License: For each use you must have a valid license purchased only from above li
                     <!--end::Account data in mobile-->
                     <!--begin::Menu-->
                     <div class="menu menu-column menu-title-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-bolder" id="#kt_aside_menu" data-kt-menu="true">
-                        <a href="/" class="menu-item here show py-2">
+                        <a href="/app/index.php" class="menu-item here show py-2">
 									<span class="menu-link menu-center" title="Статистика" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 										<span class="menu-icon me-0">
 											<!--begin::Svg Icon | path: assets/media/icons/duotune/general/gen032.svg-->
@@ -120,7 +101,7 @@ License: For each use you must have a valid license purchased only from above li
 										<span class="menu-title">Статистика</span>
 									</span>
                         </a>
-                        <a href="leads.html" class="menu-item py-2">
+                        <a href="/app/leads.php" class="menu-item py-2">
 									<span class="menu-link menu-center" title="Конверсии" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 										<span class="menu-icon">
 											<!--begin::Svg Icon | path: icons/duotune/general/gen019.svg-->
@@ -135,7 +116,7 @@ License: For each use you must have a valid license purchased only from above li
 										<span class="menu-title">Конверсии</span>
 									</span>
                         </a>
-                        <a href="offers.html" data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
+                        <a href="/app/offers.php"  class="menu-item py-2">
 									<span class="menu-link menu-center" title="Офферы" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 										<span class="menu-icon">
                                                 <span class="svg-icon svg-icon-muted svg-icon-2hx"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -149,7 +130,7 @@ License: For each use you must have a valid license purchased only from above li
 										<span class="menu-title">Офферы</span>
 									</span>
                         </a>
-                        <a href="campaigns.html" data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
+                        <a href="/app/campaigns.php"  class="menu-item py-2">
 									<span class="menu-link menu-center" title="Компании" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 										<span class="menu-icon">
 											<!--begin::Svg Icon | path: assets/media/icons/duotune/coding/cod007.svg-->
@@ -162,7 +143,7 @@ License: For each use you must have a valid license purchased only from above li
 										<span class="menu-title">Компании</span>
 									</span>
                         </a>
-                        <a href="payments.html" data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
+                        <a href="/app/payments.php" class="menu-item py-2">
 									<span class="menu-link menu-center" title="Выплаты" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 										<span class="menu-icon">
 											<!--begin::Svg Icon | path: assets/media/icons/duotune/finance/fin003.svg-->
@@ -175,7 +156,7 @@ License: For each use you must have a valid license purchased only from above li
 										<span class="menu-title">Выплаты</span>
 									</span>
                         </a>
-                        <a href="news.html" data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
+                        <a href="/app/news.php" class="menu-item py-2">
 									<span class="menu-link menu-center" title="Новости" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 										<span class="menu-icon">
 											<!--begin::Svg Icon | path: assets/media/icons/duotune/coding/cod002.svg-->
@@ -189,7 +170,7 @@ License: For each use you must have a valid license purchased only from above li
 										<span class="menu-title">Новости</span>
 									</span>
                         </a>
-                        <a href="ticket.html" data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
+                        <a href="/app/ticket.php"  class="menu-item py-2">
 									<span class="menu-link menu-center" title="Тикеты" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 										<span class="menu-icon">
                                             <!--begin::Svg Icon | path: assets/media/icons/duotune/communication/com007.svg-->
@@ -202,7 +183,7 @@ License: For each use you must have a valid license purchased only from above li
 										<span class="menu-title">Тикеты</span>
 									</span>
                         </a>
-                        <a href="settings.html" data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
+                        <a href="/app/settings.php" class="menu-item py-2">
 									<span class="menu-link menu-center" title="Настройки" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
 										<span class="menu-icon">
 											<!--begin::Svg Icon | path: assets/media/icons/duotune/coding/cod009.svg-->
@@ -236,7 +217,7 @@ License: For each use you must have a valid license purchased only from above li
                     </div>
                     <div class="d-none d-sm-flex align-items-center justify-content-center flex-grow-1">
                         <!--begin::Symbol-->
-                        <div class="symbol symbol-50px">
+                        <div class="symbol symbol-45px symbol-lg-50px symbol-circle">
                             <img src="assets/media/avatars/300-1.jpg" alt="">
                         </div>
                         <!--end::Symbol-->
@@ -247,7 +228,7 @@ License: For each use you must have a valid license purchased only from above li
                                 <!--begin::Info-->
                                 <div class="flex-grow-1 me-2">
                                     <!--begin::Username-->
-                                    <a href="#" class="fs-6 fw-bold">@maestro_arb</a>
+                                    <a class="fs-6 fw-bold" href="tg://resolve?domain=maestro_arb">@maestro_arb</a>
                                     <!--end::Username-->
                                     <!--begin::Description-->
                                     <span class="text-gray-600 fw-bold d-block fs-8 ">Ваш менеджер</span>
@@ -270,9 +251,9 @@ License: For each use you must have a valid license purchased only from above li
                             <div class="d-flex align-items-center ms-lg-3">
                                 <!--begin::Col-->
                                 <div class="cursor-pointer">
-                                    <div class="d-flex align-items-center me-2 me-md-10">
+                                    <div class="d-flex align-items-center me-5 me-md-10">
                                         <!--begin::Symbol-->
-                                        <div class="symbol symbol-50px me-3 d-none d-md-flex">
+                                        <div class="symbol symbol-50px me-3 d-none d-lg-flex">
                                             <div class="symbol-label bg-light-success">
 														<span class="svg-icon svg-icon-1 svg-icon-success">
 															<!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Shopping/Dollar.svg-->
@@ -289,7 +270,7 @@ License: For each use you must have a valid license purchased only from above li
                                         </div>
                                         <!--end::Symbol-->
                                         <!--begin::Title-->
-                                        <div>
+                                        <div class="text-lg-start text-center">
                                             <div class="fs-4 text-dark fw-bolder">$2,034</div>
                                             <div class="fs-7 text-muted fw-bold">Ваш баланс</div>
                                         </div>
@@ -299,9 +280,9 @@ License: For each use you must have a valid license purchased only from above li
                                 <!--end::Col-->
                                 <!--begin::Col-->
                                 <div class="cursor-pointer">
-                                    <div class="d-flex align-items-center me-2 me-md-10">
+                                    <div class="d-flex align-items-center me-5 me-md-10">
                                         <!--begin::Symbol-->
-                                        <div class="symbol symbol-50px me-3 d-none d-md-flex">
+                                        <div class="symbol symbol-50px me-3 d-none d-lg-flex">
                                             <div class="symbol-label bg-light-info">
 														<span class="svg-icon svg-icon-info svg-icon-1">
 															<!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/General/Lock.svg-->
@@ -319,7 +300,7 @@ License: For each use you must have a valid license purchased only from above li
                                         </div>
                                         <!--end::Symbol-->
                                         <!--begin::Title-->
-                                        <div>
+                                        <div class="text-lg-start text-center">
                                             <div class="fs-4 text-dark fw-bolder">$706</div>
                                             <div class="fs-7 text-muted fw-bold">В обработке</div>
                                         </div>
@@ -331,18 +312,45 @@ License: For each use you must have a valid license purchased only from above li
                             <!--begin::User menu-->
                             <div class="d-flex align-items-center cursor-pointer ms-auto" id="kt_header_user_menu_toggle" data-kt-menu-trigger="click" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
                                 <!--begin::Avatar-->
-                                <div class="symbol symbol-50px me-5 d-md-flex d-none">
+                                <div class="symbol symbol-45px symbol-lg-50px symbol-circle">
                                     <img alt="Logo" src="assets/media/avatars/blank.png" />
                                 </div>
                                 <!--end::Avatar-->
                                 <!--begin::Username-->
                                 <div class="d-flex flex-column">
-                                    <div class="fw-bolder d-flex align-items-center fs-5">Max Smith</div>
-                                    <a href="#" class="fw-bold text-muted fs-7">max@kt.com</a>
+                                    <span class="fw-bold text-muted fs-7 ms-3 mw-100px text-nowrap text-truncate">Константин</span>
                                 </div>
                                 <!--end::Username-->
+                                <!--begin::Svg Icon | path: assets/media/icons/duotune/arrows/arr082.svg-->
+                                <div class="btn btn-icon btn-active-color-primary ms-1 w-20px">
+                                    <!--begin::Svg Icon | path: assets/media/icons/duotune/arrows/arr072.svg-->
+                                    <span class="svg-icon svg-icon-muted svg-icon-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M11.4343 12.7344L7.25 8.55005C6.83579 8.13583 6.16421 8.13584 5.75 8.55005C5.33579 8.96426 5.33579 9.63583 5.75 10.05L11.2929 15.5929C11.6834 15.9835 12.3166 15.9835 12.7071 15.5929L18.25 10.05C18.6642 9.63584 18.6642 8.96426 18.25 8.55005C17.8358 8.13584 17.1642 8.13584 16.75 8.55005L12.5657 12.7344C12.2533 13.0468 11.7467 13.0468 11.4343 12.7344Z" fill="black"/>
+                                        </svg>
+                                    </span>
+                                    <!--end::Svg Icon-->
+                                </div>
+
+                                <!--end::Svg Icon-->
                                 <!--begin::User account menu-->
                                 <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-primary fw-bold py-4 fs-6 w-275px" data-kt-menu="true">
+                                    <div class="menu-item px-3">
+                                        <div class="menu-content d-flex align-items-center px-3">
+                                            <!--begin::Avatar-->
+                                            <div class="symbol symbol-45px symbol-lg-50px symbol-circle me-5">
+                                                <img alt="Logo" src="assets/media/avatars/blank.png" />
+                                            </div>
+                                            <!--end::Avatar-->
+                                            <!--begin::Username-->
+                                            <div class="d-flex flex-column">
+                                                <div class="fw-bolder d-flex align-items-center fs-5 mw-100px text-truncate">Max Smith</div>
+                                                <a href="#" class="fw-bold text-muted text-hover-primary fs-7 mw-100px text-truncate">max@kt.com</a>
+                                            </div>
+                                            <!--end::Username-->
+                                        </div>
+                                    </div>
+                                    <div class="separator my-2"></div>
                                     <!--begin::Menu item-->
                                     <div class="menu-item px-5">
                                         <a href="##" class="menu-link px-5">
@@ -370,7 +378,7 @@ License: For each use you must have a valid license purchased only from above li
 															</svg>
 														</span>
 													</span>
-                                            <span class="menu-title">Техническая поддержка</span>
+                                            <span class="menu-title text-nowrap">Техническая поддержка</span>
                                         </a>
                                     </div>
                                     <!--end::Menu item-->
@@ -402,7 +410,7 @@ License: For each use you must have a valid license purchased only from above li
                     </div>
                     <!--begin::Aside mobile toggle-->
                     <div class="d-flex align-items-center d-lg-none me-2 ms-auto" title="Show aside menu">
-                        <div class="btn btn-icon btn-active-color-primary w-30px h-30px w-md-40px h-md-40px ms-3" id="kt_aside_mobile_toggle">
+                        <div class="btn btn-icon btn-active-color-primary w-30px h-30px w-md-40px h-md-40px" id="kt_aside_mobile_toggle">
                             <!--begin::Svg Icon | path: icons/duotune/abstract/abs015.svg-->
                             <span class="svg-icon svg-icon-2x">
 										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -420,265 +428,3 @@ License: For each use you must have a valid license purchased only from above li
             </div>
             <!--end::Header-->
             <!--begin::Content-->
-            <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-                <!--begin::Container-->
-                <div  class="docs-content d-flex flex-column flex-column-fluid" id="kt_content_container">
-                    <div class="container-fluid">
-                        <!--begin::Card-->
-                        <div class="card mb-2">
-                            <div class="card-header border-0 pt-5">
-                                <h3 class="card-title align-items-start fw-bolder text-uppercase align-items-center">
-                                    <span class="card-label fw-bolder fs-3 mb-1">Кампании</span>
-                                </h3>
-                                <div class="d-flex ms-0 ms-sm-auto">
-                                    <div class="card-toolbar">
-                                        <div class="d-flex align-items-center position-relative w-200px mb-2">
-                                            <!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
-                                            <span class="svg-icon svg-icon-1 position-absolute ms-4">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-													<rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1" transform="rotate(45 17.0365 15.1223)" fill="black"></rect>
-													<path d="M11 19C6.55556 19 3 15.4444 3 11C3 6.55556 6.55556 3 11 3C15.4444 3 19 6.55556 19 11C19 15.4444 15.4444 19 11 19ZM11 5C7.53333 5 5 7.53333 5 11C5 14.4667 7.53333 17 11 17C14.4667 17 17 14.4667 17 11C17 7.53333 14.4667 5 11 5Z" fill="black"></path>
-												</svg>
-											</span>
-                                            <!--end::Svg Icon-->
-                                            <input type="text" data-kt-ecommerce-product-filter="search" class="form-control form-control-solid ps-14 me-2" placeholder="Поиск...">
-                                        </div>
-                                        <button href="#" class="btn btn-light btn-active-info mb-2" data-kt-drawer-show="true" data-kt-drawer-target="#kt_engage_demos">
-                                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                                            <span class="svg-icon svg-icon-info svg-icon-3"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Text/Filter.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-													<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-														<rect x="0" y="0" width="24" height="24"/>
-														<path d="M5,4 L19,4 C19.2761424,4 19.5,4.22385763 19.5,4.5 C19.5,4.60818511 19.4649111,4.71345191 19.4,4.8 L14,12 L14,20.190983 C14,20.4671254 13.7761424,20.690983 13.5,20.690983 C13.4223775,20.690983 13.3458209,20.6729105 13.2763932,20.6381966 L10,19 L10,12 L4.6,4.8 C4.43431458,4.5790861 4.4790861,4.26568542 4.7,4.1 C4.78654809,4.03508894 4.89181489,4 5,4 Z" fill="#000000"/>
-													</g>
-												</svg><!--end::Svg Icon--></span>
-                                            <!--end::Svg Icon-->
-                                            Фильтры
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--begin::Card Body-->
-                            <div class="card-body text-gray-700 pt-0">
-                                <table id="kt_datatable_example_6" class="table table-striped border rounded gy-5 gs-7">
-                                    <thead>
-                                    <tr class="fw-bolder fs-6 text-gray-600 px-7 text-nowrap">
-                                        <th>ID</th>
-                                        <th>Дата обновления</th>
-                                        <th>Название</th>
-                                        <th>Оффер</th>
-                                        <th>URL</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr class="align-middle text-dark fw-bolder">
-                                        <td>1</td>
-                                        <td>25.02.2022</td>
-                                        <td>Моя кампания</td>
-                                        <td><a href="##">Powerman Low Price</a></td>
-                                        <td>https://example.com</td>
-                                    </tr>
-                                    <tr class="align-middle text-dark fw-bolder">
-                                        <td>2</td>
-                                        <td>25.02.2022</td>
-                                        <td>Моя кампания</td>
-                                        <td><a href="##">Powerman Low Price</a></td>
-                                        <td>https://example.com</td>
-                                    </tr>
-                                    <tr class="align-middle text-dark fw-bolder">
-                                        <td>3</td>
-                                        <td>25.02.2022</td>
-                                        <td>Моя кампания</td>
-                                        <td><a href="##">Powerman Low Price</a></td>
-                                        <td>https://example.com</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <!--end::Card Body-->
-                        </div>
-                        <!--end::Card-->
-                    </div>
-                </div>
-                <!--end::Container-->
-            </div>
-            <!--end::Content-->
-            <!--begin::Footer-->
-            <div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
-                <!--begin::Container-->
-                <div class="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between">
-                    <!--begin::Copyright-->
-                    <div class="text-dark order-2 order-md-1">
-                        <span class="text-muted fw-bold me-1">2022©</span>
-                        <a href="https://keenthemes.com" target="_blank" class="text-gray-800 text-hover-primary">Keenthemes</a>
-                    </div>
-                    <!--end::Copyright-->
-                    <!--begin::Menu-->
-                    <ul class="menu menu-gray-600 menu-hover-primary fw-bold order-1">
-                        <li class="menu-item">
-                            <a href="https://keenthemes.com" target="_blank" class="menu-link px-2">About</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="https://devs.keenthemes.com" target="_blank" class="menu-link px-2">Support</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="https://1.envato.market/EA4JP" target="_blank" class="menu-link px-2">Purchase</a>
-                        </li>
-                    </ul>
-                    <!--end::Menu-->
-                </div>
-                <!--end::Container-->
-            </div>
-            <!--end::Footer-->
-        </div>
-        <!--end::Wrapper-->
-    </div>
-    <!--end::Page-->
-</div>
-<!--end::Root-->
-<!--begin::Drawers-->
-
-<!--begin::Demos drawer-->
-<div id="kt_engage_demos" class="bg-body" data-kt-drawer="true" data-kt-drawer-name="explore" data-kt-drawer-activate="true" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'350px', 'lg': '350px'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_engage_demos_toggle" data-kt-drawer-close="#kt_engage_demos_close">
-    <!--begin::Card-->
-    <div class="card shadow-none rounded-0 w-100">
-        <!--begin::Header-->
-        <div class="card-header" id="kt_engage_demos_header">
-            <h3 class="card-title fw-bolder text-gray-700">Фильтры</h3>
-            <div class="card-toolbar">
-                <button type="button" class="btn btn-sm btn-icon btn-active-color-primary h-40px w-40px me-n6" id="kt_engage_demos_close">
-                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                    <span class="svg-icon svg-icon-2">
-								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-									<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-									<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-								</svg>
-							</span>
-                    <!--end::Svg Icon-->
-                </button>
-            </div>
-        </div>
-        <!--end::Header-->
-        <!--begin::Body-->
-        <div class="card-body" id="kt_engage_demos_body">
-            <!--begin::Content-->
-            <div id="kt_explore_scroll" class="scroll-y me-n5 pe-5" data-kt-scroll="true" data-kt-scroll-height="auto" data-kt-scroll-wrappers="#kt_engage_demos_body" data-kt-scroll-dependencies="#kt_engage_demos_header" data-kt-scroll-offset="5px">
-                <!--begin::Wrapper-->
-                <div class="mb-0">
-                    <div class="form">
-                        <!--begin::Flatpickr-->
-                        <div class="input-group mb-5">
-                            <input class="form-control form-control-solid rounded rounded-end-0" placeholder="Выберете диапазон" id="kt_ecommerce_sales_flatpickr" />
-                            <button class="btn btn-icon btn-light" id="kt_ecommerce_sales_flatpickr_clear">
-                                <!--begin::Svg Icon | path: icons/duotune/arrows/arr088.svg-->
-                                <span class="svg-icon svg-icon-2">
-														<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-															<rect opacity="0.5" x="7.05025" y="15.5356" width="12" height="2" rx="1" transform="rotate(-45 7.05025 15.5356)" fill="black" />
-															<rect x="8.46447" y="7.05029" width="12" height="2" rx="1" transform="rotate(45 8.46447 7.05029)" fill="black" />
-														</svg>
-													</span>
-                                <!--end::Svg Icon-->
-                            </button>
-                        </div>
-                        <!--end::Flatpickr-->
-                        <div class="mb-5">
-                            <!--begin::Select2-->
-                            <select class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Оффер" data-kt-ecommerce-order-filter="status">
-
-                            </select>
-                            <!--end::Select2-->
-                        </div>
-                        <div class="mb-5">
-                            <!--begin::Select2-->
-                            <select class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Поток" data-kt-ecommerce-order-filter="status">
-
-                            </select>
-                            <!--end::Select2-->
-                        </div>
-                        <div class="mb-5">
-                            <!--begin::Select2-->
-                            <select class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Лэндинг" data-kt-ecommerce-order-filter="status">
-
-                            </select>
-                            <!--end::Select2-->
-                        </div>
-                        <div class="mb-5">
-                            <!--begin::Select2-->
-                            <select class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Прокладка" data-kt-ecommerce-order-filter="status">
-
-                            </select>
-                            <!--end::Select2-->
-                        </div>
-                        <div class="mb-5">
-                            <!--begin::Select2-->
-                            <select class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Страна" data-kt-ecommerce-order-filter="status">
-
-                            </select>
-                            <!--end::Select2-->
-                        </div>
-                        <div class="mb-5">
-                            <!--begin::Select2-->
-                            <select class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Subs" data-kt-ecommerce-order-filter="status">
-
-                            </select>
-                            <!--end::Select2-->
-                        </div>
-                        <span class="nav-text text-c">Группировать по:</span>
-                        <div class="mb-5">
-                            <!--begin::Select2-->
-                            <select class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Дата" data-kt-ecommerce-order-filter="status">
-
-                            </select>
-                            <!--end::Select2-->
-                        </div>
-                        <a href="#" class="btn btn-primary w-100 mb-3"><i class="fas fa-redo fs-4 me-2"></i> Обновить</a>
-                        <a href="#" class="btn btn-danger w-100"><i class="far fa-times-circle fs-4 me-2"></i> Сбросить</a>
-                    </div>
-
-                    <!--end::Demos-->
-                </div>
-                <!--end::Wrapper-->
-            </div>
-            <!--end::Content-->
-        </div>
-        <!--end::Body-->
-    </div>
-    <!--end::Card-->
-</div>
-<!--end::Demos drawer-->
-<!--begin::Scrolltop-->
-<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
-    <!--begin::Svg Icon | path: icons/duotune/arrows/arr066.svg-->
-    <span class="svg-icon">
-				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-					<rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="black" />
-					<path d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z" fill="black" />
-				</svg>
-			</span>
-    <!--end::Svg Icon-->
-</div>
-<!--end::Scrolltop-->
-<!--begin::Modals-->
-<!--end::Modals-->
-<!--begin::Javascript-->
-<script>var hostUrl = "assets/";</script>
-<!--begin::Global Javascript Bundle(used by all pages)-->
-<script src="assets/plugins/global/plugins.bundle.js"></script>
-<script src="assets/js/scripts.bundle.js"></script>
-<!--end::Global Javascript Bundle-->
-<!--begin::Page Vendors Javascript(used by this page)-->
-<script src="assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
-<script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
-<!--end::Page Vendors Javascript-->
-<!--begin::Page Custom Javascript(used by this page)-->
-<script src="assets/js/widgets.bundle.js"></script>
-<script src="assets/js/custom/widgets.js"></script>
-<script src="assets/js/custom/apps/chat/chat.js"></script>
-<script src="assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-<script src="assets/js/custom/utilities/modals/create-campaign.js"></script>
-<script src="assets/js/custom/utilities/modals/users-search.js"></script>
-<!--end::Page Custom Javascript-->
-<script src="js/index.js"></script>
-<!--end::Javascript-->
-</body>
-<!--end::Body-->
-</html>
