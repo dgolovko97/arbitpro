@@ -173,6 +173,7 @@
 <script src="assets/js/custom/utilities/modals/upgrade-plan.js"></script>
 <script src="assets/js/custom/utilities/modals/create-campaign.js"></script>
 <script src="assets/js/custom/utilities/modals/users-search.js"></script>
+<script src="assets/plugins/custom/formrepeater/formrepeater.bundle.js"></script>
 <!--end::Page Custom Javascript-->
 <script src="js/index.js"></script>
 <!--end::Javascript-->

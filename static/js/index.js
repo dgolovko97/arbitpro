@@ -44,6 +44,9 @@ const initDropzone = () => {
     // set the dropzone container id
     const id = "#kt_modal_upload_dropzone";
     const dropzone = document.querySelector(id);
+    if (!dropzone) {
+        return
+    }
 
     // set the preview element template
     var previewNode = dropzone.querySelector(".dropzone-item");
@@ -174,3 +177,18 @@ const initDropzone = () => {
     });
 }
 initDropzone();
+$('#repeater').repeater({
+    initEmpty: false,
+    isFirstItemUndeletable: true,
+    defaultValues: {
+        'text-input': 'foo'
+    },
+
+    show: function () {
+        $(this).slideDown();
+    },
+
+    hide: function (deleteElement) {
+        $(this).slideUp(deleteElement);
+    }
+});
