@@ -574,7 +574,7 @@
                 <!--begin::Sidebar-->
                 <div class="flex-column flex-lg-row-auto w-100 w-lg-300px mb-10 order-2">
                     <!--begin::Card-->
-                    <div class="card card-flush mb-0 sticky-top" data-kt-sticky-top="100px" data-kt-sticky-animation="false" style="z-index: -1; top: 95px;">
+                    <div class="card card-flush mb-0 sticky-top" data-kt-sticky-top="100px" data-kt-sticky-animation="false" style="z-index: 1; top: 95px;">
                         <!--begin::Card header-->
                         <div class="card-header">
                             <!--begin::Card title-->
