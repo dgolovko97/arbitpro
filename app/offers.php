@@ -67,7 +67,7 @@
                                             <td>0</td>
                                             <td>0</td>
                                             <td>0%</td>
-                                            <td><a href="##" class="btn btn-info">Создать компанию</a></td>
+                                            <td><a href="/campaings-create.php" class="btn btn-info">Создать компанию</a></td>
                                         </tr>
                                         <tr class="align-middle text-dark fw-bolder">
                                             <td>2</td>
@@ -84,7 +84,7 @@
                                             <td>0</td>
                                             <td>0</td>
                                             <td>0%</td>
-                                            <td><a href="##" class="btn btn-info">Создать компанию</a></td>
+                                            <td><a href="/campaings-create.php" class="btn btn-info">Создать компанию</a></td>
                                         </tr>
                                         <tr class="align-middle text-dark fw-bolder">
                                             <td>3</td>
@@ -101,7 +101,7 @@
                                             <td>0</td>
                                             <td>0</td>
                                             <td>0%</td>
-                                            <td><a href="##" class="btn btn-info">Создать компанию</a></td>
+                                            <td><a href="/campaings-create.php" class="btn btn-info">Создать компанию</a></td>
                                         </tr>
                                     </tbody>
                                 </table>
