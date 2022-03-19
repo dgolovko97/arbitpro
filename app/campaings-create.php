@@ -3,12 +3,12 @@
     <div class="docs-content d-flex flex-column flex-column-fluid" id="kt_content_container">
         <div class=" container-fluid">
             <!--begin::Layout-->
-            <div class="d-flex flex-column flex-lg-row">
+            <div class="d-flex flex-column flex-xl-row">
                 <!--begin::Content-->
-                <div class="flex-lg-row-fluid me-lg-15 order-2 order-lg-1 mb-10 mb-lg-0">
+                <div class="flex-xl-row-fluid me-xl-15 order-2 order-lg-1 mb-5 mb-lg-0">
                     <!--begin::Form-->
                     <form class="form" action="#" id="kt_subscriptions_create_new">
-                        <div class="card card-flush pt-3 mb-5 mb-lg-10">
+                        <div class="card card-flush pt-3 mb-5 mb-lg-10 shadow-sm">
                             <!--begin::Card header-->
                             <div class="card-header">
                                 <!--begin::Card title-->
@@ -50,7 +50,7 @@
                             </div>
                             <!--end::Card body-->
                         </div>
-                        <div class="card card-flush pt-3 mb-5 mb-lg-10">
+                        <div class="card card-flush pt-3 mb-5 mb-lg-10 shadow-sm">
                             <!--begin::Card header-->
                             <div class="card-header">
                                 <!--begin::Card title-->
@@ -63,22 +63,20 @@
                             <!--begin::Card body-->
                             <div class="card-body pt-0">
                                 <div class="row align-items-center">
-                                    <div class="col-xxl-4 col-lg-6 col-md-10  mb-5">
-                                        <div class="input-group flex-nowrap me-3">
+                                    <div class="col-xxl-4 col-sm-6 mb-5">
+                                        <div class="input-group flex-nowrap">
                                             <span class="input-group-text"><i class="bi bi bi-link-45deg fs-4"></i></span>
                                             <div class="overflow-hidden flex-grow-1">
-                                                <select class="form-select rounded-start-0" data-hide-search="true" data-control="select2" data-placeholder="Выберете прокладку">
+                                                <select class="form-select rounded-start-0 form-control" data-hide-search="true" data-control="select2" data-placeholder="Выберете прокладку">
                                                     <option></option>
                                                     <option value="1">example.com</option>
                                                     <option value="2">example.com</option>
                                                 </select>
                                             </div>
+                                            <span class="cursor-pointer input-group-text bg-success ms-n1" data-bs-toggle="modal" data-bs-target="#modal_domain_parking"><i class="bi bi-plus-circle-fill fs-2  text-white"></i></span>
                                         </div>
                                     </div>
-                                    <a href="#" class="btn btn-icon btn-success me-10 mb-5" data-bs-toggle="modal" data-bs-target="#modal_domain_parking" >
-                                        <i class="bi bi-plus-circle-fill fs-2" data-bs-toggle="tooltip" title="Добавить"></i>
-                                    </a>
-                                    <div class="col-xxl-6 col-lg-6 col-md-10 d-flex align-items-center mb-5">
+                                    <div class="col-xxl-4 col-sm-6 d-flex align-items-center mb-5">
                                         <!--begin::Label-->
                                         <label class="fs-6 fw-bold text-nowrap me-3">Путь</label>
                                         <!--end::Label-->
@@ -90,10 +88,10 @@
                                 <!--begin::Table wrapper-->
                                 <div class="table-responsive">
                                     <!--begin::Table-->
-                                    <table class="table align-middle table-row-dashed fs-6 fw-bold gy-4" id="kt_subscription_products_table">
+                                    <table class="table align-middle table-row-bordered fs-6 fw-bold gy-4 border border-1 table-rounded gy-7 gs-7 " id="kt_subscription_products_table">
                                         <!--begin::Table head-->
                                         <thead>
-                                        <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
+                                        <tr class="text-start fw-bolder fs-7 text-uppercase gs-0 table-dark text-white">
                                             <th class="min-w-300px">Название</th>
                                             <th class="min-w-100px">CR</th>
                                             <th class="min-w-150px">EPC</th>
@@ -102,11 +100,11 @@
                                         </thead>
                                         <!--end::Table head-->
                                         <!--begin::Table body-->
-                                        <tbody class="text-gray-600">
+                                        <tbody class="">
                                         <tr>
                                             <td>
                                                 <div class="form-check form-check-custom form-check-solid">
-                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault_1"/>
+                                                    <input class="form-check-input border-3 border-success" type="checkbox" value="" id="flexCheckDefault_1"/>
                                                     <label class="form-check-label" for="flexCheckDefault_1">
                                                         medportal | uz
                                                     </label>
@@ -115,23 +113,23 @@
                                             <td>0.00</td>
                                             <td>0.00</td>
                                             <td class="text-end">
-                                                <a href="#" class="btn btn-icon btn-flex btn-active-light-primary w-40px h-40px" data-bs-toggle="tooltip" title="Открыть">
-                                                    <span class="svg-icon svg-icon-2x me-2"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/General/Visible.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                            <rect x="0" y="0" width="24" height="24"/>
-                                                            <path d="M3,12 C3,12 5.45454545,6 12,6 C16.9090909,6 21,12 21,12 C21,12 16.9090909,18 12,18 C5.45454545,18 3,12 3,12 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
-                                                            <path d="M12,15 C10.3431458,15 9,13.6568542 9,12 C9,10.3431458 10.3431458,9 12,9 C13.6568542,9 15,10.3431458 15,12 C15,13.6568542 13.6568542,15 12,15 Z" fill="#000000" opacity="0.3"/>
-                                                        </g>
-                                                    </svg><!--end::Svg Icon--></span>
+                                                <a href="#" class="btn btn-icon btn-sm me-1 btn-active-light-primary" data-bs-toggle="tooltip" title="Открыть">
+                                                    <!--begin::Svg Icon | path: assets/media/icons/duotune/general/gen004.svg-->
+                                                    <span class="svg-icon svg-icon-primary svg-icon-2x "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                            <path d="M21.7 18.9L18.6 15.8C17.9 16.9 16.9 17.9 15.8 18.6L18.9 21.7C19.3 22.1 19.9 22.1 20.3 21.7L21.7 20.3C22.1 19.9 22.1 19.3 21.7 18.9Z" fill="black"/>
+                                                            <path opacity="0.3" d="M11 20C6 20 2 16 2 11C2 6 6 2 11 2C16 2 20 6 20 11C20 16 16 20 11 20ZM11 4C7.1 4 4 7.1 4 11C4 14.9 7.1 18 11 18C14.9 18 18 14.9 18 11C18 7.1 14.9 4 11 4ZM8 11C8 9.3 9.3 8 11 8C11.6 8 12 7.6 12 7C12 6.4 11.6 6 11 6C8.2 6 6 8.2 6 11C6 11.6 6.4 12 7 12C7.6 12 8 11.6 8 11Z" fill="black"/>
+                                                        </svg></span>
+                                                    <!--end::Svg Icon-->
                                                 </a>
                                                 <a href="#" class="btn btn-icon btn-flex btn-active-light-primary w-40px h-40px" data-bs-toggle="tooltip" title="Скачать">
-                                                   <span class="svg-icon svg-icon-2x"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Files/Downloads-folder.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24"/>
-                                                        <path d="M3.5,21 L20.5,21 C21.3284271,21 22,20.3284271 22,19.5 L22,8.5 C22,7.67157288 21.3284271,7 20.5,7 L10,7 L7.43933983,4.43933983 C7.15803526,4.15803526 6.77650439,4 6.37867966,4 L3.5,4 C2.67157288,4 2,4.67157288 2,5.5 L2,19.5 C2,20.3284271 2.67157288,21 3.5,21 Z" fill="#000000" opacity="0.3"/>
-                                                        <path d="M14.8875071,12.8306874 L12.9310336,12.8306874 L12.9310336,10.8230161 C12.9310336,10.5468737 12.707176,10.3230161 12.4310336,10.3230161 L11.4077349,10.3230161 C11.1315925,10.3230161 10.9077349,10.5468737 10.9077349,10.8230161 L10.9077349,12.8306874 L8.9512614,12.8306874 C8.67511903,12.8306874 8.4512614,13.054545 8.4512614,13.3306874 C8.4512614,13.448999 8.49321518,13.5634776 8.56966458,13.6537723 L11.5377874,17.1594334 C11.7162223,17.3701835 12.0317191,17.3963802 12.2424692,17.2179453 C12.2635563,17.2000915 12.2831273,17.1805206 12.3009811,17.1594334 L15.2691039,13.6537723 C15.4475388,13.4430222 15.4213421,13.1275254 15.210592,12.9490905 C15.1202973,12.8726411 15.0058187,12.8306874 14.8875071,12.8306874 Z" fill="#000000"/>
-                                                    </g>
-                                                </svg><!--end::Svg Icon--></span>
+                                                    <!--begin::Svg Icon | path: assets/media/icons/duotune/files/fil017.svg-->
+                                                    <span class="svg-icon svg-icon-primary svg-icon-2x"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                        <path opacity="0.3" d="M10 4H21C21.6 4 22 4.4 22 5V7H10V4Z" fill="black"/>
+                                                        <path opacity="0.3" d="M13 14.4V9C13 8.4 12.6 8 12 8C11.4 8 11 8.4 11 9V14.4H13Z" fill="black"/>
+                                                        <path d="M10.4 3.60001L12 6H21C21.6 6 22 6.4 22 7V19C22 19.6 21.6 20 21 20H3C2.4 20 2 19.6 2 19V4C2 3.4 2.4 3 3 3H9.20001C9.70001 3 10.2 3.20001 10.4 3.60001ZM13 14.4V9C13 8.4 12.6 8 12 8C11.4 8 11 8.4 11 9V14.4H8L11.3 17.7C11.7 18.1 12.3 18.1 12.7 17.7L16 14.4H13Z" fill="black"/>
+                                                        </svg>
+                                                    </span>
+                                                    <!--end::Svg Icon-->
                                                 </a>
 
                                             </td>
@@ -148,23 +146,23 @@
                                             <td>0.00</td>
                                             <td>0.00</td>
                                             <td class="text-end">
-                                                <a href="#" class="btn btn-icon btn-flex btn-active-light-primary w-40px h-40px" data-bs-toggle="tooltip" title="Открыть">
-                                                    <span class="svg-icon svg-icon-2x me-2"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/General/Visible.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                            <rect x="0" y="0" width="24" height="24"/>
-                                                            <path d="M3,12 C3,12 5.45454545,6 12,6 C16.9090909,6 21,12 21,12 C21,12 16.9090909,18 12,18 C5.45454545,18 3,12 3,12 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
-                                                            <path d="M12,15 C10.3431458,15 9,13.6568542 9,12 C9,10.3431458 10.3431458,9 12,9 C13.6568542,9 15,10.3431458 15,12 C15,13.6568542 13.6568542,15 12,15 Z" fill="#000000" opacity="0.3"/>
-                                                        </g>
-                                                    </svg><!--end::Svg Icon--></span>
+                                                <a href="#" class="btn btn-icon btn-sm me-1 btn-active-light-primary" data-bs-toggle="tooltip" title="Открыть">
+                                                    <!--begin::Svg Icon | path: assets/media/icons/duotune/general/gen004.svg-->
+                                                    <span class="svg-icon svg-icon-primary svg-icon-2x "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                            <path d="M21.7 18.9L18.6 15.8C17.9 16.9 16.9 17.9 15.8 18.6L18.9 21.7C19.3 22.1 19.9 22.1 20.3 21.7L21.7 20.3C22.1 19.9 22.1 19.3 21.7 18.9Z" fill="black"/>
+                                                            <path opacity="0.3" d="M11 20C6 20 2 16 2 11C2 6 6 2 11 2C16 2 20 6 20 11C20 16 16 20 11 20ZM11 4C7.1 4 4 7.1 4 11C4 14.9 7.1 18 11 18C14.9 18 18 14.9 18 11C18 7.1 14.9 4 11 4ZM8 11C8 9.3 9.3 8 11 8C11.6 8 12 7.6 12 7C12 6.4 11.6 6 11 6C8.2 6 6 8.2 6 11C6 11.6 6.4 12 7 12C7.6 12 8 11.6 8 11Z" fill="black"/>
+                                                        </svg></span>
+                                                    <!--end::Svg Icon-->
                                                 </a>
                                                 <a href="#" class="btn btn-icon btn-flex btn-active-light-primary w-40px h-40px" data-bs-toggle="tooltip" title="Скачать">
-                                                   <span class="svg-icon svg-icon-2x"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Files/Downloads-folder.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24"/>
-                                                        <path d="M3.5,21 L20.5,21 C21.3284271,21 22,20.3284271 22,19.5 L22,8.5 C22,7.67157288 21.3284271,7 20.5,7 L10,7 L7.43933983,4.43933983 C7.15803526,4.15803526 6.77650439,4 6.37867966,4 L3.5,4 C2.67157288,4 2,4.67157288 2,5.5 L2,19.5 C2,20.3284271 2.67157288,21 3.5,21 Z" fill="#000000" opacity="0.3"/>
-                                                        <path d="M14.8875071,12.8306874 L12.9310336,12.8306874 L12.9310336,10.8230161 C12.9310336,10.5468737 12.707176,10.3230161 12.4310336,10.3230161 L11.4077349,10.3230161 C11.1315925,10.3230161 10.9077349,10.5468737 10.9077349,10.8230161 L10.9077349,12.8306874 L8.9512614,12.8306874 C8.67511903,12.8306874 8.4512614,13.054545 8.4512614,13.3306874 C8.4512614,13.448999 8.49321518,13.5634776 8.56966458,13.6537723 L11.5377874,17.1594334 C11.7162223,17.3701835 12.0317191,17.3963802 12.2424692,17.2179453 C12.2635563,17.2000915 12.2831273,17.1805206 12.3009811,17.1594334 L15.2691039,13.6537723 C15.4475388,13.4430222 15.4213421,13.1275254 15.210592,12.9490905 C15.1202973,12.8726411 15.0058187,12.8306874 14.8875071,12.8306874 Z" fill="#000000"/>
-                                                    </g>
-                                                </svg><!--end::Svg Icon--></span>
+                                                    <!--begin::Svg Icon | path: assets/media/icons/duotune/files/fil017.svg-->
+                                                    <span class="svg-icon svg-icon-primary svg-icon-2x"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                        <path opacity="0.3" d="M10 4H21C21.6 4 22 4.4 22 5V7H10V4Z" fill="black"/>
+                                                        <path opacity="0.3" d="M13 14.4V9C13 8.4 12.6 8 12 8C11.4 8 11 8.4 11 9V14.4H13Z" fill="black"/>
+                                                        <path d="M10.4 3.60001L12 6H21C21.6 6 22 6.4 22 7V19C22 19.6 21.6 20 21 20H3C2.4 20 2 19.6 2 19V4C2 3.4 2.4 3 3 3H9.20001C9.70001 3 10.2 3.20001 10.4 3.60001ZM13 14.4V9C13 8.4 12.6 8 12 8C11.4 8 11 8.4 11 9V14.4H8L11.3 17.7C11.7 18.1 12.3 18.1 12.7 17.7L16 14.4H13Z" fill="black"/>
+                                                        </svg>
+                                                    </span>
+                                                    <!--end::Svg Icon-->
                                                 </a>
 
                                             </td>
@@ -178,7 +176,7 @@
                             </div>
                             <!--end::Card body-->
                         </div>
-                        <div class="card card-flush pt-3 mb-5 mb-lg-10">
+                        <div class="card card-flush pt-3 mb-5 mb-lg-10 shadow-sm">
                             <!--begin::Card header-->
                             <div class="card-header">
                                 <!--begin::Card title-->
@@ -191,22 +189,20 @@
                             <!--begin::Card body-->
                             <div class="card-body pt-0">
                                 <div class="row align-items-center">
-                                    <div class="col-xxl-4 col-lg-6 col-md-10  mb-5">
-                                        <div class="input-group flex-nowrap me-3">
+                                    <div class="col-xxl-4 col-sm-6 mb-5">
+                                        <div class="input-group flex-nowrap">
                                             <span class="input-group-text"><i class="bi bi bi-link-45deg fs-4"></i></span>
                                             <div class="overflow-hidden flex-grow-1">
-                                                <select class="form-select rounded-start-0" data-hide-search="true" data-control="select2" data-placeholder="Выберете прокладку">
+                                                <select class="form-select rounded-start-0 form-control" data-hide-search="true" data-control="select2" data-placeholder="Выберете прокладку">
                                                     <option></option>
                                                     <option value="1">example.com</option>
                                                     <option value="2">example.com</option>
                                                 </select>
                                             </div>
+                                            <span class="cursor-pointer input-group-text bg-success ms-n1" data-bs-toggle="modal" data-bs-target="#modal_domain_parking"><i class="bi bi-plus-circle-fill fs-2  text-white"></i></span>
                                         </div>
                                     </div>
-                                    <a href="#" class="btn btn-icon btn-success me-10 mb-5" data-bs-toggle="modal" data-bs-target="#modal_domain_parking">
-                                        <i class="bi bi-plus-circle-fill fs-2" data-bs-toggle="tooltip" title="Добавить" ></i>
-                                    </a>
-                                    <div class="col-xxl-6 col-lg-6 col-md-10 d-flex align-items-center mb-5">
+                                    <div class="col-xxl-4 col-sm-6 d-flex align-items-center mb-5">
                                         <!--begin::Label-->
                                         <label class="fs-6 fw-bold text-nowrap me-3">Путь</label>
                                         <!--end::Label-->
@@ -218,10 +214,10 @@
                                 <!--begin::Table wrapper-->
                                 <div class="table-responsive">
                                     <!--begin::Table-->
-                                    <table class="table align-middle table-row-dashed fs-6 fw-bold gy-4" id="kt_subscription_products_table">
+                                    <table class="table align-middle table-row-bordered fs-6 fw-bold gy-4 border border-1 table-rounded gy-7 gs-7 table-striped" id="">
                                         <!--begin::Table head-->
                                         <thead>
-                                        <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
+                                        <tr class="text-start fw-bolder fs-7 text-uppercase gs-0 table-dark opacity-70 text-white">
                                             <th class="min-w-300px">Название</th>
                                             <th class="min-w-100px">CR</th>
                                             <th class="min-w-150px">EPC</th>
@@ -230,7 +226,7 @@
                                         </thead>
                                         <!--end::Table head-->
                                         <!--begin::Table body-->
-                                        <tbody class="text-gray-600">
+                                        <tbody class="">
                                         <tr>
                                             <td>
                                                 <div class="form-check form-check-custom form-check-solid">
@@ -243,23 +239,23 @@
                                             <td>0.00</td>
                                             <td>0.00</td>
                                             <td class="text-end">
-                                                <a href="#" class="btn btn-icon btn-flex btn-active-light-primary w-40px h-40px" data-bs-toggle="tooltip" title="Открыть">
-                                                    <span class="svg-icon svg-icon-2x me-2"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/General/Visible.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                            <rect x="0" y="0" width="24" height="24"/>
-                                                            <path d="M3,12 C3,12 5.45454545,6 12,6 C16.9090909,6 21,12 21,12 C21,12 16.9090909,18 12,18 C5.45454545,18 3,12 3,12 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
-                                                            <path d="M12,15 C10.3431458,15 9,13.6568542 9,12 C9,10.3431458 10.3431458,9 12,9 C13.6568542,9 15,10.3431458 15,12 C15,13.6568542 13.6568542,15 12,15 Z" fill="#000000" opacity="0.3"/>
-                                                        </g>
-                                                    </svg><!--end::Svg Icon--></span>
+                                                <a href="#" class="btn btn-icon btn-sm me-1 btn-active-light-primary" data-bs-toggle="tooltip" title="Открыть">
+                                                    <!--begin::Svg Icon | path: assets/media/icons/duotune/general/gen004.svg-->
+                                                    <span class="svg-icon svg-icon-primary svg-icon-2x "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                            <path d="M21.7 18.9L18.6 15.8C17.9 16.9 16.9 17.9 15.8 18.6L18.9 21.7C19.3 22.1 19.9 22.1 20.3 21.7L21.7 20.3C22.1 19.9 22.1 19.3 21.7 18.9Z" fill="black"/>
+                                                            <path opacity="0.3" d="M11 20C6 20 2 16 2 11C2 6 6 2 11 2C16 2 20 6 20 11C20 16 16 20 11 20ZM11 4C7.1 4 4 7.1 4 11C4 14.9 7.1 18 11 18C14.9 18 18 14.9 18 11C18 7.1 14.9 4 11 4ZM8 11C8 9.3 9.3 8 11 8C11.6 8 12 7.6 12 7C12 6.4 11.6 6 11 6C8.2 6 6 8.2 6 11C6 11.6 6.4 12 7 12C7.6 12 8 11.6 8 11Z" fill="black"/>
+                                                        </svg></span>
+                                                    <!--end::Svg Icon-->
                                                 </a>
                                                 <a href="#" class="btn btn-icon btn-flex btn-active-light-primary w-40px h-40px" data-bs-toggle="tooltip" title="Скачать">
-                                                   <span class="svg-icon svg-icon-2x"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Files/Downloads-folder.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24"/>
-                                                        <path d="M3.5,21 L20.5,21 C21.3284271,21 22,20.3284271 22,19.5 L22,8.5 C22,7.67157288 21.3284271,7 20.5,7 L10,7 L7.43933983,4.43933983 C7.15803526,4.15803526 6.77650439,4 6.37867966,4 L3.5,4 C2.67157288,4 2,4.67157288 2,5.5 L2,19.5 C2,20.3284271 2.67157288,21 3.5,21 Z" fill="#000000" opacity="0.3"/>
-                                                        <path d="M14.8875071,12.8306874 L12.9310336,12.8306874 L12.9310336,10.8230161 C12.9310336,10.5468737 12.707176,10.3230161 12.4310336,10.3230161 L11.4077349,10.3230161 C11.1315925,10.3230161 10.9077349,10.5468737 10.9077349,10.8230161 L10.9077349,12.8306874 L8.9512614,12.8306874 C8.67511903,12.8306874 8.4512614,13.054545 8.4512614,13.3306874 C8.4512614,13.448999 8.49321518,13.5634776 8.56966458,13.6537723 L11.5377874,17.1594334 C11.7162223,17.3701835 12.0317191,17.3963802 12.2424692,17.2179453 C12.2635563,17.2000915 12.2831273,17.1805206 12.3009811,17.1594334 L15.2691039,13.6537723 C15.4475388,13.4430222 15.4213421,13.1275254 15.210592,12.9490905 C15.1202973,12.8726411 15.0058187,12.8306874 14.8875071,12.8306874 Z" fill="#000000"/>
-                                                    </g>
-                                                </svg><!--end::Svg Icon--></span>
+                                                    <!--begin::Svg Icon | path: assets/media/icons/duotune/files/fil017.svg-->
+                                                    <span class="svg-icon svg-icon-primary svg-icon-2x"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                        <path opacity="0.3" d="M10 4H21C21.6 4 22 4.4 22 5V7H10V4Z" fill="black"/>
+                                                        <path opacity="0.3" d="M13 14.4V9C13 8.4 12.6 8 12 8C11.4 8 11 8.4 11 9V14.4H13Z" fill="black"/>
+                                                        <path d="M10.4 3.60001L12 6H21C21.6 6 22 6.4 22 7V19C22 19.6 21.6 20 21 20H3C2.4 20 2 19.6 2 19V4C2 3.4 2.4 3 3 3H9.20001C9.70001 3 10.2 3.20001 10.4 3.60001ZM13 14.4V9C13 8.4 12.6 8 12 8C11.4 8 11 8.4 11 9V14.4H8L11.3 17.7C11.7 18.1 12.3 18.1 12.7 17.7L16 14.4H13Z" fill="black"/>
+                                                        </svg>
+                                                    </span>
+                                                    <!--end::Svg Icon-->
                                                 </a>
                                             </td>
                                         </tr>
@@ -275,23 +271,23 @@
                                             <td>0.00</td>
                                             <td>0.00</td>
                                             <td class="text-end">
-                                                <a href="#" class="btn btn-icon btn-flex btn-active-light-primary w-40px h-40px" data-bs-toggle="tooltip" title="Открыть">
-                                                    <span class="svg-icon svg-icon-2x me-2"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/General/Visible.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                            <rect x="0" y="0" width="24" height="24"/>
-                                                            <path d="M3,12 C3,12 5.45454545,6 12,6 C16.9090909,6 21,12 21,12 C21,12 16.9090909,18 12,18 C5.45454545,18 3,12 3,12 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
-                                                            <path d="M12,15 C10.3431458,15 9,13.6568542 9,12 C9,10.3431458 10.3431458,9 12,9 C13.6568542,9 15,10.3431458 15,12 C15,13.6568542 13.6568542,15 12,15 Z" fill="#000000" opacity="0.3"/>
-                                                        </g>
-                                                    </svg><!--end::Svg Icon--></span>
+                                                <a href="#" class="btn btn-icon btn-sm me-1 btn-active-light-primary" data-bs-toggle="tooltip" title="Открыть">
+                                                    <!--begin::Svg Icon | path: assets/media/icons/duotune/general/gen004.svg-->
+                                                    <span class="svg-icon svg-icon-primary svg-icon-2x "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                            <path d="M21.7 18.9L18.6 15.8C17.9 16.9 16.9 17.9 15.8 18.6L18.9 21.7C19.3 22.1 19.9 22.1 20.3 21.7L21.7 20.3C22.1 19.9 22.1 19.3 21.7 18.9Z" fill="black"/>
+                                                            <path opacity="0.3" d="M11 20C6 20 2 16 2 11C2 6 6 2 11 2C16 2 20 6 20 11C20 16 16 20 11 20ZM11 4C7.1 4 4 7.1 4 11C4 14.9 7.1 18 11 18C14.9 18 18 14.9 18 11C18 7.1 14.9 4 11 4ZM8 11C8 9.3 9.3 8 11 8C11.6 8 12 7.6 12 7C12 6.4 11.6 6 11 6C8.2 6 6 8.2 6 11C6 11.6 6.4 12 7 12C7.6 12 8 11.6 8 11Z" fill="black"/>
+                                                        </svg></span>
+                                                    <!--end::Svg Icon-->
                                                 </a>
                                                 <a href="#" class="btn btn-icon btn-flex btn-active-light-primary w-40px h-40px" data-bs-toggle="tooltip" title="Скачать">
-                                                   <span class="svg-icon svg-icon-2x"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Files/Downloads-folder.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <rect x="0" y="0" width="24" height="24"/>
-                                                        <path d="M3.5,21 L20.5,21 C21.3284271,21 22,20.3284271 22,19.5 L22,8.5 C22,7.67157288 21.3284271,7 20.5,7 L10,7 L7.43933983,4.43933983 C7.15803526,4.15803526 6.77650439,4 6.37867966,4 L3.5,4 C2.67157288,4 2,4.67157288 2,5.5 L2,19.5 C2,20.3284271 2.67157288,21 3.5,21 Z" fill="#000000" opacity="0.3"/>
-                                                        <path d="M14.8875071,12.8306874 L12.9310336,12.8306874 L12.9310336,10.8230161 C12.9310336,10.5468737 12.707176,10.3230161 12.4310336,10.3230161 L11.4077349,10.3230161 C11.1315925,10.3230161 10.9077349,10.5468737 10.9077349,10.8230161 L10.9077349,12.8306874 L8.9512614,12.8306874 C8.67511903,12.8306874 8.4512614,13.054545 8.4512614,13.3306874 C8.4512614,13.448999 8.49321518,13.5634776 8.56966458,13.6537723 L11.5377874,17.1594334 C11.7162223,17.3701835 12.0317191,17.3963802 12.2424692,17.2179453 C12.2635563,17.2000915 12.2831273,17.1805206 12.3009811,17.1594334 L15.2691039,13.6537723 C15.4475388,13.4430222 15.4213421,13.1275254 15.210592,12.9490905 C15.1202973,12.8726411 15.0058187,12.8306874 14.8875071,12.8306874 Z" fill="#000000"/>
-                                                    </g>
-                                                </svg><!--end::Svg Icon--></span>
+                                                    <!--begin::Svg Icon | path: assets/media/icons/duotune/files/fil017.svg-->
+                                                    <span class="svg-icon svg-icon-primary svg-icon-2x"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                        <path opacity="0.3" d="M10 4H21C21.6 4 22 4.4 22 5V7H10V4Z" fill="black"/>
+                                                        <path opacity="0.3" d="M13 14.4V9C13 8.4 12.6 8 12 8C11.4 8 11 8.4 11 9V14.4H13Z" fill="black"/>
+                                                        <path d="M10.4 3.60001L12 6H21C21.6 6 22 6.4 22 7V19C22 19.6 21.6 20 21 20H3C2.4 20 2 19.6 2 19V4C2 3.4 2.4 3 3 3H9.20001C9.70001 3 10.2 3.20001 10.4 3.60001ZM13 14.4V9C13 8.4 12.6 8 12 8C11.4 8 11 8.4 11 9V14.4H8L11.3 17.7C11.7 18.1 12.3 18.1 12.7 17.7L16 14.4H13Z" fill="black"/>
+                                                        </svg>
+                                                    </span>
+                                                    <!--end::Svg Icon-->
                                                 </a>
 
                                             </td>
@@ -305,7 +301,7 @@
                             </div>
                             <!--end::Card body-->
                         </div>
-                        <div class="card card-flush pt-3 mb-5 mb-lg-10">
+                        <div class="card card-flush pt-3 mb-5 mb-lg-10 shadow-sm">
                             <!--begin::Card header-->
                             <div class="card-header">
                                 <!--begin::Card title-->
@@ -323,7 +319,7 @@
                                              <span class="svg-icon svg-icon-2x me-5">
                                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M129.5 512V345.9L18.5 48h55.8l81.8 229.7L250.2 0h51.3L180.8 347.8V512h-51.3z"/></svg>
                                              </span>
-                                            <span class="text-gray-800 fs-6 fw-bolder text-center"><span class="">Я</span>ндекс метрика</span>
+                                            <span class="text-gray-800 fs-6 fw-bolder text-center"><span class="text-danger">Я</span>ндекс метрика</span>
                                         </div>
                                         <div class="col-xxl-3 mb-5 mb-xxl-0">
                                             <!--begin::Input-->
@@ -348,7 +344,10 @@
                                              <span class="svg-icon svg-icon-2x me-5">
                                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg>
                                              </span>
-                                            <span class="text-gray-800 fs-6 fw-bolder text-center"><span class="">Google Analytics</span>
+                                            <span class="text-gray-800 fs-6 fw-bolder text-center"><span class="">
+                                                    <span class="text-primary">G</span><span class="text-danger">o</span><span class="text-warning">o</span><span class="text-primary">g</span><span class="text-success">l</span><span class="text-danger">e</span>
+                                                    Analytics
+                                                </span>
                                         </div>
                                         <div class="col-xxl-3 mb-5 mb-xxl-0">
                                             <!--begin::Input-->
@@ -373,7 +372,7 @@
                                              <span class="svg-icon svg-icon-2x me-5">
                                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
                                              </span>
-                                            <span class="text-gray-800 fs-6 fw-bolder text-center"><span class="">MailRu</span>
+                                            <span class="text-gray-800 fs-6 fw-bolder text-center"><span class=""><span class="text-primary">Mail</span><span class="text-warning">Ru</span></span>
                                         </div>
                                         <div class="col-xxl-3 mb-5 mb-xxl-0">
                                             <!--begin::Input-->
@@ -398,7 +397,7 @@
                                              <span class="svg-icon svg-icon-2x me-5">
                                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
                                              </span>
-                                            <span class="text-gray-800 fs-6 fw-bolder text-center"><span class="">Facebook pixel</span>
+                                            <span class="text-gray-800 fs-6 fw-bolder text-center"><span class=""><span class="text-primary">Facebook</span> pixel</span>
                                         </div>
                                         <div class="col-xxl-3 mb-5 mb-xxl-0">
                                             <!--begin::Input-->
@@ -423,7 +422,7 @@
                                              <span class="svg-icon svg-icon-2x me-5">
                                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M31.4907 63.4907C0 94.9813 0 145.671 0 247.04V264.96C0 366.329 0 417.019 31.4907 448.509C62.9813 480 113.671 480 215.04 480H232.96C334.329 480 385.019 480 416.509 448.509C448 417.019 448 366.329 448 264.96V247.04C448 145.671 448 94.9813 416.509 63.4907C385.019 32 334.329 32 232.96 32H215.04C113.671 32 62.9813 32 31.4907 63.4907ZM75.6 168.267H126.747C128.427 253.76 166.133 289.973 196 297.44V168.267H244.16V242C273.653 238.827 304.64 205.227 315.093 168.267H363.253C359.313 187.435 351.46 205.583 340.186 221.579C328.913 237.574 314.461 251.071 297.733 261.227C316.41 270.499 332.907 283.63 346.132 299.751C359.357 315.873 369.01 334.618 374.453 354.747H321.44C316.555 337.262 306.614 321.61 292.865 309.754C279.117 297.899 262.173 290.368 244.16 288.107V354.747H238.373C136.267 354.747 78.0267 284.747 75.6 168.267Z"/></svg>
                                              </span>
-                                            <span class="text-gray-800 fs-6 fw-bolder text-center"><span class="">Vk pixel</span>
+                                            <span class="text-gray-800 fs-6 fw-bolder text-center"><span class=""><span class="text-primary">VK</span> pixel</span>
                                         </div>
                                         <div class="col-xxl-3 mb-5 mb-xxl-0">
                                             <!--begin::Input-->
@@ -445,7 +444,7 @@
                             </div>
                             <!--end::Card body-->
                         </div>
-                        <div class="card card-flush pt-3 mb-5 mb-lg-10">
+                        <div class="card card-flush pt-3 mb-5 mb-lg-10 shadow-sm">
                             <!--begin::Card header-->
                             <div class="card-header">
                                 <!--begin::Card title-->
@@ -478,7 +477,7 @@
                             </div>
                             <!--end::Card body-->
                         </div>
-                        <div class="card card-flush pt-3 mb-5 mb-lg-10">
+                        <div class="card card-flush pt-3 mb-5 mb-lg-10 shadow-sm">
                             <!--begin::Card header-->
                             <div class="card-header">
                                 <!--begin::Card title-->
@@ -572,9 +571,9 @@
                 </div>
                 <!--end::Content-->
                 <!--begin::Sidebar-->
-                <div class="flex-column flex-lg-row-auto w-100 w-lg-300px mb-10 order-2">
+                <div class="flex-xl-row-fluid w-100 w-xl-300px mb-5 order-2">
                     <!--begin::Card-->
-                    <div class="card card-flush mb-0 sticky-top" data-kt-sticky-top="100px" data-kt-sticky-animation="false" style="z-index: 1; top: 95px;">
+                    <div class="card card-flush mb-0 sticky-top shadow-sm" data-kt-sticky-top="100px" data-kt-sticky-animation="false" style="z-index: 1; top: 95px;">
                         <!--begin::Card header-->
                         <div class="card-header">
                             <!--begin::Card title-->
@@ -704,17 +703,17 @@
                 <!--begin::Table wrapper-->
                 <div class="table-responsive">
                     <!--begin::Table-->
-                    <table class="table align-middle table-row-dashed fs-6 fw-bold gy-4" id="">
+                    <table class="table align-middle table-row-bordered fs-6 fw-bold gy-4 border border-1 table-rounded gy-7 gs-7 table-striped" id="">
                         <!--begin::Table head-->
                         <thead>
-                        <tr class="text-start text-muted fw-bolder fs-7 text-uppercase gs-0">
-                            <th class="min-w-300px">Параметр</th>
-                            <th class="min-w-100px">Описание</th>
-                        </tr>
+                            <tr class="text-start fw-bolder fs-7 text-uppercase gs-0 table-dark text-white">
+                                <th class="min-w-300px">Параметр</th>
+                                <th class="min-w-100px">Описание</th>
+                            </tr>
                         </thead>
                         <!--end::Table head-->
                         <!--begin::Table body-->
-                        <tbody class="text-gray-600">
+                        <tbody class="">
                         <tr>
                             <td>
                                 <span class="text-danger bg-secondary px-3 rounded">{uuid}</span>
