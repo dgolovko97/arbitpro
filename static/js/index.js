@@ -9,6 +9,7 @@ function cb(start, end) {
 $("#kt_ecommerce_sales_flatpickr").daterangepicker({
     startDate: start,
     endDate: end,
+    parentEl: $('#kt_engage_demos'),
     ranges: {
         "Сегодня": [moment(), moment()],
         "Вчера": [moment().subtract(1, "days"), moment().subtract(1, "days")],
@@ -16,11 +17,18 @@ $("#kt_ecommerce_sales_flatpickr").daterangepicker({
         "Прошлые 30 дней": [moment().subtract(29, "days"), moment()],
         "Этот месяц": [moment().startOf("month"), moment().endOf("month")],
         "Прошлый месяц": [moment().subtract(1, "month").startOf("month"), moment().subtract(1, "month").endOf("month")]
-    }
+    },
+    locale: {
+        customRangeLabel: 'Выбрать диапазон',
+    },
 }, cb);
 $("#kt_ecommerce_sales_flatpickr_2").daterangepicker({
     startDate: start,
     endDate: end,
+    parentEl: $('#kt_engage_demos'),
+    locale: {
+        customRangeLabel: 'Выбрать диапазон',
+    },
     ranges: {
         "Сегодня": [moment(), moment()],
         "Вчера": [moment().subtract(1, "days"), moment().subtract(1, "days")],

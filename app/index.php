@@ -399,7 +399,7 @@
         <!--begin::Body-->
         <div class="card-body" id="kt_engage_demos_body">
             <!--begin::Content-->
-            <div id="kt_explore_scroll" class="scroll-y me-n5 pe-5" data-kt-scroll="true" data-kt-scroll-height="auto" data-kt-scroll-wrappers="#kt_engage_demos_body" data-kt-scroll-dependencies="#kt_engage_demos_header" data-kt-scroll-offset="5px">
+            <div id="" class=" me-n5 pe-5">
                 <!--begin::Wrapper-->
                 <div class="mb-0">
                     <div class="form">
