@@ -695,9 +695,9 @@
                 <div class="text-center mb-5">
                     <h2 class="fw-bolder">Как это работает</h2>
                 </div>
-                <div class="d-flex mb-5">
+                <div class="d-flex align-items mb-5">
                     <span class="fv-bolder fs-5 me-2">URL Example:</span>
-                    <span class="fv-bolder fs-5 text-danger bg-secondary px-3 rounded">http://pattern.domain.ru/random.php?var=value&varN=value</span>
+                    <span class="fv-bolder fs-5 text-danger bg-secondary px-3 rounded text-break">http://pattern.domain.ru/random.php?var=value&varN=value</span>
                 </div>
                 <h3 class="fw-bolder mb-5">Доступные параметры</h3>
                 <!--begin::Table wrapper-->

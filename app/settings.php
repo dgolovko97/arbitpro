@@ -139,7 +139,7 @@
                     </div>
                     <!--end::Details-->
                     <!--begin::Navs-->
-                    <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bolder flex-column flex-sm-row mb-0 mb-sm-0">
+                    <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bolder flex-column flex-sm-row mb-5 mb-sm-0">
                         <li class="nav-item mt-2">
                             <a class="nav-link text-active-primary ms-0 me-10 pb-0 pb-sm-3 active" data-bs-toggle="tab" href="#tab_main_info">Основная информация</a>
                         </li>
@@ -822,11 +822,11 @@
                 <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal">
                     <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
                     <span class="svg-icon svg-icon-1 svg-icon-dark">
-													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-														<rect x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-														<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-													</svg>
-												</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <rect x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+                                <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
+                            </svg>
+                        </span>
                     <!--end::Svg Icon-->
                 </div>
                 <!--end::Close-->
@@ -932,9 +932,9 @@
                 <div class="text-center mb-5">
                     <h2 class="fw-bolder">Как это работает</h2>
                 </div>
-                <div class="d-flex mb-5">
+                <div class="d-flex align-items-center mb-5">
                     <span class="fv-bolder fs-5 me-2">URL Example:</span>
-                    <span class="fv-bolder fs-5 text-danger bg-secondary px-3 rounded">http://pattern.domain.ru/random.php?var=value&varN=value</span>
+                    <span class="fv-bolder fs-5 text-danger bg-secondary px-3 rounded text-break">http://pattern.domain.ru/random.php?var=value&varN=value</span>
                 </div>
                 <h3 class="fw-bolder mb-5">Доступные параметры</h3>
                 <!--begin::Table wrapper-->
