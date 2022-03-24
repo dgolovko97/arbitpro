@@ -88,9 +88,9 @@
                 <!--begin::Close-->
                 <div class="btn btn-sm btn-icon btn-active-color-primary" data-bs-dismiss="modal">
                     <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                    <span class="svg-icon svg-icon-1">
+                    <span class="svg-icon svg-icon-1 svg-icon-dark">
 								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-									<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+									<rect x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
 									<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
 								</svg>
 							</span>
@@ -141,7 +141,15 @@
                         <div class="dropzone dropzone-queue mb-2" id="kt_modal_upload_dropzone">
                             <!--begin::Controls-->
                             <div class="dropzone-panel mb-4">
-                                <a class="dropzone-select btn btn-sm btn-secondary me-2">Выберете файл</a>
+                                <a class="btn btn-sm fw-bolder btn-light-info btn-secondary dropzone-select">
+                                    <span class="svg-icon svg-icon-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path opacity="0.3" d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22ZM16 13.5L12.5 13V10C12.5 9.4 12.6 9.5 12 9.5C11.4 9.5 11.5 9.4 11.5 10L11 13L8 13.5C7.4 13.5 7 13.4 7 14C7 14.6 7.4 14.5 8 14.5H11V18C11 18.6 11.4 19 12 19C12.6 19 12.5 18.6 12.5 18V14.5L16 14C16.6 14 17 14.6 17 14C17 13.4 16.6 13.5 16 13.5Z" fill="black"/>
+                                        <rect x="11" y="19" width="10" height="2" rx="1" transform="rotate(-90 11 19)" fill="black"/>
+                                        <rect x="7" y="13" width="10" height="2" rx="1" fill="black"/>
+                                        <path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="black"/>
+                                        </svg></span>
+                                    Выберете файл
+                                </a>
                                 <a class="dropzone-remove-all btn btn-sm btn-light-primary">Удалить все</a>
                             </div>
                             <!--end::Controls-->
@@ -181,7 +189,7 @@
                     <!--end::Input group-->
                     <!--begin::Actions-->
                     <div class="text-center">
-                        <button type="reset" id="kt_modal_new_target_cancel" class="btn btn-light me-3">Отменить</button>
+                        <button type="reset" id="kt_modal_new_target_cancel" data-bs-dismiss="modal" class="btn btn-light me-3">Отменить</button>
                         <button type="submit" id="kt_modal_new_target_submit" class="btn btn-primary">
                             <span class="indicator-label">Отправить</span>
                             <span class="indicator-progress">Загрузка...

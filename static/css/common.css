@@ -2,3 +2,9 @@
     display: flex;
     animation: none;
 }
+@media (max-width: 576px) {
+    .aside-menu .menu > .menu-item > .menu-link {
+        width: 140px;
+        height: initial;
+    }
+}

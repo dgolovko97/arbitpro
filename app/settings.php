@@ -139,24 +139,24 @@
                     </div>
                     <!--end::Details-->
                     <!--begin::Navs-->
-                    <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bolder">
+                    <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bolder flex-column flex-sm-row mb-0 mb-sm-0">
                         <li class="nav-item mt-2">
-                            <a class="nav-link text-active-primary ms-0 me-10 py-5 active" data-bs-toggle="tab" href="#tab_main_info">Основная информация</a>
+                            <a class="nav-link text-active-primary ms-0 me-10 pb-0 pb-sm-3 active" data-bs-toggle="tab" href="#tab_main_info">Основная информация</a>
                         </li>
                         <li class="nav-item mt-2">
-                            <a class="nav-link text-active-primary ms-0 me-10 py-5" data-bs-toggle="tab" href="#tab_payment_details">Платёжные реквизиты</a>
+                            <a class="nav-link text-active-primary ms-0 me-10 pb-0 pb-sm-3" data-bs-toggle="tab" href="#tab_payment_details">Платёжные реквизиты</a>
                         </li>
                         <li class="nav-item mt-2">
-                            <a class="nav-link text-active-primary ms-0 me-10 py-5" data-bs-toggle="tab" href="#tab_change_password">Смена пароля</a>
+                            <a class="nav-link text-active-primary ms-0 me-10 pb-0 pb-sm-3" data-bs-toggle="tab" href="#tab_change_password">Смена пароля</a>
                         </li>
                         <li class="nav-item mt-2">
-                            <a class="nav-link text-active-primary ms-0 me-10 py-5" data-bs-toggle="tab" href="#tab_api">Api</a>
+                            <a class="nav-link text-active-primary ms-0 me-10 pb-0 pb-sm-3" data-bs-toggle="tab" href="#tab_api">Api</a>
                         </li>
                         <li class="nav-item mt-2">
-                            <a class="nav-link text-active-primary ms-0 me-10 py-5" data-bs-toggle="tab" href="#tab_domain_parking">Парковка домена</a>
+                            <a class="nav-link text-active-primary ms-0 me-10 pb-0 pb-sm-3" data-bs-toggle="tab" href="#tab_domain_parking">Парковка домена</a>
                         </li>
                         <li class="nav-item mt-2">
-                            <a class="nav-link text-active-primary ms-0 me-10 py-5" data-bs-toggle="tab" href="#tab_postback">Postback</a>
+                            <a class="nav-link text-active-primary ms-0 me-10 pb-0 pb-sm-3" data-bs-toggle="tab" href="#tab_postback">Postback</a>
                         </li>
                     </ul>
                     <!--begin::Navs-->
@@ -821,9 +821,9 @@
                 <!--begin::Close-->
                 <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal">
                     <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                    <span class="svg-icon svg-icon-1">
+                    <span class="svg-icon svg-icon-1 svg-icon-dark">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-														<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+														<rect x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
 														<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
 													</svg>
 												</span>
@@ -841,9 +841,9 @@
                 <div class="mb-5">
                     Для парковки домена Вам необходимо в настройках DNS у регистратора домена прописать наш адрес в CNAME-запись: <span class="fw-bolder">parking.arbitpro.ru</span>
                 </div>
-                <div class="d-flex align-items-center mb-5">
+                <div class="d-flex align-items-sm-center mb-5 flex-column flex-sm-row">
                     <!--begin::Label-->
-                    <label class="fs-6 fw-bold text-nowrap me-3">Домен:</label>
+                    <label class="fs-6 fw-bold text-nowrap me-3 mb-3 mb-sm-0">Домен:</label>
                     <!--end::Label-->
                     <div class="input-group">
                         <div class="input-group-text">
@@ -854,8 +854,8 @@
                         <!--end::Input-->
                     </div>
                 </div>
-                <div class="d-flex">
-                    <a href="" class="btn btn-primary ms-auto">Сохранить</a>
+                <div class="d-flex justify-content-center justify-content-sm-end">
+                    <a href="" class="btn btn-primary">Сохранить</a>
                 </div>
                 <!--end::Content-->
             </div>
@@ -877,9 +877,9 @@
                 <!--begin::Close-->
                 <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal">
                     <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                    <span class="svg-icon svg-icon-1">
+                    <span class="svg-icon svg-icon-1 svg-icon-dark">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-														<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+														<rect x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
 														<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
 													</svg>
 												</span>
@@ -894,9 +894,9 @@
                 <div class="text-center mb-12">
                     <h2 class="fw-bolder mb-3">Глобальный Postback</h2>
                 </div>
-                <div class="d-flex align-items-center mb-5">
+                <div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row mb-5">
                     <!--begin::Label-->
-                    <label class="fs-6 fw-bold text-nowrap me-3">Url:</label>
+                    <label class="fs-6 fw-bold text-nowrap me-3 mb-3 mb-sm-0">Url:</label>
                     <!--end::Label-->
                     <div class="input-group">
                         <div class="input-group-text">
@@ -907,7 +907,7 @@
                         <!--end::Input-->
                     </div>
                 </div>
-                <div class="d-flex align-items-md-center mb-5 flex-wrap flex-column flex-md-row">
+                <div class="d-flex align-items-md-center flex-wrap flex-column flex-md-row">
                     <label class="fs-6 fw-bold text-nowrap me-3 mb-3 mb-lg-0">Статусы:</label>
                     <div class="form-check form-check-custom form-check-solid me-5 mb-3 mb-lg-0">
                         <label class="form-check-label me-3" for="1x">В ожидании</label>
@@ -926,7 +926,7 @@
                         <input class="form-check-input h-20px w-20px" type="checkbox" value="" id="4x">
                     </div>
                 </div>
-                <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content-center justify-content-sm-end mb-5">
                     <a class="btn btn-primary">Сохранить</a>
                 </div>
                 <div class="text-center mb-5">

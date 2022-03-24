@@ -16,7 +16,7 @@
                             <!--begin::Card Body-->
                             <div class="card-body text-gray-700 pt-0">
                                 <!--begin::Flatpickr-->
-                                <div class="input-group mb-3 w-300px">
+                                <div class="input-group mb-3 mw-300px">
                                     <input class="form-control form-control-solid rounded rounded-end-0" placeholder="Выберете диапазон" id="kt_ecommerce_sales_flatpickr" />
                                     <button class="btn btn-icon btn-light" id="kt_ecommerce_sales_flatpickr_clear">
                                         <!--begin::Svg Icon | path: icons/duotune/arrows/arr088.svg-->
@@ -78,7 +78,7 @@
                             <!--begin::Card Body-->
                             <div class="card-body text-gray-700 pt-0">
                                 <!--begin::Flatpickr-->
-                                <div class="input-group mb-3 w-300px">
+                                <div class="input-group mb-3 mw-300px">
                                     <input class="form-control form-control-solid rounded rounded-end-0" placeholder="Выберете диапазон" id="kt_ecommerce_sales_flatpickr_2" />
                                     <button class="btn btn-icon btn-light" id="kt_ecommerce_sales_flatpickr_clear_2">
                                         <!--begin::Svg Icon | path: icons/duotune/arrows/arr088.svg-->

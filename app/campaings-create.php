@@ -26,7 +26,7 @@
                                         <label class="fs-6 fw-bold mb-2 text-nowrap">Название оффера</label>
                                         <!--end::Label-->
                                         <!--begin::Input-->
-                                        <input type="text" class="form-control" placeholder="" name="description">
+                                        <input type="text" class="form-control" placeholder="Введите название оффера" name="description">
                                         <!--end::Input-->
                                     </div>
                                     <div class="col-xxl-4 col-md-6 col-xs-12 mb-5 mb-xxl-0">
@@ -34,7 +34,7 @@
                                         <label class="fs-6 fw-bold mb-2 text-nowrap">Название кампании</label>
                                         <!--end::Label-->
                                         <!--begin::Input-->
-                                        <input type="text" class="form-control" placeholder="" name="description">
+                                        <input type="text" class="form-control" placeholder="Введите название кампании" name="description">
                                         <!--end::Input-->
                                     </div>
                                     <div class="col-xxl-4 col-md-6 col-xs-12 mb-5 mb-xxl-0">
@@ -76,12 +76,12 @@
                                             <span class="cursor-pointer input-group-text bg-success ms-n1" data-bs-toggle="modal" data-bs-target="#modal_domain_parking"><i class="bi bi-plus-circle-fill fs-2  text-white"></i></span>
                                         </div>
                                     </div>
-                                    <div class="col-xxl-4 col-sm-6 d-flex align-items-center mb-5">
+                                    <div class="col-xxl-4 col-sm-6 d-flex mb-5 flex-sm-row flex-column align-items-sm-center align-items-start">
                                         <!--begin::Label-->
-                                        <label class="fs-6 fw-bold text-nowrap me-3">Путь</label>
+                                        <label class="fs-6 fw-bold text-nowrap me-3 mb-2 mb-sm-0">Путь:</label>
                                         <!--end::Label-->
                                         <!--begin::Input-->
-                                        <input type="text" class="form-control" placeholder="" name="description">
+                                        <input type="text" class="form-control" placeholder="Укажите путь" name="description">
                                         <!--end::Input-->
                                     </div>
                                 </div>
@@ -202,12 +202,12 @@
                                             <span class="cursor-pointer input-group-text bg-success ms-n1" data-bs-toggle="modal" data-bs-target="#modal_domain_parking"><i class="bi bi-plus-circle-fill fs-2  text-white"></i></span>
                                         </div>
                                     </div>
-                                    <div class="col-xxl-4 col-sm-6 d-flex align-items-center mb-5">
+                                    <div class="col-xxl-4 col-sm-6 d-flex mb-5 flex-sm-row flex-column align-items-sm-center align-items-start">
                                         <!--begin::Label-->
-                                        <label class="fs-6 fw-bold text-nowrap me-3">Путь</label>
+                                        <label class="fs-6 fw-bold text-nowrap me-3 mb-2 mb-sm-0">Путь:</label>
                                         <!--end::Label-->
                                         <!--begin::Input-->
-                                        <input type="text" class="form-control" placeholder="" name="description">
+                                        <input type="text" class="form-control" placeholder="Укажите путь" name="description">
                                         <!--end::Input-->
                                     </div>
                                 </div>
@@ -497,9 +497,9 @@
                             <!--end::Card header-->
                             <!--begin::Card body-->
                             <div class="card-body pt-0">
-                                <div class="d-flex align-items-center mb-5">
+                                <div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row mb-5">
                                     <!--begin::Label-->
-                                    <label class="fs-6 fw-bold text-nowrap me-3">Url:</label>
+                                    <label class="fs-6 fw-bold text-nowrap me-3 mb-2 mb-sm-0">Url:</label>
                                     <!--end::Label-->
                                     <div class="input-group">
                                         <div class="input-group-text">
@@ -640,9 +640,9 @@
                 <!--begin::Close-->
                 <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal">
                     <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                    <span class="svg-icon svg-icon-1">
+                    <span class="svg-icon svg-icon-1 svg-icon-dark">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-														<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+														<rect x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
 														<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
 													</svg>
 												</span>
@@ -657,9 +657,9 @@
                 <div class="text-center mb-12">
                     <h2 class="fw-bolder mb-3">Глобальный Postback</h2>
                 </div>
-                <div class="d-flex align-items-center mb-5">
+                <div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row mb-5">
                     <!--begin::Label-->
-                    <label class="fs-6 fw-bold text-nowrap me-3">Url:</label>
+                    <label class="fs-6 fw-bold text-nowrap me-3 mb-2 mb-sm-0">Url:</label>
                     <!--end::Label-->
                     <div class="input-group">
                         <div class="input-group-text">
@@ -670,7 +670,7 @@
                         <!--end::Input-->
                     </div>
                 </div>
-                <div class="d-flex align-items-md-center mb-5 flex-wrap flex-column flex-md-row">
+                <div class="d-flex align-items-md-center flex-wrap flex-column flex-md-row">
                     <label class="fs-6 fw-bold text-nowrap me-3 mb-3 mb-lg-0">Статусы:</label>
                     <div class="form-check form-check-custom form-check-solid me-5 mb-3 mb-lg-0">
                         <label class="form-check-label me-3" for="1x">В ожидании</label>
@@ -689,7 +689,7 @@
                         <input class="form-check-input h-20px w-20px" type="checkbox" value="" id="4x">
                     </div>
                 </div>
-                <div class="d-flex justify-content-end">
+                <div class="d-flex justify-content-center justify-content-sm-end mb-5">
                     <a class="btn btn-primary">Сохранить</a>
                 </div>
                 <div class="text-center mb-5">
@@ -826,9 +826,9 @@
                 <!--begin::Close-->
                 <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal">
                     <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                    <span class="svg-icon svg-icon-1">
+                    <span class="svg-icon svg-icon-1 svg-icon-dark">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-														<rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
+														<rect x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
 														<rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
 													</svg>
 												</span>
@@ -846,9 +846,9 @@
                 <div class="mb-5">
                     Для парковки домена Вам необходимо в настройках DNS у регистратора домена прописать наш адрес в CNAME-запись: <span class="fw-bolder">parking.arbitpro.ru</span>
                 </div>
-                <div class="d-flex align-items-center mb-5">
+                <div class="d-flex align-items-sm-center mb-5 flex-column flex-sm-row">
                     <!--begin::Label-->
-                    <label class="fs-6 fw-bold text-nowrap me-3">Домен:</label>
+                    <label class="fs-6 fw-bold text-nowrap me-3 mb-3 mb-sm-0">Домен:</label>
                     <!--end::Label-->
                     <div class="input-group">
                         <div class="input-group-text">
@@ -859,8 +859,8 @@
                         <!--end::Input-->
                     </div>
                 </div>
-                <div class="d-flex">
-                    <a href="" class="btn btn-primary ms-auto">Сохранить</a>
+                <div class="d-flex justify-content-center justify-content-sm-end">
+                    <a href="" class="btn btn-primary">Сохранить</a>
                 </div>
                 <!--end::Content-->
             </div>

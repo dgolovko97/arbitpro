@@ -85,10 +85,10 @@
                     <div class="separator opacity-15 d-block d-sm-none"></div>
                     <!--end::Account data in mobile-->
                     <!--begin::Menu-->
-                    <div class="menu menu-column menu-title-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-bolder" id="#kt_aside_menu" data-kt-menu="true">
-                        <a href="/app/index.php" class="menu-item here show py-2">
-									<span class="menu-link menu-center" title="Статистика" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-										<span class="menu-icon me-0">
+                    <div class="menu menu-column menu-title ms-sm-0-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-bolder" id="#kt_aside_menu" data-kt-menu="true">
+                        <a href="/app/index.php" class="menu-item here show py-0 py-sm-2">
+									<span class="menu-link justify-content-start justify-content-sm-center flex-row flex-sm-column  " title="Статистика" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+										<span class="menu-icon me-sm-0 h-sm">
 											<!--begin::Svg Icon | path: assets/media/icons/duotune/general/gen032.svg-->
                                                 <span class="svg-icon svg-icon-2hx"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                                 <rect x="8" y="9" width="3" height="10" rx="1.5" fill="black"/>
@@ -98,12 +98,12 @@
                                                 </svg></span>
                                             <!--end::Svg Icon-->
 										</span>
-										<span class="menu-title">Статистика</span>
+										<span class="menu-title ms-5 ms-sm-0">Статистика</span>
 									</span>
                         </a>
-                        <a href="/app/leads.php" class="menu-item py-2">
-									<span class="menu-link menu-center" title="Конверсии" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-										<span class="menu-icon">
+                        <a href="/app/leads.php" class="menu-item py-0 py-sm-2">
+									<span class="menu-link justify-content-start justify-content-sm-center flex-row flex-sm-column " title="Конверсии" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+										<span class="menu-icon me-sm-0">
 											<!--begin::Svg Icon | path: icons/duotune/general/gen019.svg-->
                                             <!--begin::Svg Icon | path: assets/media/icons/duotune/abstract/abs043.svg-->
                                             <span class="svg-icon svg-icon-muted svg-icon-2hx"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -113,12 +113,12 @@
                                             <!--end::Svg Icon-->
                                             <!--end::Svg Icon-->
 										</span>
-										<span class="menu-title">Конверсии</span>
+										<span class="menu-title ms-5 ms-sm-0">Конверсии</span>
 									</span>
                         </a>
-                        <a href="/app/offers.php"  class="menu-item py-2">
-									<span class="menu-link menu-center" title="Офферы" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-										<span class="menu-icon">
+                        <a href="/app/offers.php"  class="menu-item py-0 py-sm-2">
+									<span class="menu-link justify-content-start justify-content-sm-center flex-row flex-sm-column " title="Офферы" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+										<span class="menu-icon me-sm-0">
                                                 <span class="svg-icon svg-icon-muted svg-icon-2hx"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                                 <path opacity="0.3" d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22ZM12.5 18C12.5 17.4 12.6 17.5 12 17.5H8.5C7.9 17.5 8 17.4 8 18C8 18.6 7.9 18.5 8.5 18.5L12 18C12.6 18 12.5 18.6 12.5 18ZM16.5 13C16.5 12.4 16.6 12.5 16 12.5H8.5C7.9 12.5 8 12.4 8 13C8 13.6 7.9 13.5 8.5 13.5H15.5C16.1 13.5 16.5 13.6 16.5 13ZM12.5 8C12.5 7.4 12.6 7.5 12 7.5H8C7.4 7.5 7.5 7.4 7.5 8C7.5 8.6 7.4 8.5 8 8.5H12C12.6 8.5 12.5 8.6 12.5 8Z" fill="black"/>
                                                 <rect x="7" y="17" width="6" height="2" rx="1" fill="black"/>
@@ -127,12 +127,12 @@
                                                 <path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="black"/>
                                             </svg></span>
 										</span>
-										<span class="menu-title">Офферы</span>
+										<span class="menu-title ms-5 ms-sm-0">Офферы</span>
 									</span>
                         </a>
-                        <a href="/app/campaigns.php"  class="menu-item py-2">
-									<span class="menu-link menu-center" title="Компании" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-										<span class="menu-icon">
+                        <a href="/app/campaigns.php"  class="menu-item py-0 py-sm-2">
+									<span class="menu-link justify-content-start justify-content-sm-center flex-row flex-sm-column " title="Компании" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+										<span class="menu-icon me-sm-0">
 											<!--begin::Svg Icon | path: assets/media/icons/duotune/coding/cod007.svg-->
                                             <span class="svg-icon svg-icon-muted svg-icon-2hx"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                             <path opacity="0.3" d="M18.4 5.59998C18.7766 5.9772 18.9881 6.48846 18.9881 7.02148C18.9881 7.55451 18.7766 8.06577 18.4 8.44299L14.843 12C14.466 12.377 13.9547 12.5887 13.4215 12.5887C12.8883 12.5887 12.377 12.377 12 12C11.623 11.623 11.4112 11.1117 11.4112 10.5785C11.4112 10.0453 11.623 9.53399 12 9.15698L15.553 5.604C15.9302 5.22741 16.4415 5.01587 16.9745 5.01587C17.5075 5.01587 18.0188 5.22741 18.396 5.604L18.4 5.59998ZM20.528 3.47205C20.0614 3.00535 19.5074 2.63503 18.8977 2.38245C18.288 2.12987 17.6344 1.99988 16.9745 1.99988C16.3145 1.99988 15.661 2.12987 15.0513 2.38245C14.4416 2.63503 13.8876 3.00535 13.421 3.47205L9.86801 7.02502C9.40136 7.49168 9.03118 8.04568 8.77863 8.6554C8.52608 9.26511 8.39609 9.91855 8.39609 10.5785C8.39609 11.2384 8.52608 11.8919 8.77863 12.5016C9.03118 13.1113 9.40136 13.6653 9.86801 14.132C10.3347 14.5986 10.8886 14.9688 11.4984 15.2213C12.1081 15.4739 12.7616 15.6039 13.4215 15.6039C14.0815 15.6039 14.7349 15.4739 15.3446 15.2213C15.9543 14.9688 16.5084 14.5986 16.975 14.132L20.528 10.579C20.9947 10.1124 21.3649 9.55844 21.6175 8.94873C21.8701 8.33902 22.0001 7.68547 22.0001 7.02551C22.0001 6.36555 21.8701 5.71201 21.6175 5.10229C21.3649 4.49258 20.9947 3.93867 20.528 3.47205Z" fill="black"/>
@@ -140,12 +140,12 @@
                                             </svg></span>
                                             <!--end::Svg Icon-->
 										</span>
-										<span class="menu-title">Компании</span>
+										<span class="menu-title ms-5 ms-sm-0">Компании</span>
 									</span>
                         </a>
-                        <a href="/app/payments.php" class="menu-item py-2">
-									<span class="menu-link menu-center" title="Выплаты" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-										<span class="menu-icon">
+                        <a href="/app/payments.php" class="menu-item py-0 py-sm-2">
+									<span class="menu-link justify-content-start justify-content-sm-center flex-row flex-sm-column " title="Выплаты" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+										<span class="menu-icon me-sm-0">
 											<!--begin::Svg Icon | path: assets/media/icons/duotune/finance/fin003.svg-->
                                             <span class="svg-icon svg-icon-muted svg-icon-2hx"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                             <path opacity="0.3" d="M20 18H4C3.4 18 3 17.6 3 17V7C3 6.4 3.4 6 4 6H20C20.6 6 21 6.4 21 7V17C21 17.6 20.6 18 20 18ZM12 8C10.3 8 9 9.8 9 12C9 14.2 10.3 16 12 16C13.7 16 15 14.2 15 12C15 9.8 13.7 8 12 8Z" fill="black"/>
@@ -153,12 +153,12 @@
                                             </svg></span>
                                             <!--end::Svg Icon-->
 										</span>
-										<span class="menu-title">Выплаты</span>
+										<span class="menu-title ms-5 ms-sm-0">Выплаты</span>
 									</span>
                         </a>
-                        <a href="/app/news.php" class="menu-item py-2">
-									<span class="menu-link menu-center" title="Новости" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-										<span class="menu-icon">
+                        <a href="/app/news.php" class="menu-item py-0 py-sm-2">
+									<span class="menu-link justify-content-start justify-content-sm-center flex-row flex-sm-column " title="Новости" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+										<span class="menu-icon me-sm-0">
 											<!--begin::Svg Icon | path: assets/media/icons/duotune/coding/cod002.svg-->
                                                 <span class="svg-icon svg-icon-muted svg-icon-2hx"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                                 <path opacity="0.3" d="M18 22C19.7 22 21 20.7 21 19C21 18.5 20.9 18.1 20.7 17.7L15.3 6.30005C15.1 5.90005 15 5.5 15 5C15 3.3 16.3 2 18 2H6C4.3 2 3 3.3 3 5C3 5.5 3.1 5.90005 3.3 6.30005L8.7 17.7C8.9 18.1 9 18.5 9 19C9 20.7 7.7 22 6 22H18Z" fill="black"/>
@@ -167,12 +167,12 @@
                                                 </svg></span>
                                             <!--end::Svg Icon-->
 										</span>
-										<span class="menu-title">Новости</span>
+										<span class="menu-title ms-5 ms-sm-0">Новости</span>
 									</span>
                         </a>
-                        <a href="/app/ticket.php"  class="menu-item py-2">
-									<span class="menu-link menu-center" title="Тикеты" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-										<span class="menu-icon">
+                        <a href="/app/ticket.php"  class="menu-item py-0 py-sm-2">
+									<span class="menu-link justify-content-start justify-content-sm-center flex-row flex-sm-column " title="Тикеты" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+										<span class="menu-icon me-sm-0">
                                             <!--begin::Svg Icon | path: assets/media/icons/duotune/communication/com007.svg-->
                                             <span class="svg-icon svg-icon-muted svg-icon-2hx"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                             <path opacity="0.3" d="M8 8C8 7.4 8.4 7 9 7H16V3C16 2.4 15.6 2 15 2H3C2.4 2 2 2.4 2 3V13C2 13.6 2.4 14 3 14H5V16.1C5 16.8 5.79999 17.1 6.29999 16.6L8 14.9V8Z" fill="black"/>
@@ -180,12 +180,12 @@
                                             </svg></span>
                                             <!--end::Svg Icon-->
 										</span>
-										<span class="menu-title">Тикеты</span>
+										<span class="menu-title ms-5 ms-sm-0">Тикеты</span>
 									</span>
                         </a>
-                        <a href="/app/settings.php" class="menu-item py-2">
-									<span class="menu-link menu-center" title="Настройки" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
-										<span class="menu-icon">
+                        <a href="/app/settings.php" class="menu-item py-0 py-sm-2">
+									<span class="menu-link justify-content-start justify-content-sm-center flex-row flex-sm-column " title="Настройки" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+										<span class="menu-icon me-sm-0">
 											<!--begin::Svg Icon | path: assets/media/icons/duotune/coding/cod009.svg-->
                                                 <span class="svg-icon svg-icon-muted svg-icon-2hx"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                                 <path opacity="0.3" d="M22.0318 8.59998C22.0318 10.4 21.4318 12.2 20.0318 13.5C18.4318 15.1 16.3318 15.7 14.2318 15.4C13.3318 15.3 12.3318 15.6 11.7318 16.3L6.93177 21.1C5.73177 22.3 3.83179 22.2 2.73179 21C1.63179 19.8 1.83177 18 2.93177 16.9L7.53178 12.3C8.23178 11.6 8.53177 10.7 8.43177 9.80005C8.13177 7.80005 8.73176 5.6 10.3318 4C11.7318 2.6 13.5318 2 15.2318 2C16.1318 2 16.6318 3.20005 15.9318 3.80005L13.0318 6.70007C12.5318 7.20007 12.4318 7.9 12.7318 8.5C13.3318 9.7 14.2318 10.6001 15.4318 11.2001C16.0318 11.5001 16.7318 11.3 17.2318 10.9L20.1318 8C20.8318 7.2 22.0318 7.59998 22.0318 8.59998Z" fill="black"/>
@@ -193,7 +193,7 @@
                                                 </svg></span>
                                             <!--end::Svg Icon-->
 										</span>
-										<span class="menu-title">Настройки</span>
+										<span class="menu-title ms-5 ms-sm-0">Настройки</span>
 									</span>
                         </a>
                     </div>
@@ -363,7 +363,7 @@
 															</span>
 														</span>
 													</span>
-                                            <span class="menu-title">Личный кабинет</span>
+                                            <span class="menu-title ms-5 ms-sm-0">Личный кабинет</span>
                                         </a>
                                     </div>
                                     <!--end::Menu item-->
@@ -378,7 +378,7 @@
 															</svg>
 														</span>
 													</span>
-                                            <span class="menu-title text-nowrap">Техническая поддержка</span>
+                                            <span class="menu-title ms-5 ms-sm-0 text-nowrap">Техническая поддержка</span>
                                         </a>
                                     </div>
                                     <!--end::Menu item-->
@@ -397,7 +397,7 @@
 															</svg>
 														</span>
 													</span>
-                                            <span class="menu-title">Выход</span>
+                                            <span class="menu-title ms-5 ms-sm-0">Выход</span>
                                         </a>
                                     </div>
                                     <!--end::Menu item-->
@@ -412,12 +412,12 @@
                     <div class="d-flex align-items-center d-lg-none me-2 ms-auto" title="Show aside menu">
                         <div class="btn btn-icon btn-active-color-primary w-30px h-30px w-md-40px h-md-40px" id="kt_aside_mobile_toggle">
                             <!--begin::Svg Icon | path: icons/duotune/abstract/abs015.svg-->
-                            <span class="svg-icon svg-icon-2x">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-											<path d="M21 7H3C2.4 7 2 6.6 2 6V4C2 3.4 2.4 3 3 3H21C21.6 3 22 3.4 22 4V6C22 6.6 21.6 7 21 7Z" fill="black" />
-											<path opacity="0.3" d="M21 14H3C2.4 14 2 13.6 2 13V11C2 10.4 2.4 10 3 10H21C21.6 10 22 10.4 22 11V13C22 13.6 21.6 14 21 14ZM22 20V18C22 17.4 21.6 17 21 17H3C2.4 17 2 17.4 2 18V20C2 20.6 2.4 21 3 21H21C21.6 21 22 20.6 22 20Z" fill="black" />
-										</svg>
-									</span>
+                            <span class="svg-icon svg-icon-2x svg-icon-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M13 11H3C2.4 11 2 10.6 2 10V9C2 8.4 2.4 8 3 8H13C13.6 8 14 8.4 14 9V10C14 10.6 13.6 11 13 11ZM22 5V4C22 3.4 21.6 3 21 3H3C2.4 3 2 3.4 2 4V5C2 5.6 2.4 6 3 6H21C21.6 6 22 5.6 22 5Z" fill="black"></path>
+                                        <path opacity="0.3" d="M21 16H3C2.4 16 2 15.6 2 15V14C2 13.4 2.4 13 3 13H21C21.6 13 22 13.4 22 14V15C22 15.6 21.6 16 21 16ZM14 20V19C14 18.4 13.6 18 13 18H3C2.4 18 2 18.4 2 19V20C2 20.6 2.4 21 3 21H13C13.6 21 14 20.6 14 20Z" fill="black"></path>
+                                </svg>
+                            </span>
                             <!--end::Svg Icon-->
                         </div>
                     </div>
