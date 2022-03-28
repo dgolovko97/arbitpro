@@ -205,7 +205,7 @@
         </div>
         <!--end::Aside-->
         <!--begin::Wrapper-->
-        <div class="wrapper d-flex flex-column flex-row-fluid" id="arbitpro_wrapper">
+        <div class="wrapper d-flex flex-column flex-row-fluid overflow-hidden" id="arbitpro_wrapper">
             <!--begin::Header-->
             <div id="kt_header" style="" class="header align-items-stretch">
                 <!--begin::Container-->

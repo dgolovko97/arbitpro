@@ -1,82 +1,76 @@
 <?php require_once('blocks/header.php');?>
-<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
-    <!--begin::Container-->
-    <div  class="docs-content d-flex flex-column flex-column-fluid" id="kt_content_container">
-        <div class="container-fluid">
-            <!--begin::Card-->
-            <div class="card mb-2">
-                <div class="card-header border-0 pt-5">
-                    <h3 class="card-title align-items-center fw-bolder text-uppercase">
-                        <span class="card-label fw-bolder fs-3 mb-1">Тикеты</span>
-                    </h3>
-                    <div class="d-flex ms-0 ms-sm-auto">
-                        <div class="card-toolbar">
-                            <button href="#" class="btn btn-light btn-light-primary" data-bs-toggle="modal" data-bs-target="#modal_new_ticket">
-                                <!--begin::Svg Icon | path: assets/media/icons/duotune/general/gen035.svg-->
-                                <span class="svg-icon svg-icon-primary svg-icon-3">
+<div class="content container-fluid p-1 p-sm-5 pt-5">
+    <!--begin::Card-->
+    <div class="card mb-2">
+        <div class="card-header border-0 pt-5 px-5 px-sm-9">
+            <h3 class="card-title align-items-center fw-bolder text-uppercase">
+                <span class="card-label fw-bolder fs-3 mb-1">Тикеты</span>
+            </h3>
+            <div class="d-flex ms-0 ms-sm-auto">
+                <div class="card-toolbar">
+                    <button href="#" class="btn btn-light btn-light-primary" data-bs-toggle="modal" data-bs-target="#modal_new_ticket">
+                        <!--begin::Svg Icon | path: assets/media/icons/duotune/general/gen035.svg-->
+                        <span class="svg-icon svg-icon-primary svg-icon-3">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                         <rect opacity="0.3" x="2" y="2" width="20" height="20" rx="5" fill="black"/>
                                         <rect x="10.8891" y="17.8033" width="12" height="2" rx="1" transform="rotate(-90 10.8891 17.8033)" fill="black"/>
                                         <rect x="6.01041" y="10.9247" width="12" height="2" rx="1" fill="black"/>
                                     </svg>
                                 </span>
-                                <!--end::Svg Icon-->
-                                Создать тикет
-                            </button>
-                        </div>
-                    </div>
+                        <!--end::Svg Icon-->
+                        Создать тикет
+                    </button>
                 </div>
-                <!--begin::Card Body-->
-                <div class="card-body text-gray-700 pt-0">
-                    <table id="kt_datatable_example_6" class="table table-striped border rounded gy-5 gs-7">
-                        <thead>
-                        <tr class="fw-bolder fs-6 text-gray-800 px-7">
-                            <th>Создана</th>
-                            <th>Категория</th>
-                            <th>Тема</th>
-                            <th>Статус</th>
-                            <th>Обновлено</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>05.03.2022</td>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <td>05.03.2022</td>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <td>05.03.2022</td>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
-
-                        </tr>
-                        <tr>
-                            <td>05.03.2022</td>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
-                            <td>0</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <!--end::Card Body-->
             </div>
-            <!--end::Card-->
         </div>
+        <!--begin::Card Body-->
+        <div class="card-body text-gray-700 p-0 p-sm-3">
+            <table id="kt_datatable_example_6" class="table table-striped rounded gs-2">
+                <thead class="table-dark ">
+                <tr class="fw-bolder fs-6 px-7 align-middle text-center text-nowrap">
+                    <th>Создана</th>
+                    <th>Категория</th>
+                    <th>Тема</th>
+                    <th>Статус</th>
+                    <th>Обновлено</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr class="fw-bolder text-center">
+                        <td class="text-nowrap">05.03.2022</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="fw-bolder text-center">
+                        <td class="text-nowrap">05.03.2022</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr class="fw-bolder text-center">
+                        <td class="text-nowrap">05.03.2022</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                    </tr>
+                    <tr class="fw-bolder text-center">
+                        <td class="text-nowrap">05.03.2022</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--end::Card Body-->
     </div>
-    <!--end::Container-->
+    <!--end::Card-->
 </div>
 <div class="modal fade" id="modal_new_ticket" tabindex="-1" aria-hidden="true">
     <!--begin::Modal dialog-->

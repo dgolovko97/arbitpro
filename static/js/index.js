@@ -200,3 +200,13 @@ $('#repeater').repeater({
         $(this).slideUp(deleteElement);
     }
 });
+$('#datatable_statistic').dataTable({
+    responsive: true,
+    columnDefs: [
+        {
+            orderable: false,
+            targets: 0
+        }
+    ],
+    order: [[ 1, "desc" ]]
+})

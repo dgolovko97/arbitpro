@@ -1,321 +1,315 @@
 <?php require_once('blocks/header.php');?>
-<div class="content d-flex flex-column flex-column-fluid " id="kt_content">
-                <!--begin::Container-->
-                <div  class="docs-content d-flex flex-column flex-column-fluid" id="kt_content_container">
-                    <div class="container-fluid">
-                        <div class="row g-5 g-xl-8">
-                            <div class="col-xl-12">
-                                <!--begin::List Widget 3-->
-                                <div class="card card-xl-stretch mb-5 mb-xl-8">
-                                    <!--begin::Header-->
-                                    <div class="card-header ">
-                                        <h3 class="card-title align-items-center fw-bolder text-uppercase text-dark">Новости</h3>
-                                        <div class="d-flex ms-0 ms-sm-auto">
-                                            <div class="card-toolbar">
-                                                <button href="#" class="btn btn-info" data-kt-drawer-show="true" data-kt-drawer-target="#kt_engage_demos">
-                                                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
-                                                    <span class="svg-icon svg-icon-info svg-icon-3"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Text/Filter.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-													<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-														<rect x="0" y="0" width="24" height="24"></rect>
-														<path d="M5,4 L19,4 C19.2761424,4 19.5,4.22385763 19.5,4.5 C19.5,4.60818511 19.4649111,4.71345191 19.4,4.8 L14,12 L14,20.190983 C14,20.4671254 13.7761424,20.690983 13.5,20.690983 C13.4223775,20.690983 13.3458209,20.6729105 13.2763932,20.6381966 L10,19 L10,12 L4.6,4.8 C4.43431458,4.5790861 4.4790861,4.26568542 4.7,4.1 C4.78654809,4.03508894 4.89181489,4 5,4 Z" fill="#000000"></path>
-													</g>
-												</svg><!--end::Svg Icon--></span>
-                                                    <!--end::Svg Icon-->
-                                                    Фильтры
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--end::Header-->
-                                    <!--begin::Body-->
-                                    <div class="card-body pt-2">
-                                        <!--begin::Post-->
-                                        <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
-                                            <!--begin::Body-->
-                                            <div class="mb-6">
-                                                <!--begin::Title-->
-                                                <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
-                                                <!--end::Title-->
-                                                <!--begin::Text-->
-                                                <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
-                                                <!--end::Text-->
-                                            </div>
-                                            <!--end::Body-->
-                                            <!--begin::Footer-->
-                                            <div class="d-flex flex-stack flex-wrap">
-                                                <!--begin::Item-->
-                                                <div class="d-flex align-items-center pe-2">
-                                                    <!--begin::Avatar-->
-                                                    <div class="symbol symbol-35px symbol-circle me-3">
-                                                        <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
-                                                    </div>
-                                                    <!--end::Avatar-->
-                                                    <!--begin::Text-->
-                                                    <div class="fs-5 fw-bolder">
-                                                        <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
-                                                        <span class="text-muted">on Apr 27 2021</span>
-                                                    </div>
-                                                    <!--end::Text-->
-                                                </div>
-                                                <!--end::Item-->
-                                                <!--begin::Label-->
-                                                <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
-                                                <!--end::Label-->
-                                            </div>
-                                            <!--end::Footer-->
-                                        </div>
-                                        <!--end::Post-->
-                                    </div>
-                                    <!--end::Body-->
-                                    <!--begin::Body-->
-                                    <div class="card-body pt-2">
-                                        <!--begin::Post-->
-                                        <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
-                                            <!--begin::Body-->
-                                            <div class="mb-6">
-                                                <!--begin::Title-->
-                                                <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
-                                                <!--end::Title-->
-                                                <!--begin::Text-->
-                                                <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
-                                                <!--end::Text-->
-                                            </div>
-                                            <!--end::Body-->
-                                            <!--begin::Footer-->
-                                            <div class="d-flex flex-stack flex-wrap">
-                                                <!--begin::Item-->
-                                                <div class="d-flex align-items-center pe-2">
-                                                    <!--begin::Avatar-->
-                                                    <div class="symbol symbol-35px symbol-circle me-3">
-                                                        <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
-                                                    </div>
-                                                    <!--end::Avatar-->
-                                                    <!--begin::Text-->
-                                                    <div class="fs-5 fw-bolder">
-                                                        <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
-                                                        <span class="text-muted">on Apr 27 2021</span>
-                                                    </div>
-                                                    <!--end::Text-->
-                                                </div>
-                                                <!--end::Item-->
-                                                <!--begin::Label-->
-                                                <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
-                                                <!--end::Label-->
-                                            </div>
-                                            <!--end::Footer-->
-                                        </div>
-                                        <!--end::Post-->
-                                    </div>
-                                    <!--end::Body-->
-                                    <!--begin::Body-->
-                                    <div class="card-body pt-2">
-                                        <!--begin::Post-->
-                                        <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
-                                            <!--begin::Body-->
-                                            <div class="mb-6">
-                                                <!--begin::Title-->
-                                                <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
-                                                <!--end::Title-->
-                                                <!--begin::Text-->
-                                                <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
-                                                <!--end::Text-->
-                                            </div>
-                                            <!--end::Body-->
-                                            <!--begin::Footer-->
-                                            <div class="d-flex flex-stack flex-wrap">
-                                                <!--begin::Item-->
-                                                <div class="d-flex align-items-center pe-2">
-                                                    <!--begin::Avatar-->
-                                                    <div class="symbol symbol-35px symbol-circle me-3">
-                                                        <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
-                                                    </div>
-                                                    <!--end::Avatar-->
-                                                    <!--begin::Text-->
-                                                    <div class="fs-5 fw-bolder">
-                                                        <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
-                                                        <span class="text-muted">on Apr 27 2021</span>
-                                                    </div>
-                                                    <!--end::Text-->
-                                                </div>
-                                                <!--end::Item-->
-                                                <!--begin::Label-->
-                                                <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
-                                                <!--end::Label-->
-                                            </div>
-                                            <!--end::Footer-->
-                                        </div>
-                                        <!--end::Post-->
-                                    </div>
-                                    <!--end::Body-->
-                                    <!--begin::Body-->
-                                    <div class="card-body pt-2">
-                                        <!--begin::Post-->
-                                        <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
-                                            <!--begin::Body-->
-                                            <div class="mb-6">
-                                                <!--begin::Title-->
-                                                <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
-                                                <!--end::Title-->
-                                                <!--begin::Text-->
-                                                <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
-                                                <!--end::Text-->
-                                            </div>
-                                            <!--end::Body-->
-                                            <!--begin::Footer-->
-                                            <div class="d-flex flex-stack flex-wrap">
-                                                <!--begin::Item-->
-                                                <div class="d-flex align-items-center pe-2">
-                                                    <!--begin::Avatar-->
-                                                    <div class="symbol symbol-35px symbol-circle me-3">
-                                                        <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
-                                                    </div>
-                                                    <!--end::Avatar-->
-                                                    <!--begin::Text-->
-                                                    <div class="fs-5 fw-bolder">
-                                                        <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
-                                                        <span class="text-muted">on Apr 27 2021</span>
-                                                    </div>
-                                                    <!--end::Text-->
-                                                </div>
-                                                <!--end::Item-->
-                                                <!--begin::Label-->
-                                                <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
-                                                <!--end::Label-->
-                                            </div>
-                                            <!--end::Footer-->
-                                        </div>
-                                        <!--end::Post-->
-                                    </div>
-                                    <!--end::Body-->
-                                    <!--begin::Body-->
-                                    <div class="card-body pt-2">
-                                        <!--begin::Post-->
-                                        <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
-                                            <!--begin::Body-->
-                                            <div class="mb-6">
-                                                <!--begin::Title-->
-                                                <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
-                                                <!--end::Title-->
-                                                <!--begin::Text-->
-                                                <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
-                                                <!--end::Text-->
-                                            </div>
-                                            <!--end::Body-->
-                                            <!--begin::Footer-->
-                                            <div class="d-flex flex-stack flex-wrap">
-                                                <!--begin::Item-->
-                                                <div class="d-flex align-items-center pe-2">
-                                                    <!--begin::Avatar-->
-                                                    <div class="symbol symbol-35px symbol-circle me-3">
-                                                        <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
-                                                    </div>
-                                                    <!--end::Avatar-->
-                                                    <!--begin::Text-->
-                                                    <div class="fs-5 fw-bolder">
-                                                        <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
-                                                        <span class="text-muted">on Apr 27 2021</span>
-                                                    </div>
-                                                    <!--end::Text-->
-                                                </div>
-                                                <!--end::Item-->
-                                                <!--begin::Label-->
-                                                <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
-                                                <!--end::Label-->
-                                            </div>
-                                            <!--end::Footer-->
-                                        </div>
-                                        <!--end::Post-->
-                                    </div>
-                                    <!--end::Body-->
-                                    <!--begin::Body-->
-                                    <div class="card-body pt-2">
-                                        <!--begin::Post-->
-                                        <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
-                                            <!--begin::Body-->
-                                            <div class="mb-6">
-                                                <!--begin::Title-->
-                                                <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
-                                                <!--end::Title-->
-                                                <!--begin::Text-->
-                                                <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
-                                                <!--end::Text-->
-                                            </div>
-                                            <!--end::Body-->
-                                            <!--begin::Footer-->
-                                            <div class="d-flex flex-stack flex-wrap">
-                                                <!--begin::Item-->
-                                                <div class="d-flex align-items-center pe-2">
-                                                    <!--begin::Avatar-->
-                                                    <div class="symbol symbol-35px symbol-circle me-3">
-                                                        <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
-                                                    </div>
-                                                    <!--end::Avatar-->
-                                                    <!--begin::Text-->
-                                                    <div class="fs-5 fw-bolder">
-                                                        <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
-                                                        <span class="text-muted">on Apr 27 2021</span>
-                                                    </div>
-                                                    <!--end::Text-->
-                                                </div>
-                                                <!--end::Item-->
-                                                <!--begin::Label-->
-                                                <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
-                                                <!--end::Label-->
-                                            </div>
-                                            <!--end::Footer-->
-                                        </div>
-                                        <!--end::Post-->
-                                    </div>
-                                    <!--end::Body-->
-                                    <!--begin::Body-->
-                                    <div class="card-body pt-2">
-                                        <!--begin::Post-->
-                                        <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
-                                            <!--begin::Body-->
-                                            <div class="mb-6">
-                                                <!--begin::Title-->
-                                                <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
-                                                <!--end::Title-->
-                                                <!--begin::Text-->
-                                                <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
-                                                <!--end::Text-->
-                                            </div>
-                                            <!--end::Body-->
-                                            <!--begin::Footer-->
-                                            <div class="d-flex flex-stack flex-wrap">
-                                                <!--begin::Item-->
-                                                <div class="d-flex align-items-center pe-2">
-                                                    <!--begin::Avatar-->
-                                                    <div class="symbol symbol-35px symbol-circle me-3">
-                                                        <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
-                                                    </div>
-                                                    <!--end::Avatar-->
-                                                    <!--begin::Text-->
-                                                    <div class="fs-5 fw-bolder">
-                                                        <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
-                                                        <span class="text-muted">on Apr 27 2021</span>
-                                                    </div>
-                                                    <!--end::Text-->
-                                                </div>
-                                                <!--end::Item-->
-                                                <!--begin::Label-->
-                                                <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
-                                                <!--end::Label-->
-                                            </div>
-                                            <!--end::Footer-->
-                                        </div>
-                                        <!--end::Post-->
-                                    </div>
-                                    <!--end::Body-->
-                                </div>
-                                <!--end:List Widget 3-->
-                            </div>
+<div class="content container-fluid p-1 p-sm-5 pt-5">
+    <div class="row g-5 g-xl-8">
+        <div class="col-xl-12">
+            <!--begin::List Widget 3-->
+            <div class="card card-xl-stretch mb-5 mb-xl-8">
+                <!--begin::Header-->
+                <div class="card-header ">
+                    <h3 class="card-title align-items-center fw-bolder text-uppercase text-dark">Новости</h3>
+                    <div class="d-flex ms-0 ms-sm-auto">
+                        <div class="card-toolbar">
+                            <button href="#" class="btn btn-info" data-kt-drawer-show="true" data-kt-drawer-target="#kt_engage_demos">
+                                <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
+                                <span class="svg-icon svg-icon-info svg-icon-3"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Text/Filter.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                    <rect x="0" y="0" width="24" height="24"></rect>
+                                                    <path d="M5,4 L19,4 C19.2761424,4 19.5,4.22385763 19.5,4.5 C19.5,4.60818511 19.4649111,4.71345191 19.4,4.8 L14,12 L14,20.190983 C14,20.4671254 13.7761424,20.690983 13.5,20.690983 C13.4223775,20.690983 13.3458209,20.6729105 13.2763932,20.6381966 L10,19 L10,12 L4.6,4.8 C4.43431458,4.5790861 4.4790861,4.26568542 4.7,4.1 C4.78654809,4.03508894 4.89181489,4 5,4 Z" fill="#000000"></path>
+                                                </g>
+                                            </svg><!--end::Svg Icon--></span>
+                                <!--end::Svg Icon-->
+                                Фильтры
+                            </button>
                         </div>
-
                     </div>
                 </div>
-                <!--end::Container-->
+                <!--end::Header-->
+                <!--begin::Body-->
+                <div class="card-body pt-2">
+                    <!--begin::Post-->
+                    <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
+                        <!--begin::Body-->
+                        <div class="mb-6">
+                            <!--begin::Title-->
+                            <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
+                            <!--end::Title-->
+                            <!--begin::Text-->
+                            <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
+                            <!--end::Text-->
+                        </div>
+                        <!--end::Body-->
+                        <!--begin::Footer-->
+                        <div class="d-flex flex-stack flex-wrap">
+                            <!--begin::Item-->
+                            <div class="d-flex align-items-center pe-2">
+                                <!--begin::Avatar-->
+                                <div class="symbol symbol-35px symbol-circle me-3">
+                                    <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
+                                </div>
+                                <!--end::Avatar-->
+                                <!--begin::Text-->
+                                <div class="fs-5 fw-bolder">
+                                    <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
+                                    <span class="text-muted">on Apr 27 2021</span>
+                                </div>
+                                <!--end::Text-->
+                            </div>
+                            <!--end::Item-->
+                            <!--begin::Label-->
+                            <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
+                            <!--end::Label-->
+                        </div>
+                        <!--end::Footer-->
+                    </div>
+                    <!--end::Post-->
+                </div>
+                <!--end::Body-->
+                <!--begin::Body-->
+                <div class="card-body pt-2">
+                    <!--begin::Post-->
+                    <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
+                        <!--begin::Body-->
+                        <div class="mb-6">
+                            <!--begin::Title-->
+                            <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
+                            <!--end::Title-->
+                            <!--begin::Text-->
+                            <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
+                            <!--end::Text-->
+                        </div>
+                        <!--end::Body-->
+                        <!--begin::Footer-->
+                        <div class="d-flex flex-stack flex-wrap">
+                            <!--begin::Item-->
+                            <div class="d-flex align-items-center pe-2">
+                                <!--begin::Avatar-->
+                                <div class="symbol symbol-35px symbol-circle me-3">
+                                    <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
+                                </div>
+                                <!--end::Avatar-->
+                                <!--begin::Text-->
+                                <div class="fs-5 fw-bolder">
+                                    <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
+                                    <span class="text-muted">on Apr 27 2021</span>
+                                </div>
+                                <!--end::Text-->
+                            </div>
+                            <!--end::Item-->
+                            <!--begin::Label-->
+                            <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
+                            <!--end::Label-->
+                        </div>
+                        <!--end::Footer-->
+                    </div>
+                    <!--end::Post-->
+                </div>
+                <!--end::Body-->
+                <!--begin::Body-->
+                <div class="card-body pt-2">
+                    <!--begin::Post-->
+                    <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
+                        <!--begin::Body-->
+                        <div class="mb-6">
+                            <!--begin::Title-->
+                            <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
+                            <!--end::Title-->
+                            <!--begin::Text-->
+                            <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
+                            <!--end::Text-->
+                        </div>
+                        <!--end::Body-->
+                        <!--begin::Footer-->
+                        <div class="d-flex flex-stack flex-wrap">
+                            <!--begin::Item-->
+                            <div class="d-flex align-items-center pe-2">
+                                <!--begin::Avatar-->
+                                <div class="symbol symbol-35px symbol-circle me-3">
+                                    <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
+                                </div>
+                                <!--end::Avatar-->
+                                <!--begin::Text-->
+                                <div class="fs-5 fw-bolder">
+                                    <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
+                                    <span class="text-muted">on Apr 27 2021</span>
+                                </div>
+                                <!--end::Text-->
+                            </div>
+                            <!--end::Item-->
+                            <!--begin::Label-->
+                            <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
+                            <!--end::Label-->
+                        </div>
+                        <!--end::Footer-->
+                    </div>
+                    <!--end::Post-->
+                </div>
+                <!--end::Body-->
+                <!--begin::Body-->
+                <div class="card-body pt-2">
+                    <!--begin::Post-->
+                    <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
+                        <!--begin::Body-->
+                        <div class="mb-6">
+                            <!--begin::Title-->
+                            <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
+                            <!--end::Title-->
+                            <!--begin::Text-->
+                            <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
+                            <!--end::Text-->
+                        </div>
+                        <!--end::Body-->
+                        <!--begin::Footer-->
+                        <div class="d-flex flex-stack flex-wrap">
+                            <!--begin::Item-->
+                            <div class="d-flex align-items-center pe-2">
+                                <!--begin::Avatar-->
+                                <div class="symbol symbol-35px symbol-circle me-3">
+                                    <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
+                                </div>
+                                <!--end::Avatar-->
+                                <!--begin::Text-->
+                                <div class="fs-5 fw-bolder">
+                                    <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
+                                    <span class="text-muted">on Apr 27 2021</span>
+                                </div>
+                                <!--end::Text-->
+                            </div>
+                            <!--end::Item-->
+                            <!--begin::Label-->
+                            <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
+                            <!--end::Label-->
+                        </div>
+                        <!--end::Footer-->
+                    </div>
+                    <!--end::Post-->
+                </div>
+                <!--end::Body-->
+                <!--begin::Body-->
+                <div class="card-body pt-2">
+                    <!--begin::Post-->
+                    <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
+                        <!--begin::Body-->
+                        <div class="mb-6">
+                            <!--begin::Title-->
+                            <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
+                            <!--end::Title-->
+                            <!--begin::Text-->
+                            <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
+                            <!--end::Text-->
+                        </div>
+                        <!--end::Body-->
+                        <!--begin::Footer-->
+                        <div class="d-flex flex-stack flex-wrap">
+                            <!--begin::Item-->
+                            <div class="d-flex align-items-center pe-2">
+                                <!--begin::Avatar-->
+                                <div class="symbol symbol-35px symbol-circle me-3">
+                                    <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
+                                </div>
+                                <!--end::Avatar-->
+                                <!--begin::Text-->
+                                <div class="fs-5 fw-bolder">
+                                    <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
+                                    <span class="text-muted">on Apr 27 2021</span>
+                                </div>
+                                <!--end::Text-->
+                            </div>
+                            <!--end::Item-->
+                            <!--begin::Label-->
+                            <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
+                            <!--end::Label-->
+                        </div>
+                        <!--end::Footer-->
+                    </div>
+                    <!--end::Post-->
+                </div>
+                <!--end::Body-->
+                <!--begin::Body-->
+                <div class="card-body pt-2">
+                    <!--begin::Post-->
+                    <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
+                        <!--begin::Body-->
+                        <div class="mb-6">
+                            <!--begin::Title-->
+                            <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
+                            <!--end::Title-->
+                            <!--begin::Text-->
+                            <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
+                            <!--end::Text-->
+                        </div>
+                        <!--end::Body-->
+                        <!--begin::Footer-->
+                        <div class="d-flex flex-stack flex-wrap">
+                            <!--begin::Item-->
+                            <div class="d-flex align-items-center pe-2">
+                                <!--begin::Avatar-->
+                                <div class="symbol symbol-35px symbol-circle me-3">
+                                    <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
+                                </div>
+                                <!--end::Avatar-->
+                                <!--begin::Text-->
+                                <div class="fs-5 fw-bolder">
+                                    <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
+                                    <span class="text-muted">on Apr 27 2021</span>
+                                </div>
+                                <!--end::Text-->
+                            </div>
+                            <!--end::Item-->
+                            <!--begin::Label-->
+                            <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
+                            <!--end::Label-->
+                        </div>
+                        <!--end::Footer-->
+                    </div>
+                    <!--end::Post-->
+                </div>
+                <!--end::Body-->
+                <!--begin::Body-->
+                <div class="card-body pt-2">
+                    <!--begin::Post-->
+                    <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
+                        <!--begin::Body-->
+                        <div class="mb-6">
+                            <!--begin::Title-->
+                            <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
+                            <!--end::Title-->
+                            <!--begin::Text-->
+                            <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
+                            <!--end::Text-->
+                        </div>
+                        <!--end::Body-->
+                        <!--begin::Footer-->
+                        <div class="d-flex flex-stack flex-wrap">
+                            <!--begin::Item-->
+                            <div class="d-flex align-items-center pe-2">
+                                <!--begin::Avatar-->
+                                <div class="symbol symbol-35px symbol-circle me-3">
+                                    <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
+                                </div>
+                                <!--end::Avatar-->
+                                <!--begin::Text-->
+                                <div class="fs-5 fw-bolder">
+                                    <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
+                                    <span class="text-muted">on Apr 27 2021</span>
+                                </div>
+                                <!--end::Text-->
+                            </div>
+                            <!--end::Item-->
+                            <!--begin::Label-->
+                            <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
+                            <!--end::Label-->
+                        </div>
+                        <!--end::Footer-->
+                    </div>
+                    <!--end::Post-->
+                </div>
+                <!--end::Body-->
             </div>
+            <!--end:List Widget 3-->
+        </div>
+    </div>
+
+</div>
 <!--begin::Demos drawer-->
 <div id="kt_engage_demos" class="bg-body" data-kt-drawer="true" data-kt-drawer-name="explore" data-kt-drawer-activate="true" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'100%', 'sm': '350px', 'lg': '550pxf'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_engage_demos_toggle" data-kt-drawer-close="#kt_engage_demos_close">
     <!--begin::Card-->
