@@ -4,9 +4,9 @@
     <div  class="d-flex flex-column flex-column-fluid pt-0" id="">
         <div class="container-fluid p-sm-5 pt-5 p-1">
             <!--begin::Layout-->
-            <div class="d-flex flex-column flex-xl-row">
+            <div class="d-flex">
                 <!--begin::Content-->
-                <div class="flex-xl-row-fluid me-xl-15 order-2 order-lg-1 mb-5 mb-lg-0">
+                <div class="flex-xl-row-fluid mb-5 mb-lg-0">
                     <!--begin::Form-->
                     <form class="form" action="#" id="kt_subscriptions_create_new">
                         <div class="card card-flush pt-3 mb-5 mb-lg-10 shadow-sm">
@@ -600,63 +600,58 @@
                             </div>
                             <!--end::Card body-->
                         </div>
-
+                        <!--begin::Card-->
+                        <div class="card card-flush pt-3 mb-5 shadow-sm">
+                            <!--begin::Card header-->
+                            <div class="card-header">
+                                <!--begin::Card title-->
+                                <div class="card-title">
+                                    <h2>Метки</h2>
+                                </div>
+                                <!--end::Card title-->
+                            </div>
+                            <!--end::Card header-->
+                            <!--begin::Card body-->
+                            <div class="card-body  p-1 p-sm-3 fs-6">
+                                <div class="d-flex mb-5">
+                                    <select class="form-select" data-control="select2" data-hide-search="true" data-placeholder="" name="target_assign">
+                                        <option value="1" selected>Не выбрано</option>
+                                        <option value="2">kama</option>
+                                    </select>
+                                </div>
+                                <div class="d-flex mb-5">
+                                    <input type="text" class="form-control" placeholder="Sub1" name="description">
+                                </div>
+                                <div class="d-flex mb-5">
+                                    <input type="text" class="form-control" placeholder="Sub2" name="description">
+                                </div>
+                                <div class="d-flex mb-5">
+                                    <input type="text" class="form-control" placeholder="Sub3" name="description">
+                                </div>
+                                <div class="d-flex mb-5">
+                                    <input type="text" class="form-control" placeholder="Sub4" name="description">
+                                </div>
+                                <div class="d-flex mb-5">
+                                    <input type="text" class="form-control" placeholder="Sub5" name="description">
+                                </div>
+                                <div class="d-flex b-0 justify-content-sm-end justify-content-center">
+                                    <button type="submit" class="btn btn-primary" id="">
+                                        <!--begin::Indicator-->
+                                        <span class="indicator-label">Сохранить компанию</span>
+                                        <span class="indicator-progress">Please wait...
+													<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+                                        <!--end::Indicator-->
+                                    </button>
+                                </div>
+                                <!--end::Actions-->
+                            </div>
+                            <!--end::Card body-->
+                        </div>
+                        <!--end::Card-->
                     </form>
                     <!--end::Form-->
                 </div>
                 <!--end::Content-->
-                <!--begin::Sidebar-->
-                <div class="flex-xl-row-fluid w-100 w-xl-300px mb-5 order-2">
-                    <!--begin::Card-->
-                    <div class="card card-flush mb-0 sticky-top shadow-sm" data-kt-sticky-top="100px" data-kt-sticky-animation="false" style="z-index: 1; top: 82px;">
-                        <!--begin::Card header-->
-                        <div class="card-header">
-                            <!--begin::Card title-->
-                            <div class="card-title">
-                                <h2>Метки</h2>
-                            </div>
-                            <!--end::Card title-->
-                        </div>
-                        <!--end::Card header-->
-                        <!--begin::Card body-->
-                        <div class="card-body  p-1 p-sm-3 fs-6">
-                            <div class="d-flex mb-5">
-                                <select class="form-select" data-control="select2" data-hide-search="true" data-placeholder="" name="target_assign">
-                                    <option value="1" selected>Не выбрано</option>
-                                    <option value="2">kama</option>
-                                </select>
-                            </div>
-                            <div class="d-flex mb-5">
-                                <input type="text" class="form-control" placeholder="Sub1" name="description">
-                            </div>
-                            <div class="d-flex mb-5">
-                                <input type="text" class="form-control" placeholder="Sub2" name="description">
-                            </div>
-                            <div class="d-flex mb-5">
-                                <input type="text" class="form-control" placeholder="Sub3" name="description">
-                            </div>
-                            <div class="d-flex mb-5">
-                                <input type="text" class="form-control" placeholder="Sub4" name="description">
-                            </div>
-                            <div class="d-flex mb-5">
-                                <input type="text" class="form-control" placeholder="Sub5" name="description">
-                            </div>
-                            <div class="d-flex b-0">
-                                <button type="submit" class="btn btn-primary w-100" id="kt_subscriptions_create_button">
-                                    <!--begin::Indicator-->
-                                    <span class="indicator-label">Сохранить компанию</span>
-                                    <span class="indicator-progress">Please wait...
-													<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
-                                    <!--end::Indicator-->
-                                </button>
-                            </div>
-                            <!--end::Actions-->
-                        </div>
-                        <!--end::Card body-->
-                    </div>
-                    <!--end::Card-->
-                </div>
-                <!--end::Sidebar-->
             </div>
             <!--end::Layout-->
         </div>
@@ -870,7 +865,7 @@
             </div>
             <!--begin::Modal header-->
             <!--begin::Modal body-->
-            <div class="modal-body scroll-y mx-5 mx-xl-18 pt-0 pb-15">
+            <div class="modal-body scroll-y p-1 p-sm-5">
                 <!--begin::Content-->
                 <div class="text-center mb-5">
                     <h2 class="fw-bolder mb-3">Парковка домена</h2>

@@ -242,9 +242,13 @@ $('#datatable_landings').dataTable({
 let tab_postback = document.querySelector('a[href="#tab_postback"]')
 let tab_domain_parking = document.querySelector('a[href="#tab_domain_parking"]')
 
-tab_postback.addEventListener('shown.bs.tab', function (event) {
-    $('#datatable_postback').DataTable().columns.adjust();
-})
-tab_domain_parking.addEventListener('shown.bs.tab', function (event) {
-    $('#datatable_domain_parking').DataTable().columns.adjust();
-})
+if (tab_postback) {
+    tab_postback.addEventListener('shown.bs.tab', function (event) {
+        $('#datatable_postback').DataTable().columns.adjust();
+    })
+}
+if (tab_domain_parking) {
+    tab_domain_parking.addEventListener('shown.bs.tab', function (event) {
+        $('#datatable_domain_parking').DataTable().columns.adjust();
+    })
+}

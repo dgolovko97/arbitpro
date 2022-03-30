@@ -5,7 +5,7 @@
         <div class="container-fluid p-sm-5 pt-5 p-1">
             <!--begin::Navbar-->
             <div class="card mb-5 mb-xl-10">
-                <div class="card-body pt-9 pb-0">
+                <div class="card-body p-3 pt-sm-9 pb-0">
                     <!--begin::Details-->
                     <div class="d-flex flex-wrap flex-sm-nowrap mb-3">
                         <!--begin: Pic-->
@@ -172,7 +172,7 @@
                         <!--begin::Form-->
                         <form id="kt_account_profile_details_form" class="form">
                             <!--begin::Card body-->
-                            <div class="card-body border-top p-9">
+                            <div class="card-body border-top p-3 p-sm-5">
                                 <!--begin::Input group-->
                                 <div class="row mb-6">
                                     <!--begin::Label-->
@@ -255,7 +255,7 @@
                         <!--begin::Form-->
                         <form id="kt_account_profile_details_form" class="form">
                             <!--begin::Card body-->
-                            <div class="card-body border-top p-9">
+                            <div class="card-body border-top p-3 p-sm-5">
                                 <!--begin::Input group-->
                                 <div class="row mb-6">
                                     <!--begin::Label-->
@@ -554,7 +554,7 @@
                         <!--begin::Form-->
                         <form id="kt_account_profile_details_form" class="form">
                             <!--begin::Card body-->
-                            <div class="card-body border-top p-9">
+                            <div class="card-body border-top p-3 p-sm-5">
                                 <!--begin::Input group-->
                                 <div class="row mb-6">
                                     <!--begin::Label-->
@@ -609,7 +609,7 @@
                         <!--begin::Form-->
                         <form id="kt_account_profile_details_form" class="form">
                             <!--begin::Card body-->
-                            <div class="card-body border-top p-9">
+                            <div class="card-body border-top p-3 p-sm-5">
                                 <!--begin::Input group-->
                                 <div class="row mb-6">
                                     <!--begin::Label-->
@@ -710,8 +710,8 @@
                         <!--begin::Form-->
                         <form id="kt_account_profile_details_form" class="form">
                             <!--begin::Card body-->
-                            <div class="card-body border-top p-9">
-                                <div class="mb-10">
+                            <div class="card-body border-top p-0 p-sm-5">
+                                <div class="mb-5 p-3 p-sm-0">
                                     <button type="button" class="btn btn-primary" id="" data-bs-toggle="modal" data-bs-target="#modal_domain_parking">Припарковать домен</button>
                                 </div>
                                 <!--begin::Table-->
@@ -754,8 +754,8 @@
                     <!--begin::Content-->
                     <div id="" class="collapse show">
                         <!--begin::Card body-->
-                        <div class="card-body border-top p-9">
-                            <div class="mb-10">
+                        <div class="card-body border-top p-0 p-sm-5">
+                            <div class="mb-5 p-3 p-sm-0">
                                 <button type="button" class="btn btn-primary" id="" data-bs-toggle="modal" data-bs-target="#modal_postback_settings">Глобальный postback</button>
                             </div>
                             <!--begin::Table-->
@@ -839,7 +839,7 @@
             </div>
             <!--begin::Modal header-->
             <!--begin::Modal body-->
-            <div class="modal-body scroll-y mx-5 mx-xl-18 pt-0 pb-15">
+            <div class="modal-body scroll-y p-1 p-sm-5">
                 <!--begin::Content-->
                 <div class="text-center mb-5">
                     <h2 class="fw-bolder mb-3">Парковка домена</h2>
@@ -895,7 +895,7 @@
             </div>
             <!--begin::Modal header-->
             <!--begin::Modal body-->
-            <div class="modal-body scroll-y mx-5 mx-xl-18 pt-0 pb-15">
+            <div class="modal-body scroll-y p-1 p-sm-5">
                 <!--begin::Content-->
                 <div class="text-center mb-12">
                     <h2 class="fw-bolder mb-3">Глобальный Postback</h2>
@@ -950,8 +950,8 @@
                         <!--begin::Table head-->
                         <thead>
                         <tr class="text-start fw-bolder fs-7 text-uppercase gs-0 table-dark text-white">
-                            <th class="min-w-300px">Параметр</th>
-                            <th class="min-w-100px">Описание</th>
+                            <th class="">Параметр</th>
+                            <th class="">Описание</th>
                         </tr>
                         </thead>
                         <!--end::Table head-->
