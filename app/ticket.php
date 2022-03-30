@@ -103,7 +103,7 @@
             </div>
             <!--begin::Modal header-->
             <!--begin::Modal body-->
-            <div class="modal-body scroll-y px-10 px-lg-15 pt-0 pb-15">
+            <div class="modal-body scroll-y p-3 p-sm-5">
                 <!--begin:Form-->
                 <form id="kt_modal_new_target_form" class="form" action="#">
                     <!--begin::Heading-->

@@ -33,6 +33,7 @@
                             <!--begin::Title-->
                             <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
                             <!--end::Title-->
+                            <div class="text-muted fs-5">31 марта 2022</div>
                             <!--begin::Text-->
                             <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
                             <!--end::Text-->
@@ -50,7 +51,6 @@
                                 <!--begin::Text-->
                                 <div class="fs-5 fw-bolder">
                                     <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
-                                    <span class="text-muted">on Apr 27 2021</span>
                                 </div>
                                 <!--end::Text-->
                             </div>
@@ -73,6 +73,7 @@
                             <!--begin::Title-->
                             <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
                             <!--end::Title-->
+                            <div class="text-muted fs-5">31 марта 2022</div>
                             <!--begin::Text-->
                             <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
                             <!--end::Text-->
@@ -90,7 +91,6 @@
                                 <!--begin::Text-->
                                 <div class="fs-5 fw-bolder">
                                     <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
-                                    <span class="text-muted">on Apr 27 2021</span>
                                 </div>
                                 <!--end::Text-->
                             </div>
@@ -113,6 +113,7 @@
                             <!--begin::Title-->
                             <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
                             <!--end::Title-->
+                            <div class="text-muted fs-5">31 марта 2022</div>
                             <!--begin::Text-->
                             <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
                             <!--end::Text-->
@@ -130,7 +131,6 @@
                                 <!--begin::Text-->
                                 <div class="fs-5 fw-bolder">
                                     <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
-                                    <span class="text-muted">on Apr 27 2021</span>
                                 </div>
                                 <!--end::Text-->
                             </div>
@@ -153,6 +153,7 @@
                             <!--begin::Title-->
                             <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
                             <!--end::Title-->
+                            <div class="text-muted fs-5">31 марта 2022</div>
                             <!--begin::Text-->
                             <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
                             <!--end::Text-->
@@ -170,7 +171,6 @@
                                 <!--begin::Text-->
                                 <div class="fs-5 fw-bolder">
                                     <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
-                                    <span class="text-muted">on Apr 27 2021</span>
                                 </div>
                                 <!--end::Text-->
                             </div>
@@ -193,6 +193,7 @@
                             <!--begin::Title-->
                             <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
                             <!--end::Title-->
+                            <div class="text-muted fs-5">31 марта 2022</div>
                             <!--begin::Text-->
                             <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
                             <!--end::Text-->
@@ -210,7 +211,6 @@
                                 <!--begin::Text-->
                                 <div class="fs-5 fw-bolder">
                                     <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
-                                    <span class="text-muted">on Apr 27 2021</span>
                                 </div>
                                 <!--end::Text-->
                             </div>
@@ -233,6 +233,7 @@
                             <!--begin::Title-->
                             <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
                             <!--end::Title-->
+                            <div class="text-muted fs-5">31 марта 2022</div>
                             <!--begin::Text-->
                             <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
                             <!--end::Text-->
@@ -250,7 +251,6 @@
                                 <!--begin::Text-->
                                 <div class="fs-5 fw-bolder">
                                     <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
-                                    <span class="text-muted">on Apr 27 2021</span>
                                 </div>
                                 <!--end::Text-->
                             </div>
@@ -264,45 +264,6 @@
                     <!--end::Post-->
                 </div>
                 <!--end::Body-->
-                <!--begin::Body-->
-                <div class=" card-body p-1 p-sm-3 pt-2 border-bottom">
-                    <!--begin::Post-->
-                    <div class="ps-lg-6 mb-3 mt-md-0 mt-3">
-                        <!--begin::Body-->
-                        <div class="mb-6">
-                            <!--begin::Title-->
-                            <a href="#" class="fw-bolder text-dark mb-4 fs-2 lh-base text-hover-primary">Bootstrap Admin Theme - How To Get Started Tutorial. Create customizable applications</a>
-                            <!--end::Title-->
-                            <!--begin::Text-->
-                            <div class="fw-bold fs-5 mt-4 text-gray-600 text-dark">We’ve been focused on making the from v4 to v5 a but we’ve also not been afraid to step away been focused on from v4 to v5 speaker approachable making focused</div>
-                            <!--end::Text-->
-                        </div>
-                        <!--end::Body-->
-                        <!--begin::Footer-->
-                        <div class="d-flex flex-stack flex-wrap">
-                            <!--begin::Item-->
-                            <div class="d-flex align-items-center pe-2">
-                                <!--begin::Avatar-->
-                                <div class="symbol symbol-35px symbol-circle me-3">
-                                    <img src="assets/media/avatars/300-20.jpg" class="" alt="" />
-                                </div>
-                                <!--end::Avatar-->
-                                <!--begin::Text-->
-                                <div class="fs-5 fw-bolder">
-                                    <a href="../../demo6/dist/pages/user-profile/overview.html" class="text-gray-700 text-hover-primary">Jane Miller</a>
-                                    <span class="text-muted">on Apr 27 2021</span>
-                                </div>
-                                <!--end::Text-->
-                            </div>
-                            <!--end::Item-->
-                            <!--begin::Label-->
-                            <span class="badge badge-light-info fw-bolder my-2">Новые лендинги</span>
-                            <!--end::Label-->
-                        </div>
-                        <!--end::Footer-->
-                    </div>
-                    <!--end::Post-->
-                </div>
                 <!--end::Body-->
             </div>
             <!--end:List Widget 3-->

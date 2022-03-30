@@ -839,7 +839,7 @@
             </div>
             <!--begin::Modal header-->
             <!--begin::Modal body-->
-            <div class="modal-body scroll-y p-1 p-sm-5">
+            <div class="modal-body scroll-y p-3 p-sm-5">
                 <!--begin::Content-->
                 <div class="text-center mb-5">
                     <h2 class="fw-bolder mb-3">Парковка домена</h2>
@@ -895,7 +895,7 @@
             </div>
             <!--begin::Modal header-->
             <!--begin::Modal body-->
-            <div class="modal-body scroll-y p-1 p-sm-5">
+            <div class="modal-body scroll-y p-3 p-sm-5">
                 <!--begin::Content-->
                 <div class="text-center mb-12">
                     <h2 class="fw-bolder mb-3">Глобальный Postback</h2>

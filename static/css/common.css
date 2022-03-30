@@ -51,3 +51,12 @@ th .th-in-responsive {
 .dtr-title {
     margin-right: 30px;
 }
+.arbitpro-menu-icon .cross{
+    display: none;
+}
+.arbitpro-menu-icon.active .stripes {
+    display: none;
+}
+.arbitpro-menu-icon.active .cross{
+    display: block;
+}

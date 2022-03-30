@@ -11,7 +11,7 @@
                         </h3>
                         <div class="d-flex ms-0 ms-sm-auto">
                             <div class="card-toolbar">
-                                <div class="d-flex align-items-center position-relative w-200px mb-2">
+                                <div class="d-flex align-items-center position-relative flex-grow-1 mb-2">
                                     <!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
                                     <span class="svg-icon svg-icon-1 position-absolute ms-4">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
