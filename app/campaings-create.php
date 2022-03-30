@@ -683,7 +683,7 @@
             </div>
             <!--begin::Modal header-->
             <!--begin::Modal body-->
-            <div class="modal-body scroll-y mx-5 mx-xl-18 pt-0 pb-15">
+            <div class="modal-body scroll-y p-1 p-sm-5">
                 <!--begin::Content-->
                 <div class="text-center mb-12">
                     <h2 class="fw-bolder mb-3">Глобальный Postback</h2>
