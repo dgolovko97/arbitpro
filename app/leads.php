@@ -11,7 +11,7 @@
                     </h3>
                     <div class="d-flex ms-0 ms-sm-auto">
                         <div class="card-toolbar">
-                            <button href="#" class="btn btn-light btn-active-primary me-3 mb-3" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-start" data-kt-menu-overflow="true">
+                            <button href="#" class="btn btn-secondary me-3 mb-3" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-start" data-kt-menu-overflow="true">
                                         <span class="svg-icon svg-icon-primary svg-icon-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                                 <path opacity="0.3" d="M10 4H21C21.6 4 22 4.4 22 5V7H10V4Z" fill="black"/>
                                                 <path opacity="0.3" d="M13 14.4V9C13 8.4 12.6 8 12 8C11.4 8 11 8.4 11 9V14.4H13Z" fill="black"/>
@@ -51,7 +51,7 @@
                                 </div>
                                 Экспорт
                             </button>
-                            <button href="#" class="btn btn-light btn-active-info mb-3" data-kt-drawer-show="true" data-kt-drawer-target="#kt_engage_demos">
+                            <button href="#" class="btn btn-info mb-3" data-kt-drawer-show="true" data-kt-drawer-target="#kt_engage_demos">
                                 <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
                                 <span class="svg-icon svg-icon-info svg-icon-3"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Text/Filter.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
                                         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

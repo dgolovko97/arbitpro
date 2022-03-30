@@ -25,9 +25,9 @@
                 </div>
                 <!--end::Header-->
                 <!--begin::Body-->
-                <div class="card-body pt-2">
+                <div class=" card-body p-1 p-sm-3 pt-2 border-bottom">
                     <!--begin::Post-->
-                    <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
+                    <div class="ps-lg-6 mb-3 mt-md-0 mt-3">
                         <!--begin::Body-->
                         <div class="mb-6">
                             <!--begin::Title-->
@@ -65,9 +65,9 @@
                 </div>
                 <!--end::Body-->
                 <!--begin::Body-->
-                <div class="card-body pt-2">
+                <div class=" card-body p-1 p-sm-3 pt-2 border-bottom">
                     <!--begin::Post-->
-                    <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
+                    <div class="ps-lg-6 mb-3 mt-md-0 mt-3">
                         <!--begin::Body-->
                         <div class="mb-6">
                             <!--begin::Title-->
@@ -105,9 +105,9 @@
                 </div>
                 <!--end::Body-->
                 <!--begin::Body-->
-                <div class="card-body pt-2">
+                <div class=" card-body p-1 p-sm-3 pt-2 border-bottom">
                     <!--begin::Post-->
-                    <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
+                    <div class="ps-lg-6 mb-3 mt-md-0 mt-3">
                         <!--begin::Body-->
                         <div class="mb-6">
                             <!--begin::Title-->
@@ -145,9 +145,9 @@
                 </div>
                 <!--end::Body-->
                 <!--begin::Body-->
-                <div class="card-body pt-2">
+                <div class=" card-body p-1 p-sm-3 pt-2 border-bottom">
                     <!--begin::Post-->
-                    <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
+                    <div class="ps-lg-6 mb-3 mt-md-0 mt-3">
                         <!--begin::Body-->
                         <div class="mb-6">
                             <!--begin::Title-->
@@ -185,9 +185,9 @@
                 </div>
                 <!--end::Body-->
                 <!--begin::Body-->
-                <div class="card-body pt-2">
+                <div class=" card-body p-1 p-sm-3 pt-2 border-bottom">
                     <!--begin::Post-->
-                    <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
+                    <div class="ps-lg-6 mb-3 mt-md-0 mt-3">
                         <!--begin::Body-->
                         <div class="mb-6">
                             <!--begin::Title-->
@@ -225,9 +225,9 @@
                 </div>
                 <!--end::Body-->
                 <!--begin::Body-->
-                <div class="card-body pt-2">
+                <div class=" card-body p-1 p-sm-3 pt-2 border-bottom">
                     <!--begin::Post-->
-                    <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
+                    <div class="ps-lg-6 mb-3 mt-md-0 mt-3">
                         <!--begin::Body-->
                         <div class="mb-6">
                             <!--begin::Title-->
@@ -265,9 +265,9 @@
                 </div>
                 <!--end::Body-->
                 <!--begin::Body-->
-                <div class="card-body pt-2">
+                <div class=" card-body p-1 p-sm-3 pt-2 border-bottom">
                     <!--begin::Post-->
-                    <div class="ps-lg-6 mb-16 mt-md-0 mt-17">
+                    <div class="ps-lg-6 mb-3 mt-md-0 mt-3">
                         <!--begin::Body-->
                         <div class="mb-6">
                             <!--begin::Title-->
@@ -332,7 +332,7 @@
         </div>
         <!--end::Header-->
         <!--begin::Body-->
-        <div class="card-body" id="kt_engage_demos_body">
+        <div class=" card-body p-1 p-sm-3" id="kt_engage_demos_body">
             <!--begin::Content-->
             <div id="kt_explore_scroll" class="scroll-y me-n5 pe-5" data-kt-scroll="true" data-kt-scroll-height="auto" data-kt-scroll-wrappers="#kt_engage_demos_body" data-kt-scroll-dependencies="#kt_engage_demos_header" data-kt-scroll-offset="5px">
                 <!--begin::Wrapper-->

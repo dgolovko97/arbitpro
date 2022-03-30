@@ -13,7 +13,7 @@
                         </div>
                     </div>
                     <!--begin::Card Body-->
-                    <div class="card-body text-gray-700 p-0 p-sm-3">
+                    <div class="card-body text-gray-700 p-1 p-sm-3">
                         <!--begin::Flatpickr-->
                         <div class="input-group mb-3 mw-sm-300px">
                             <input class="form-control form-control-solid rounded rounded-end-0" placeholder="Выберете диапазон" id="kt_ecommerce_sales_flatpickr" />
@@ -70,7 +70,7 @@
                         </h3>
                     </div>
                     <!--begin::Card Body-->
-                    <div class="card-body text-gray-700 p-0 p-sm-3">
+                    <div class="card-body text-gray-700  p-1 p-sm-3">
                         <!--begin::Flatpickr-->
                         <div class="input-group mb-3 mw-sm-300px">
                             <input class="form-control form-control-solid rounded rounded-end-0" placeholder="Выберете диапазон" id="kt_ecommerce_sales_flatpickr_2" />

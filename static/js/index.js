@@ -219,6 +219,26 @@ $('#datatable_postback').dataTable({
     ],
     order: [[ 1, "desc" ]],
 })
+$('#datatable_patch').dataTable({
+    responsive: true,
+    columnDefs: [
+        {
+            orderable: false,
+            targets: 0
+        }
+    ],
+    order: [[ 1, "desc" ]],
+})
+$('#datatable_landings').dataTable({
+    responsive: true,
+    columnDefs: [
+        {
+            orderable: false,
+            targets: 0
+        }
+    ],
+    order: [[ 1, "desc" ]],
+})
 let tab_postback = document.querySelector('a[href="#tab_postback"]')
 let tab_domain_parking = document.querySelector('a[href="#tab_domain_parking"]')
 
