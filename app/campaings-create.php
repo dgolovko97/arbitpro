@@ -667,7 +667,7 @@
         <!--begin::Modal content-->
         <div class="modal-content">
             <!--begin::Modal header-->
-            <div class="modal-header pb-0 border-0 justify-content-end">
+            <div class="modal-header pb-0 border-0 justify-content-end p-0 p-sm-6">
                 <!--begin::Close-->
                 <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal">
                     <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
@@ -849,7 +849,7 @@
         <!--begin::Modal content-->
         <div class="modal-content">
             <!--begin::Modal header-->
-            <div class="modal-header pb-0 border-0 justify-content-end">
+            <div class="modal-header pb-0 border-0 justify-content-end p-0 p-sm-6">
                 <!--begin::Close-->
                 <div class="btn btn-icon btn-sm btn-active-icon-primary" data-bs-dismiss="modal">
                     <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
