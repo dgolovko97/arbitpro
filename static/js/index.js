@@ -40,13 +40,6 @@ $("#kt_ecommerce_sales_flatpickr_2").daterangepicker({
 }, cb);
 
 cb(start, end);
-
-$("#kt_datatable_example_6").DataTable({
-    responsive: true
-});
-$("#kt_datatable_example_6_2").DataTable({
-    responsive: true
-});
 // Init dropzone
 const initDropzone = () => {
     // set the dropzone container id
@@ -98,7 +91,6 @@ const initDropzone = () => {
         dropzoneItems.forEach(dropzoneItem => {
             dropzoneItem.style.display = '';
         });
-        dropzone.querySelector('.dropzone-upload').style.display = "inline-block";
         dropzone.querySelector('.dropzone-remove-all').style.display = "inline-block";
     });
 
@@ -114,72 +106,9 @@ const initDropzone = () => {
         }, 300);
     });
 
-    // Setup the buttons for all transfers
-    dropzone.querySelector(".dropzone-upload").addEventListener('click', function () {
-        // myDropzone.processQueue(); --- default dropzone process
-
-        // Process simulation for demo only
-        myDropzone.files.forEach(file => {
-            const progressBar = file.previewElement.querySelector('.progress-bar');
-            progressBar.style.opacity = "1";
-            var width = 1;
-            var timer = setInterval(function () {
-                if (width >= 100) {
-                    myDropzone.emit("success", file);
-                    myDropzone.emit("complete", file);
-                    clearInterval(timer);
-                } else {
-                    width++;
-                    progressBar.style.width = width + '%';
-                }
-            }, 20);
-        });
-    });
-
-    // Setup the button for remove all files
-    dropzone.querySelector(".dropzone-remove-all").addEventListener('click', function () {
-        Swal.fire({
-            text: "Are you sure you would like to remove all files?",
-            icon: "warning",
-            showCancelButton: true,
-            buttonsStyling: false,
-            confirmButtonText: "Yes, remove it!",
-            cancelButtonText: "No, return",
-            customClass: {
-                confirmButton: "btn btn-primary",
-                cancelButton: "btn btn-active-light"
-            }
-        }).then(function (result) {
-            if (result.value) {
-                dropzone.querySelector('.dropzone-upload').style.display = "none";
-                dropzone.querySelector('.dropzone-remove-all').style.display = "none";
-                myDropzone.removeAllFiles(true);
-            } else if (result.dismiss === 'cancel') {
-                Swal.fire({
-                    text: "Your files was not removed!.",
-                    icon: "error",
-                    buttonsStyling: false,
-                    confirmButtonText: "Ok, got it!",
-                    customClass: {
-                        confirmButton: "btn btn-primary",
-                    }
-                });
-            }
-        });
-    });
-
-    // On all files completed upload
-    myDropzone.on("queuecomplete", function (progress) {
-        const uploadIcons = dropzone.querySelectorAll('.dropzone-upload');
-        uploadIcons.forEach(uploadIcon => {
-            uploadIcon.style.display = "none";
-        });
-    });
-
     // On all files removed
     myDropzone.on("removedfile", function (file) {
         if (myDropzone.files.length < 1) {
-            dropzone.querySelector('.dropzone-upload').style.display = "none";
             dropzone.querySelector('.dropzone-remove-all').style.display = "none";
         }
     });
@@ -209,4 +138,93 @@ $('#datatable_statistic').dataTable({
         }
     ],
     order: [[ 1, "desc" ]]
+})
+$('#datatable_leads').dataTable({
+    responsive: true,
+    columnDefs: [
+        {
+            orderable: false,
+            targets: 0
+        }
+    ],
+    order: [[ 1, "desc" ]]
+})
+$('#datatable_offers').dataTable({
+    responsive: true,
+    columnDefs: [
+        {
+            orderable: false,
+            targets: 0
+        }
+    ],
+    order: [[ 1, "desc" ]]
+})
+$('#datatable_campaigns').dataTable({
+    responsive: true,
+    columnDefs: [
+        {
+            orderable: false,
+            targets: 0
+        }
+    ],
+    order: [[ 1, "desc" ]]
+})
+$('#datatable_payments').dataTable({
+    responsive: true,
+    columnDefs: [
+        {
+            orderable: false,
+            targets: 0
+        }
+    ],
+    order: [[ 1, "desc" ]]
+})
+$('#datatable_bonus').dataTable({
+    responsive: true,
+    columnDefs: [
+        {
+            orderable: false,
+            targets: 0
+        }
+    ],
+    order: [[ 1, "desc" ]]
+})
+$('#datatable_tickets').dataTable({
+    responsive: true,
+    columnDefs: [
+        {
+            orderable: false,
+            targets: 0
+        }
+    ],
+    order: [[ 1, "desc" ]]
+})
+$('#datatable_domain_parking').dataTable({
+    responsive: true,
+    columnDefs: [
+        {
+            orderable: false,
+            targets: 0
+        }
+    ],
+    order: [[ 1, "desc" ]]
+})
+$('#datatable_postback').dataTable({
+    responsive: true,
+    columnDefs: [
+        {
+            orderable: false,
+            targets: 0
+        }
+    ],
+    order: [[ 1, "desc" ]],
+})
+let tab_postback = document.querySelector('a[href="#tab_postback"]')
+let tab_domain_parking = document.querySelector('a[href="#tab_domain_parking"]')
+
+tab_postback.addEventListener('shown.bs.tab', function (event) {
+    $('#datatable_postback').DataTable().columns.adjust();
+})
+tab_domain_parking.addEventListener('shown.bs.tab', function (event) {
+    $('#datatable_domain_parking').DataTable().columns.adjust();
 })
