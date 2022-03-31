@@ -115,7 +115,7 @@
                                         </td>
                                         <td>0.00</td>
                                         <td>0.00</td>
-                                        <td class="text-end">
+                                        <td class="">
                                             <a href="#" class="btn btn-icon btn-sm me-1 btn-active-light-primary" data-bs-toggle="tooltip" title="Открыть">
                                                 <!--begin::Svg Icon | path: assets/media/icons/duotune/general/gen004.svg-->
                                                 <span class="svg-icon svg-icon-primary svg-icon-2x "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -149,7 +149,7 @@
                                         </td>
                                         <td>0.00</td>
                                         <td>0.00</td>
-                                        <td class="text-end">
+                                        <td class="">
                                             <a href="#" class="btn btn-icon btn-sm me-1 btn-active-light-primary" data-bs-toggle="tooltip" title="Открыть">
                                                 <!--begin::Svg Icon | path: assets/media/icons/duotune/general/gen004.svg-->
                                                 <span class="svg-icon svg-icon-primary svg-icon-2x "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -183,7 +183,7 @@
                                         </td>
                                         <td>0.00</td>
                                         <td>0.00</td>
-                                        <td class="text-end">
+                                        <td class="">
                                             <a href="#" class="btn btn-icon btn-sm me-1 btn-active-light-primary" data-bs-toggle="tooltip" title="Открыть">
                                                 <!--begin::Svg Icon | path: assets/media/icons/duotune/general/gen004.svg-->
                                                 <span class="svg-icon svg-icon-primary svg-icon-2x "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -257,7 +257,7 @@
                                             <th class="">Название</th>
                                             <th class="">CR</th>
                                             <th class="">EPC</th>
-                                            <th class="text-end">Действия</th>
+                                            <th class="">Действия</th>
                                         </tr>
                                         </thead>
                                         <!--end::Table head-->
@@ -275,7 +275,7 @@
                                             </td>
                                             <td>0.00</td>
                                             <td>0.00</td>
-                                            <td class="text-end">
+                                            <td class="">
                                                 <a href="#" class="btn btn-icon btn-sm me-1 btn-active-light-primary" data-bs-toggle="tooltip" title="Открыть">
                                                     <!--begin::Svg Icon | path: assets/media/icons/duotune/general/gen004.svg-->
                                                     <span class="svg-icon svg-icon-primary svg-icon-2x "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -308,7 +308,7 @@
                                             </td>
                                             <td>0.00</td>
                                             <td>0.00</td>
-                                            <td class="text-end">
+                                            <td class="">
                                                 <a href="#" class="btn btn-icon btn-sm me-1 btn-active-light-primary" data-bs-toggle="tooltip" title="Открыть">
                                                     <!--begin::Svg Icon | path: assets/media/icons/duotune/general/gen004.svg-->
                                                     <span class="svg-icon svg-icon-primary svg-icon-2x "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -657,8 +657,6 @@
         </div>
     </div>
 </div>
-
-
 <!--begin::Modals-->
 <!--begin::Modal - Users Search-->
 <div class="modal fade" id="modal_postback_settings" tabindex="-1" aria-hidden="true">

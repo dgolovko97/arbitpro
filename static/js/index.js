@@ -241,7 +241,6 @@ $('#datatable_landings').dataTable({
 })
 let tab_postback = document.querySelector('a[href="#tab_postback"]')
 let tab_domain_parking = document.querySelector('a[href="#tab_domain_parking"]')
-
 if (tab_postback) {
     tab_postback.addEventListener('shown.bs.tab', function (event) {
         $('#datatable_postback').DataTable().columns.adjust();
