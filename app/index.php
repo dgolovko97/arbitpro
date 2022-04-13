@@ -3,7 +3,7 @@
         <!--begin::Container-->
         <div  class="d-flex flex-column flex-column-fluid pt-0" id="kt_content_container">
             <div class="container-fluid p-sm-5 pt-5 p-1">
-                    <div class="row g-5 g-xl-8 mb-5 mb-sm-0">
+                    <div class="row g-5 g-xl-8 mb-5">
                         <div class="col-xl-3 col-md-6">
                             <!--begin::Statistics Widget 4-->
                             <div class="card card-xl-stretch mb-xl-8 ml-auto">
@@ -193,12 +193,9 @@
                         </div>
                         <!--begin::Card Body-->
                         <div class="card-body text-gray-700 p-0 p-sm-3">
-                            <table id="datatable_statistic" class="table table-row-bordered gs-2">
+                            <table id="datatable_statistic" class="table table-row-bordered gs-2 table-hover">
                                 <thead class="table-dark fs-6 px-7 align-middle text-start text-nowrap fw-bolder">
                                     <tr class="">
-                                        <th class="dtr-control">
-
-                                        </th>
                                         <th class="w-80px" data-bs-toggle="tooltip" data-bs-target="hover" data-bs-placement="top" title="Дата" data-bs-custom-class="tooltip-dark">Дата</th>
                                         <th data-bs-toggle="tooltip" data-bs-target="hover" data-bs-placement="top" title="Клики" data-bs-custom-class="tooltip-dark">Клики</th>
                                         <th data-bs-toggle="tooltip" data-bs-target="hover" data-bs-placement="top" title="Уники" data-bs-custom-class="tooltip-dark">Уники</th>
@@ -293,9 +290,11 @@
                                     </tr>
                                 </thead>
                                 <tbody class="align-middle text-start">
-                                    <tr>
-                                        <td></td>
-                                        <td class="text-nowrap">25.04.2022</td>
+                                    <tr id="row_0">
+
+                                        <td class="text-nowrap text-primary text-decoration-underline cursor-pointer" data-action="expand_row">
+                                            25.04.2022
+                                        </td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
@@ -312,9 +311,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                     </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td class="text-nowrap">25.04.2022</td>
+                                    <tr id="row_1">
+
+                                        <td class="text-nowrap text-primary text-decoration-underline cursor-pointer" data-action="expand_row">26.04.2022</td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
@@ -331,9 +330,9 @@
                                         <td>0</td>
                                         <td>0</td>
                                     </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td class="text-nowrap">25.04.2022</td>
+                                    <tr id="row_2">
+
+                                        <td class="text-nowrap text-primary text-decoration-underline cursor-pointer" data-action="expand_row">27.04.2022</td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
@@ -349,10 +348,10 @@
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
-                                    </tr>
-                                    <tr>
-                                        <td></td>
-                                        <td class="text-nowrap">25.04.2022</td>
+                                    </tr >
+                                    <tr id="row_3">
+
+                                        <td class="text-nowrap text-primary text-decoration-underline cursor-pointer" data-action="expand_row">28.04.2022</td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>

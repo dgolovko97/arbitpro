@@ -129,15 +129,50 @@ $('#repeater').repeater({
         $(this).slideUp(deleteElement);
     }
 });
-$('#datatable_statistic').dataTable({
-    responsive: true,
-    columnDefs: [
-        {
-            orderable: false,
-            targets: 0
-        }
-    ],
-    order: [[ 1, "desc" ]]
+// Handle action button
+const handleActionButton = () => {
+    const buttons = document.querySelectorAll('#datatable_statistic [data-action="expand_row"]');
+    buttons.forEach((button, index) => {
+        button.addEventListener('click', e => {
+            e.stopImmediatePropagation();
+            e.preventDefault();
+
+            const row = button.closest('tr');
+            const DTrow = statistic_datatable.row(row)
+            const rowClasses = ['isOpen'];
+
+            if (row.classList.contains('isOpen')) {
+                row.classList.remove(...rowClasses);
+                DTrow.child.hide();
+            } else {
+                let tr = document.createElement('tr');
+                tr.innerHTML = `
+                <td><i class="bi bi-clock text-dark me-1 ms-5"></i><span>10:00</span></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>`
+                DTrow.child(tr).show();
+                row.classList.add(...rowClasses);
+            }
+        });
+    });
+}
+var statistic_datatable = $('#datatable_statistic').DataTable({
+    initComplete: function () {
+        handleActionButton();
+    },
 })
 $('#datatable_leads').dataTable({
     responsive: true,
@@ -251,3 +286,4 @@ if (tab_domain_parking) {
         $('#datatable_domain_parking').DataTable().columns.adjust();
     })
 }
+// данные по времени в таблице "статистика"
